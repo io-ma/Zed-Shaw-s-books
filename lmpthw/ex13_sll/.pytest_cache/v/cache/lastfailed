@@ -1,0 +1,5 @@
+{
+  "sll_test.py::test_get": true,
+  "sll_test.py::test_remove": true,
+  "sll_test.py::test_shift": true
+}

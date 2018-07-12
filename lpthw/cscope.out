@@ -1,0 +1,18368 @@
+cscope 15 /home/io/Documents/lpthw -c 0000171158
+	@./ex30/ex30_sd4.py
+
+2 
+people
+ = 30
+
+4 
+cars
+ = 40
+
+6 
+trucks
+ = 15
+
+9 if 
+cars
+ > 
+people
+ :
+
+11 
+print
+ ( "We should take the cars." )
+
+14 elif 
+cars
+ < 
+people
+ :
+
+16 
+print
+ ( "We should not take the cars." )
+
+21 
+print
+ ( "We can't decide." )
+
+24 if 
+trucks
+ > 
+cars
+ :
+
+26 
+print
+ ( "That's too many trucks." )
+
+29 elif 
+trucks
+ < 
+cars
+ :
+
+31 
+print
+ ( "Maybe we could take the trucks." )
+
+36 
+print
+ ( "We still can't decide." )
+
+39 if 
+people
+ > 
+trucks
+ :
+
+41 
+print
+ ( "Alright, let's just take the trucks." )
+
+45 
+print
+ ( "Fine, let's stay home then." )
+
+
+	@./ex30/ex30.py
+
+1 
+people
+ = 30
+
+2 
+cars
+ = 40
+
+3 
+trucks
+ = 15
+
+6 if 
+cars
+ > 
+people
+ :
+
+7 
+print
+ ( "We should take the cars." )
+
+8 elif 
+cars
+ < 
+people
+ :
+
+9 
+print
+ ( "We should not take the cars." )
+
+11 
+print
+ ( "We can't decide." )
+
+13 if 
+trucks
+ > 
+cars
+ :
+
+14 
+print
+ ( "That's too many trucks." )
+
+15 elif 
+trucks
+ < 
+cars
+ :
+
+16 
+print
+ ( "Maybe we could take the trucks." )
+
+18 
+print
+ ( "We still can't decide." )
+
+20 if 
+people
+ > 
+trucks
+ :
+
+21 
+print
+ ( "Alright, let's just take the trucks." )
+
+23 
+print
+ ( "Fine, let's stay home then." )
+
+
+	@./ex30/ex30_sd2.py
+
+1 
+people
+ = 898
+
+2 
+cars
+ = 898
+
+3 
+trucks
+ = 898
+
+6 if 
+cars
+ > 
+people
+ :
+
+7 
+print
+ ( "We should take the cars." )
+
+8 elif 
+cars
+ < 
+people
+ :
+
+9 
+print
+ ( "We should not take the cars." )
+
+11 
+print
+ ( "We can't decide." )
+
+13 if 
+trucks
+ > 
+cars
+ :
+
+14 
+print
+ ( "That's too many trucks." )
+
+15 elif 
+trucks
+ < 
+cars
+ :
+
+16 
+print
+ ( "Maybe we could take the trucks." )
+
+18 
+print
+ ( "We still can't decide." )
+
+20 if 
+people
+ > 
+trucks
+ :
+
+21 
+print
+ ( "Alright, let's just take the trucks." )
+
+23 
+print
+ ( "Fine, let's stay home then." )
+
+
+	@./ex30/ex30_sd3.py
+
+1 
+people
+ = 30
+
+2 
+cars
+ = 40
+
+3 
+trucks
+ = 15
+
+6 if 
+cars
+ > 
+people
+ or 
+people
+ == 
+trucks
+ :
+
+7 
+print
+ ( "We should take the cars." )
+
+8 elif 
+cars
+ < 
+people
+ or 
+trucks
+ > 
+people
+ :
+
+9 
+print
+ ( "We should not take the cars." )
+
+11 
+print
+ ( "We can't decide." )
+
+13 if 
+trucks
+ > 
+cars
+ and 
+people
+ < 
+cars
+ :
+
+14 
+print
+ ( "That's too many trucks." )
+
+15 elif 
+trucks
+ < 
+cars
+ or 
+trucks
+ > 
+people
+ :
+
+16 
+print
+ ( "Maybe we could take the trucks." )
+
+18 
+print
+ ( "We still can't decide." )
+
+20 if 
+people
+ > 
+trucks
+ or 
+cars
+ < 
+trucks
+ :
+
+21 
+print
+ ( "Alright, let's just take the trucks." )
+
+23 
+print
+ ( "Fine, let's stay home then." )
+
+
+	@./ex33/ex33_sd5.py
+
+1 def 
+	$range_func
+ ( 
+incr
+ , 
+up_limit
+ ) :
+
+2 
+numbers
+ = [ ]
+
+3 
+numbers
+ = 
+range
+ ( 
+incr
+ , 
+up_limit
+ )
+
+4 for 
+number
+ in 
+numbers
+ :
+
+5 
+print
+ ( f"The number is {number}" )
+
+7 
+print
+ ( "The numbers: " )
+
+8 for 
+number
+ in 
+numbers
+ :
+
+9 
+print
+ ( 
+number
+ ) 
+	}
+
+11 
+range_func
+ ( 1 , 6 )
+
+
+	@./ex33/ex33_sd3.py
+
+1 def 
+	$loop
+ ( 
+bigger_number
+ , 
+incr
+ ) :
+
+2 
+i
+ = 0
+
+3 
+numbers
+ = [ ]
+
+4 while 
+i
+ < 
+bigger_number
+ :
+
+5 
+numbers
+ . 
+append
+ ( 
+i
+ )
+
+6 
+i
+ = 
+i
+ + 
+incr
+
+8 
+print
+ ( "The numbers: " )
+
+9 for 
+num
+ in 
+numbers
+ :
+
+10 
+print
+ ( 
+num
+ ) 
+	}
+
+12 
+loop
+ ( 6 , 1 )
+
+
+	@./ex33/ex33_sd2.py
+
+1 def 
+	$loop
+ ( 
+bigger_number
+ ) :
+
+2 
+i
+ = 0
+
+3 
+numbers
+ = [ ]
+
+4 while 
+i
+ < 
+bigger_number
+ :
+
+5 
+print
+ ( f"At the top i is {i}" )
+
+6 
+numbers
+ . 
+append
+ ( 
+i
+ )
+
+7 
+i
+ += 1
+
+8 
+print
+ ( "Numbers now: " , 
+numbers
+ )
+
+9 
+print
+ ( f"At the bottom i is {i}" )
+
+12 
+print
+ ( "The numbers: " )
+
+13 for 
+num
+ in 
+numbers
+ :
+
+14 
+print
+ ( 
+num
+ ) 
+	}
+
+15 
+x
+ = 
+int
+ ( 
+input
+ ( "first nr:" ) )
+
+17 
+loop
+ ( 
+x
+ )
+
+
+	@./ex33/ex33_sd1.py
+
+1 def 
+	$loop
+ ( 
+bigger_number
+ ) :
+
+2 
+i
+ = 0
+
+3 
+numbers
+ = [ ]
+
+4 while 
+i
+ < 
+bigger_number
+ :
+
+5 
+numbers
+ . 
+append
+ ( 
+i
+ )
+
+6 
+i
+ = 
+i
+ + 1
+
+8 
+print
+ ( "The numbers: " )
+
+9 for 
+num
+ in 
+numbers
+ :
+
+10 
+print
+ ( 
+num
+ ) 
+	}
+
+12 
+loop
+ ( 6 )
+
+
+	@./ex33/ex33.py
+
+1 
+i
+ = 0
+
+2 
+numbers
+ = [ ]
+
+4 while 
+i
+ < 6 :
+
+5 
+print
+ ( f"At the top i is {i}" )
+
+6 
+numbers
+ . 
+append
+ ( 
+i
+ )
+
+8 
+i
+ = 
+i
+ + 1
+
+9 
+print
+ ( "Numbers now: " , 
+numbers
+ )
+
+10 
+print
+ ( f"At the bottom i is {i}" )
+
+13 
+print
+ ( "The numbers: " )
+
+15 for 
+num
+ in 
+numbers
+ :
+
+16 
+print
+ ( 
+num
+ )
+
+
+	@./ex33/ex33_sd4.py
+
+1 def 
+	$loop
+ ( 
+bigger_number
+ , 
+incr
+ ) :
+
+2 
+i
+ = 0
+
+3 
+numbers
+ = [ ]
+
+4 while 
+i
+ < 
+bigger_number
+ :
+
+5 
+print
+ ( f"At the top i is {i}" )
+
+6 
+numbers
+ . 
+append
+ ( 
+i
+ )
+
+7 
+i
+ += 
+incr
+
+8 
+print
+ ( "Numbers now: " , 
+numbers
+ )
+
+9 
+print
+ ( f"At the bottom i is {i}" )
+
+12 
+print
+ ( "The numbers: " )
+
+13 for 
+num
+ in 
+numbers
+ :
+
+14 
+print
+ ( 
+num
+ ) 
+	}
+
+16 
+x
+ = 
+int
+ ( 
+input
+ ( "first nr: " ) )
+
+17 
+y
+ = 
+int
+ ( 
+input
+ ( "second nr: " ) )
+
+19 
+loop
+ ( 
+x
+ , 
+y
+ )
+
+
+	@./ex20/ex20_sd5.py
+
+1 from 
+	~sys
+ import 
+argv
+
+3 
+script
+ , 
+input_file
+ = 
+argv
+
+5 def 
+	$print_all
+ ( 
+f
+ ) :
+
+6 
+print
+ ( 
+f
+ . 
+read
+ ( ) ) 
+	}
+
+8 def 
+	$rewind
+ ( 
+f
+ ) :
+
+9 
+f
+ . 
+seek
+ ( 0 ) 
+	}
+
+11 def 
+	$print_a_line
+ ( 
+line_count
+ , 
+f
+ ) :
+
+12 
+print
+ ( 
+line_count
+ , 
+f
+ . 
+readline
+ ( ) ) 
+	}
+
+14 
+current_file
+ = 
+open
+ ( 
+input_file
+ )
+
+16 
+print
+ ( "First let's print the whole file:\n" )
+
+18 
+print_all
+ ( 
+current_file
+ )
+
+20 
+print
+ ( "Now let's rewind, kind of like a tape." )
+
+22 
+rewind
+ ( 
+current_file
+ )
+
+24 
+print
+ ( "Let's print three lines:" )
+
+26 
+current_line
+ = 1
+
+27 
+print_a_line
+ ( 
+current_line
+ , 
+current_file
+ )
+
+29 
+current_line
+ += 1
+
+30 
+print_a_line
+ ( 
+current_line
+ , 
+current_file
+ )
+
+32 
+current_line
+ += 1
+
+33 
+print_a_line
+ ( 
+current_line
+ , 
+current_file
+ )
+
+
+	@./ex20/ex20_sd1.py
+
+2 from 
+	~sys
+ import 
+argv
+
+5 
+script
+ , 
+input_file
+ = 
+argv
+
+8 def 
+	$print_all
+ ( 
+f
+ ) :
+
+10 
+print
+ ( 
+f
+ . 
+read
+ ( ) ) 
+	}
+
+13 def 
+	$rewind
+ ( 
+f
+ ) :
+
+15 
+f
+ . 
+seek
+ ( 0 ) 
+	}
+
+17 def 
+	$print_a_line
+ ( 
+line_count
+ , 
+f
+ ) :
+
+19 
+print
+ ( 
+line_count
+ , 
+f
+ . 
+readline
+ ( ) ) 
+	}
+
+22 
+current_file
+ = 
+open
+ ( 
+input_file
+ )
+
+25 
+print
+ ( "First let's print the whole file:\n" )
+
+28 
+print_all
+ ( 
+current_file
+ )
+
+31 
+print
+ ( "Now let's rewind, kind of like a tape." )
+
+34 
+rewind
+ ( 
+current_file
+ )
+
+37 
+print
+ ( "Let's print three lines:" )
+
+40 
+current_line
+ = 1
+
+42 
+print_a_line
+ ( 
+current_line
+ , 
+current_file
+ )
+
+45 
+current_line
+ = 
+current_line
+ + 1
+
+47 
+print_a_line
+ ( 
+current_line
+ , 
+current_file
+ )
+
+50 
+current_line
+ = 
+current_line
+ + 1
+
+52 
+print_a_line
+ ( 
+current_line
+ , 
+current_file
+ )
+
+
+	@./ex20/ex20.py
+
+1 from 
+	~sys
+ import 
+argv
+
+3 
+script
+ , 
+input_file
+ = 
+argv
+
+5 def 
+	$print_all
+ ( 
+f
+ ) :
+
+6 
+print
+ ( 
+f
+ . 
+read
+ ( ) ) 
+	}
+
+8 def 
+	$rewind
+ ( 
+f
+ ) :
+
+9 
+f
+ . 
+seek
+ ( 0 ) 
+	}
+
+11 def 
+	$print_a_line
+ ( 
+line_count
+ , 
+f
+ ) :
+
+12 
+print
+ ( 
+line_count
+ , 
+f
+ . 
+readline
+ ( ) ) 
+	}
+
+14 
+current_file
+ = 
+open
+ ( 
+input_file
+ )
+
+16 
+print
+ ( "First let's print the whole file:\n" )
+
+18 
+print_all
+ ( 
+current_file
+ )
+
+20 
+print
+ ( "Now let's rewind, kind of like a tape." )
+
+22 
+rewind
+ ( 
+current_file
+ )
+
+24 
+print
+ ( "Let's print three lines:" )
+
+26 
+current_line
+ = 1
+
+27 
+print_a_line
+ ( 
+current_line
+ , 
+current_file
+ )
+
+29 
+current_line
+ = 
+current_line
+ + 1
+
+30 
+print_a_line
+ ( 
+current_line
+ , 
+current_file
+ )
+
+32 
+current_line
+ = 
+current_line
+ + 1
+
+33 
+print_a_line
+ ( 
+current_line
+ , 
+current_file
+ )
+
+
+	@./ex20/ex20_sd2.py
+
+1 from 
+	~sys
+ import 
+argv
+
+3 
+script
+ , 
+input_file
+ = 
+argv
+
+5 def 
+	$print_all
+ ( 
+f
+ ) :
+
+6 
+print
+ ( 
+f
+ . 
+read
+ ( ) ) 
+	}
+
+8 def 
+	$rewind
+ ( 
+f
+ ) :
+
+9 
+f
+ . 
+seek
+ ( 0 ) 
+	}
+
+11 def 
+	$print_a_line
+ ( 
+line_count
+ , 
+f
+ ) :
+
+12 
+print
+ ( 
+line_count
+ , 
+f
+ . 
+readline
+ ( ) ) 
+	}
+
+14 
+current_file
+ = 
+open
+ ( 
+input_file
+ )
+
+16 
+print
+ ( "First let's print the whole file:\n" )
+
+18 
+print_all
+ ( 
+current_file
+ )
+
+20 
+print
+ ( "Now let's rewind, kind of like a tape." )
+
+22 
+rewind
+ ( 
+current_file
+ )
+
+24 
+print
+ ( "Let's print three lines:" )
+
+26 
+current_line
+ = 1
+
+27 
+print_a_line
+ ( 
+current_line
+ , 
+current_file
+ )
+
+29 
+current_line
+ = 
+current_line
+ + 1
+
+30 
+print_a_line
+ ( 
+current_line
+ , 
+current_file
+ )
+
+32 
+current_line
+ = 
+current_line
+ + 1
+
+33 
+print_a_line
+ ( 
+current_line
+ , 
+current_file
+ )
+
+
+	@./skeleton/NAME/__init__.py
+
+
+	@./skeleton/tests/__init__.py
+
+
+	@./skeleton/tests/NAME_tests.py
+
+1 from 
+	~nose.tools
+ import *
+
+2 import 
+	~NAME
+
+4 def 
+	$setup
+ ( ) :
+
+5 
+print
+ ( "SETUP!" ) 
+	}
+
+7 def 
+	$teardown
+ ( ) :
+
+8 
+print
+ ( "TEAR DOWN!" ) 
+	}
+
+10 def 
+	$test_basic
+ ( ) :
+
+11 
+print
+ ( "I RAN!" , 
+end
+ = '' ) 
+	}
+
+
+	@./skeleton/setup.py
+
+2 from 
+	~setuptools
+ import 
+setup
+
+3 except 
+ImportError
+ :
+
+4 from 
+	~distutils.core
+ import 
+setup
+
+6 
+config
+ = { 'description'
+
+19 
+setup
+ ( ** 
+config
+ )
+
+
+	@./ex18/ex18.py
+
+2 def 
+	$print_two
+ ( * 
+args
+ ) :
+
+3 
+arg1
+ , 
+arg2
+ = 
+args
+
+4 
+print
+ ( f"arg1: {arg1}, arg2: {arg2}" ) 
+	}
+
+7 def 
+	$print_two_again
+ ( 
+arg1
+ , 
+arg2
+ ) :
+
+8 
+print
+ ( f"arg1: {arg1}, arg2: {arg2}" ) 
+	}
+
+11 def 
+	$print_one
+ ( 
+arg1
+ ) :
+
+12 
+print
+ ( f"arg1: {arg1}" ) 
+	}
+
+15 def 
+	$print_none
+ ( ) :
+
+16 
+print
+ ( "I got nothin'." ) 
+	}
+
+19 
+print_two
+ ( "Zed" , "Shaw" )
+
+20 
+print_two_again
+ ( "Zed" , "Shaw" )
+
+21 
+print_one
+ ( "First!" )
+
+22 
+print_none
+ ( )
+
+
+	@./ex24/ex24_sd1.py
+
+1 
+print
+ ( "Let's practice everything." )
+
+2 
+print
+ ( 'You\'d need to know \'bout escapes with \\ that do:' )
+
+3 
+print
+ ( '\n newlines and \t tabs.' )
+
+5 
+poem
+ = """\n\tThe lovely world \nwith logic so firmly planted \ncannot discern \n the needs of love\nnor comprehend passion from intuition and requires an explanation\n\n\t\twhere there is none.\n"""
+
+13 
+print
+ ( "--------------" )
+
+14 
+print
+ ( 
+poem
+ )
+
+15 
+print
+ ( "--------------" )
+
+19 
+five
+ = 10 - 2 + 3 - 6
+
+20 
+print
+ ( f"This should be five: {five}" )
+
+23 def 
+	$secret_formula
+ ( 
+started
+ ) :
+
+24 
+jelly_beans
+ = 
+started
+ * 500
+
+25 
+jars
+ = 
+jelly_beans
+ / 1000
+
+26 
+crates
+ = 
+jars
+ / 100
+
+27 return 
+jelly_beans
+ , 
+jars
+ , 
+crates
+ 
+	}
+
+30 
+start_point
+ = 10000
+
+33 
+beans
+ , 
+jars
+ , 
+crates
+ = 
+secret_formula
+ ( 
+start_point
+ )
+
+36 
+print
+ ( "With a starting point of: {}" . 
+format
+ ( 
+start_point
+ ) )
+
+38 
+print
+ ( f"We'd have {beans} beans, {jars} jars, and {crates} crates." )
+
+40 
+start_point
+ = 
+start_point
+ / 10
+
+42 
+print
+ ( "We can also do that this way:" )
+
+44 
+formula
+ = 
+secret_formula
+ ( 
+start_point
+ )
+
+46 
+print
+ ( "We'd have {} beans, {} jars, and {} crates." . 
+format
+ ( * 
+formula
+ ) )
+
+
+	@./ex24/ex24.py
+
+1 
+print
+ ( "Let's practice everything." )
+
+2 
+print
+ ( 'You\'d need to know \'bout escapes with \\ that do:' )
+
+3 
+print
+ ( '\n newlines and \t tabs.' )
+
+5 
+poem
+ = """\n\tThe lovely world \nwith logic so firmly planted \ncannot discern \n the needs of love\nnor comprehend passion from intuition and requires an explanation\n\n\t\twhere there is none.\n"""
+
+13 
+print
+ ( "--------------" )
+
+14 
+print
+ ( 
+poem
+ )
+
+15 
+print
+ ( "--------------" )
+
+19 
+five
+ = 10 - 2 + 3 - 6
+
+20 
+print
+ ( f"This should be five: {five}" )
+
+22 def 
+	$secret_formula
+ ( 
+started
+ ) :
+
+23 
+jelly_beans
+ = 
+started
+ * 500
+
+24 
+jars
+ = 
+jelly_beans
+ / 1000
+
+25 
+crates
+ = 
+jars
+ / 100
+
+26 return 
+jelly_beans
+ , 
+jars
+ , 
+crates
+ 
+	}
+
+29 
+start_point
+ = 10000
+
+30 
+beans
+ , 
+jars
+ , 
+crates
+ = 
+secret_formula
+ ( 
+start_point
+ )
+
+33 
+print
+ ( "With a starting point of: {}" . 
+format
+ ( 
+start_point
+ ) )
+
+35 
+print
+ ( f"We'd have {beans} beans, {jars} jars, and {crates} crates." )
+
+37 
+start_point
+ = 
+start_point
+ / 10
+
+39 
+print
+ ( "We can also do that this way:" )
+
+40 
+formula
+ = 
+secret_formula
+ ( 
+start_point
+ )
+
+42 
+print
+ ( "We'd have {} beans, {} jars, and {} crates." . 
+format
+ ( * 
+formula
+ ) )
+
+
+	@./ex3/ex3_sd4.py
+
+1 
+print
+ ( "I will now count my chickens:" )
+
+3 
+print
+ ( "Hens" , 25.0 + 30.0 / 6.0 )
+
+4 
+print
+ ( "Roosters" , 100.0 - 25.0 * 3.0 % 4.0 )
+
+6 
+print
+ ( "Now I will count the eggs:" )
+
+8 
+print
+ ( 3.0 + 2.0 + 1.0 - 5.0 + 4.0 % 2.0 - 1.0 / 4.0 + 6.0 )
+
+10 
+print
+ ( "Is it true that 3 + 2 < 5 - 7?" )
+
+12 
+print
+ ( 3.0 + 2.0 < 5.0 - 7.0 )
+
+14 
+print
+ ( "What is 3 + 2?" , 3.0 + 2.0 )
+
+15 
+print
+ ( "What is 5 -7?" , 5.0 - 7.0 )
+
+17 
+print
+ ( "Oh, that's why it's False." )
+
+19 
+print
+ ( "How about some more." )
+
+21 
+print
+ ( "Is it greater?" , 5.0 > - 2.0 )
+
+22 
+print
+ ( "Is it greater or equal?" , 5.0 >= - 2.0 )
+
+23 
+print
+ ( "Is it less or equal?" , 5.0 <= - 2.0 )
+
+
+	@./ex3/ex3_sd3.py
+
+1 
+print
+ ( "My cousin's expenses:" )
+
+2 
+print
+ ( "car fine: 700, house expenses: 160, electricity: 200, RMN: 900, health insurance: 2000" )
+
+3 
+print
+ ( "My cousin's income: 6000" )
+
+4 
+print
+ ( "Her expenses are:" , 700 + 160 + 200 + 900 + 2000 )
+
+5 
+print
+ ( "Money left:" , 6000 - ( 700 + 160 + 200 + 900 + 2000 ) )
+
+
+	@./ex3/ex3.py
+
+1 
+print
+ ( "I will now count my chickens:" )
+
+3 
+print
+ ( "Hens" , 25 + 30 / 6 )
+
+4 
+print
+ ( "Roosters" , 100 - 25 * 3 % 4 )
+
+6 
+print
+ ( "Now I will count the eggs:" )
+
+8 
+print
+ ( 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6 )
+
+10 
+print
+ ( "Is it true that 3 + 2 < 5 - 7?" )
+
+12 
+print
+ ( 3 + 2 < 5 - 7 )
+
+14 
+print
+ ( "What is 3 + 2?" , 3 + 2 )
+
+15 
+print
+ ( "What is 5 - 7?" , 5 - 7 )
+
+17 
+print
+ ( "Oh, that's why it's False." )
+
+19 
+print
+ ( "How about some more." )
+
+21 
+print
+ ( "Is it greater?" , 5 > - 2 )
+
+22 
+print
+ ( "Is it greater or equal?" , 5 >= - 2 )
+
+23 
+print
+ ( "Is it less or equal?" , 5 <= - 2 )
+
+
+	@./ex3/ex3_sd1.py
+
+2 
+print
+ ( "I will now count my chickens:" )
+
+5 
+print
+ ( "Hens" , 25 + 30 / 6 )
+
+7 
+print
+ ( "Roosters" , 100 - 25 * 3 % 4 )
+
+10 
+print
+ ( "Now I will count the eggs:" )
+
+13 
+print
+ ( 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6 )
+
+16 
+print
+ ( "Is it true that 3 + 2 < 5 - 7?" )
+
+19 
+print
+ ( 3 + 2 < 5 - 7 )
+
+22 
+print
+ ( "What is 3 + 2?" , 3 + 2 )
+
+24 
+print
+ ( "What is 5 - 7?" , 5 - 7 )
+
+27 
+print
+ ( "Oh, that's why it's False." )
+
+30 
+print
+ ( "How about some more." )
+
+33 
+print
+ ( "Is it greater?" , 5 > - 2 )
+
+35 
+print
+ ( "Is it greater or equal?" , 5 >= - 2 )
+
+37 
+print
+ ( "Is it less or equal?" , 5 <= - 2 )
+
+
+	@./ex7/ex7_sd1.py
+
+2 
+print
+ ( "Mary had a little lamb." )
+
+4 
+print
+ ( "Its fleece was white as {}." . 
+format
+ ( 'snow' ) )
+
+6 
+print
+ ( "And everywhere that Mary went." )
+
+8 
+print
+ ( "." * 10 )
+
+11 
+end1
+ = "C"
+
+13 
+end2
+ = "h"
+
+15 
+end3
+ = "e"
+
+17 
+end4
+ = "e"
+
+19 
+end5
+ = "s"
+
+21 
+end6
+ = "e"
+
+23 
+end7
+ = "B"
+
+25 
+end8
+ = "u"
+
+27 
+end9
+ = "r"
+
+29 
+end10
+ = "g"
+
+31 
+end11
+ = "e"
+
+33 
+end12
+ = "r"
+
+36 
+print
+ ( 
+end1
+ + 
+end2
+ + 
+end3
+ + 
+end4
+ + 
+end5
+ + 
+end6
+ , 
+end
+ = ' ' )
+
+38 
+print
+ ( 
+end7
+ + 
+end8
+ + 
+end9
+ + 
+end10
+ + 
+end11
+ + 
+end12
+ )
+
+
+	@./ex7/ex7.py
+
+1 
+print
+ ( "Mary had a little lamb." )
+
+2 
+print
+ ( "Its fleece was white as {}." . 
+format
+ ( 'snow' ) )
+
+3 
+print
+ ( "And everywhere that Mary went." )
+
+4 
+print
+ ( "." * 10 )
+
+6 
+end1
+ = "C"
+
+7 
+end2
+ = "h"
+
+8 
+end3
+ = "e"
+
+9 
+end4
+ = "e"
+
+10 
+end5
+ = "s"
+
+11 
+end6
+ = "e"
+
+12 
+end7
+ = "B"
+
+13 
+end8
+ = "u"
+
+14 
+end9
+ = "r"
+
+15 
+end10
+ = "g"
+
+16 
+end11
+ = "e"
+
+17 
+end12
+ = "r"
+
+20 
+print
+ ( 
+end1
+ + 
+end2
+ + 
+end3
+ + 
+end4
+ + 
+end5
+ + 
+end6
+ , 
+end
+ = ' ' )
+
+21 
+print
+ ( 
+end7
+ + 
+end8
+ + 
+end9
+ + 
+end10
+ + 
+end11
+ + 
+end12
+ )
+
+
+	@./ex29/ex29_sd4.py
+
+1 
+people
+ = 20
+
+2 
+cats
+ = 30
+
+3 
+dogs
+ = 15
+
+7 
+print
+ ( "Too many cats! The world is doomed!" )
+
+10 
+print
+ ( "Not many cats! The world is saved!" )
+
+13 
+print
+ ( "The world is drooled on!" )
+
+16 
+print
+ ( "The world is dry!" )
+
+19 
+dogs
+ += 5
+
+22 
+print
+ ( "People are greater than or equal to dogs." )
+
+25 
+print
+ ( "People are less than or equal to dogs." )
+
+29 
+print
+ ( "People are dogs." )
+
+
+	@./ex29/ex29.py
+
+1 
+people
+ = 20
+
+2 
+cats
+ = 30
+
+3 
+dogs
+ = 15
+
+6 if 
+people
+ < 
+cats
+ :
+
+7 
+print
+ ( "Too many cats! The world is doomed!" )
+
+9 if 
+people
+ > 
+cats
+ :
+
+10 
+print
+ ( "Not many cats! The world is saved!" )
+
+12 if 
+people
+ < 
+dogs
+ :
+
+13 
+print
+ ( "The world is drooled on!" )
+
+15 if 
+people
+ > 
+dogs
+ :
+
+16 
+print
+ ( "The world is dry!" )
+
+19 
+dogs
+ += 5
+
+21 if 
+people
+ >= 
+dogs
+ :
+
+22 
+print
+ ( "People are greater than or equal to dogs." )
+
+24 if 
+people
+ <= 
+dogs
+ :
+
+25 
+print
+ ( "People are less than or equal to dogs." )
+
+28 if 
+people
+ == 
+dogs
+ :
+
+29 
+print
+ ( "People are dogs." )
+
+
+	@./ex44/ex44a.py
+
+1 class 
+	cParent
+ ( 
+object
+ ) :
+
+3 def 
+	$implicit
+ ( 
+self
+ ) :
+
+4 
+print
+ ( "PARENT implicit()" ) 
+	}
+
+6 class 
+	cChild
+ ( 
+Parent
+ ) :
+
+9 
+dad
+ = 
+Parent
+ ( )
+
+10 
+son
+ = 
+Child
+ ( )
+
+12 
+dad
+ . 
+implicit
+ ( )
+
+13 
+son
+ . 
+implicit
+ ( )
+
+
+	@./ex44/ex44e.py
+
+1 class 
+	cOther
+ ( 
+object
+ ) :
+
+3 def 
+	$override
+ ( 
+self
+ ) :
+
+4 
+print
+ ( "OTHER override()" ) 
+	}
+
+6 def 
+	$implicit
+ ( 
+self
+ ) :
+
+7 
+print
+ ( "OTHER implicit()" ) 
+	}
+
+9 def 
+	$altered
+ ( 
+self
+ ) :
+
+10 
+print
+ ( "OTHER altered()" ) 
+	}
+
+12 class 
+	cChild
+ ( 
+object
+ ) :
+
+14 def 
+	$__init__
+ ( 
+self
+ ) :
+
+15 
+self
+ . 
+other
+ = 
+Other
+ ( ) 
+	}
+
+17 def 
+	$implicit
+ ( 
+self
+ ) :
+
+18 
+self
+ . 
+other
+ . 
+implicit
+ ( ) 
+	}
+
+20 def 
+	$override
+ ( 
+self
+ ) :
+
+21 
+print
+ ( "CHILD override()" ) 
+	}
+
+23 def 
+	$altered
+ ( 
+self
+ ) :
+
+24 
+print
+ ( "CHILD, BEFORE OTHER altered()" )
+
+25 
+self
+ . 
+other
+ . 
+altered
+ ( )
+
+26 
+print
+ ( "CHILD, AFTER OTHER altered()" ) 
+	}
+
+28 
+son
+ = 
+Child
+ ( )
+
+30 
+son
+ . 
+implicit
+ ( )
+
+31 
+son
+ . 
+override
+ ( )
+
+32 
+son
+ . 
+altered
+ ( )
+
+
+	@./ex44/ex44b.py
+
+1 class 
+	cParent
+ ( 
+object
+ ) :
+
+3 def 
+	$override
+ ( 
+self
+ ) :
+
+4 
+print
+ ( "PARENT override()" ) 
+	}
+
+6 class 
+	cChild
+ ( 
+Parent
+ ) :
+
+8 def 
+	$override
+ ( 
+self
+ ) :
+
+9 
+print
+ ( "CHILD override()" ) 
+	}
+
+11 
+dad
+ = 
+Parent
+ ( )
+
+12 
+son
+ = 
+Child
+ ( )
+
+14 
+dad
+ . 
+override
+ ( )
+
+15 
+son
+ . 
+override
+ ( )
+
+
+	@./ex44/ex44d.py
+
+1 class 
+	cParent
+ ( 
+object
+ ) :
+
+3 def 
+	$override
+ ( 
+self
+ ) :
+
+4 
+print
+ ( "PARENT override()" ) 
+	}
+
+6 def 
+	$implicit
+ ( 
+self
+ ) :
+
+7 
+print
+ ( "PARENT implicit()" ) 
+	}
+
+9 def 
+	$altered
+ ( 
+self
+ ) :
+
+10 
+print
+ ( "PARENT altered()" ) 
+	}
+
+12 class 
+	cChild
+ ( 
+Parent
+ ) :
+
+14 def 
+	$override
+ ( 
+self
+ ) :
+
+15 
+print
+ ( "CHILD override()" ) 
+	}
+
+17 def 
+	$altered
+ ( 
+self
+ ) :
+
+18 
+print
+ ( "CHILD, BEFORE PARENT altered()" )
+
+19 
+super
+ ( 
+Child
+ , 
+self
+ ) . 
+altered
+ ( )
+
+20 
+print
+ ( "CHILD, AFTER PARENT altered()" ) 
+	}
+
+22 
+dad
+ = 
+Parent
+ ( )
+
+23 
+son
+ = 
+Child
+ ( )
+
+25 
+dad
+ . 
+implicit
+ ( )
+
+26 
+son
+ . 
+implicit
+ ( )
+
+28 
+dad
+ . 
+override
+ ( )
+
+29 
+son
+ . 
+override
+ ( )
+
+31 
+dad
+ . 
+altered
+ ( )
+
+32 
+son
+ . 
+altered
+ ( )
+
+
+	@./ex44/ex44c.py
+
+1 class 
+	cParent
+ ( 
+object
+ ) :
+
+3 def 
+	$altered
+ ( 
+self
+ ) :
+
+4 
+print
+ ( "PARENT altered()" ) 
+	}
+
+6 class 
+	cChild
+ ( 
+Parent
+ ) :
+
+8 def 
+	$altered
+ ( 
+self
+ ) :
+
+9 
+print
+ ( "CHILD, BEFORE PARENT altered()" )
+
+10 
+super
+ ( 
+Child
+ , 
+self
+ ) . 
+altered
+ ( )
+
+11 
+print
+ ( "CHILD, AFTER PARENT altered()" ) 
+	}
+
+13 
+dad
+ = 
+Parent
+ ( )
+
+14 
+son
+ = 
+Child
+ ( )
+
+16 
+dad
+ . 
+altered
+ ( )
+
+17 
+son
+ . 
+altered
+ ( )
+
+
+	@./ex36/ex36.py
+
+1 from 
+	~sys
+ import 
+exit
+
+6 def 
+	$choose_diver
+ ( ) :
+
+7 
+print
+ ( """Welcome to our cave diving center. We have 3 instructors you can choose from.\n    They all are quite experienced. Make a wise choice:\n\tAlex\n\tVali\n\tMike"""
+
+10 
+diver
+ = 
+input
+ ( "> " )
+
+14 if "Alex" in 
+diver
+ or "Vali" in 
+diver
+ :
+
+15 
+print
+ ( "Good choice! Your life is in good hands!" )
+
+16 
+choose_cave
+ ( )
+
+21 elif "Mike" in 
+diver
+ :
+
+22 
+print
+ ( """Hmmm, I wouldn't trust that one. He is sneakier than a serpent.\n        He is a good diver though. Expect the unexpected.\nMike: For 5000 GBP I can take you to the secret caves.\n        If you buy me a pizza, you get to see the normal caves.\n        Where do you want to dive?"""
+
+27 
+cave
+ = 
+input
+ ( "> " )
+
+29 if "secret" in 
+cave
+ :
+
+30 
+secret_caves
+ ( )
+
+31 elif "normal" in 
+cave
+ :
+
+32 
+choose_cave
+ ( )
+
+34 
+print
+ ( "You can only choose a normal cave or a secret one." )
+
+35 
+choose_diver
+ ( )
+
+39 
+print
+ ( "Only three instructors available" )
+
+40 
+choose_diver
+ ( ) 
+	}
+
+45 def 
+	$choose_cave
+ ( ) :
+
+46 
+print
+ ( """There are very beautiful underwater caves to explore.\nWhat is the cave you'd like to explore today?\n    \n1. Izbandis\n2. Mina\n3. Bulz"""
+
+49 
+normal_cave
+ = 
+input
+ ( "> " )
+
+51 if "1" in 
+normal_cave
+ :
+
+52 
+print
+ ( "Izbandis is quite dangerous if you are not good at cave diving."
+
+54 
+choose_equipment
+ ( )
+
+55 
+izbandis
+ ( )
+
+56 elif "2" in 
+normal_cave
+ :
+
+57 
+print
+ ( "Mina is very good for training your cave diving skills." )
+
+58 
+choose_equipment
+ ( )
+
+59 
+mina
+ ( )
+
+60 elif "3" in 
+normal_cave
+ :
+
+61 
+print
+ ( "Bulz doesn't have long galleries, but it's spectacular." )
+
+62 
+choose_equipment
+ ( )
+
+63 
+bulz
+ ( )
+
+65 
+print
+ ( "That's not a cave. Try again." )
+
+66 
+choose_cave
+ ( ) 
+	}
+
+69 def 
+	$secret_caves
+ ( ) :
+
+70 
+print
+ ( """I can show you 3 more caves! But life is short and time is money.\n Give me the 5000. You give him the money and the adventure begins."""
+
+72 
+choose_equipment
+ ( )
+
+74 
+print
+ ( """Mike points a gun at you: We are all alone in the equipment room. I must tell you the truth. \n Your money is lost. I am a dangerous killer hiding in this diving resort. \n You either choose to tell everyone or dive in the usual places.\n No such thing as the promised secret caves. What's your choice?"""
+
+76 
+secret_choice
+ = 
+input
+ ( '> ' )
+
+78 if "tell" in 
+secret_choice
+ :
+
+79 
+print
+ ( "Mike shoots you." )
+
+80 elif "dive" in 
+secret_choice
+ :
+
+81 
+choose_cave
+ ( )
+
+83 
+print
+ ( "Not an option." )
+
+84 
+secret_caves
+ ( ) 
+	}
+
+87 def 
+	$choice
+ ( ) :
+
+88 
+equip_choice
+ = 
+input
+ ( '> ' )
+
+89 return 
+equip_choice
+ 
+	}
+
+94 def 
+	$choose_equipment
+ ( ) :
+
+95 
+print
+ ( """You better know your equipment. You will get points for getting ready\n    without asking our divers for help. First we need to test your knowledge."""
+
+97 
+print
+ ( "What do you need?" )
+
+99 
+equipment
+ = { 'Fins'
+
+112 
+equipment_list
+ = 
+list
+ ( 
+equipment
+ . 
+keys
+ ( ) )
+
+114 
+print
+ ( "Choose the equipment you need:" )
+
+117 
+choices
+ = [ ]
+
+120 while 
+len
+ ( 
+equipment_list
+ ) != 
+len
+ ( 
+choices
+ ) :
+
+123 def 
+items_remaining
+ ( 
+a
+ , 
+b
+ ) :
+
+124 return [ 
+item
+ for 
+item
+ in 
+a
+ if 
+item
+ not in 
+b
+ ]
+
+126 
+remaining
+ = 
+items_remaining
+ ( 
+equipment_list
+ , 
+choices
+ )
+
+129 
+print
+ ( "Remaining items:" )
+
+130 
+print
+ ( * 
+remaining
+ , 
+sep
+ = ', ' )
+
+133 
+new_item
+ = 
+choice
+ ( )
+
+137 if 
+new_item
+ in 
+choices
+ :
+
+138 
+print
+ ( f"You already chose {new_item}" )
+
+142 elif 
+new_item
+ not in 
+choices
+ and 
+new_item
+ in 
+equipment_list
+ :
+
+143 
+print
+ ( f"{equipment[new_item]}" )
+
+146 
+choices
+ . 
+append
+ ( 
+new_item
+ )
+
+148 
+print
+ ( "\nDo you need more equipment? Answer with yes or no." )
+
+150 
+next_choice
+ = 
+input
+ ( '> ' )
+
+152 if "yes" in 
+next_choice
+ :
+
+153 
+remaining
+
+156 
+print
+ ( "The equipment you chose is:" )
+
+157 
+print
+ ( * 
+choices
+ , 
+sep
+ = ', ' )
+
+162 
+print
+ ( "No such equipment." )
+
+163 
+choose_equipment
+ ( )
+
+165 
+print
+ ( "The equipment you chose is:" )
+
+166 
+print
+ ( * 
+choices
+ , 
+sep
+ = ', ' ) 
+	}
+
+169 def 
+	$death
+ ( 
+reason
+ ) :
+
+170 
+print
+ ( 
+reason
+ , "This is the end. At least you died in a beautiful scenery." ) 
+	}
+
+173 def 
+	$izbandis
+ ( ) :
+
+174 
+print
+ ( """You see a beautiful tiny cristal clear lake. It is not very cold outside.\n The autumn leaves are the only reminders of this planet.\n The rest looks like in a dream.\n You put your drysuit on, carry your big tanks to the brink of the lake. Your heart is pounding with hope: this is starting well, it will be a promissing dive.\nThe instructor is already in the water, waiting for you.\n Hey, he says, we are going to descend directly to 28 m then find the entrance of the cave on the left. No guiding reel to that point.\n Once in the cave we are going to see the reel on the left.\n Following a narrow left corridor we'll reach a point where the reel goes under in a deep tunnel. 50 m deep.\n Then it opens up to a bigger cave. We explore that a little bit then ascend.\nLet's go!"""
+
+176 
+print
+ ( "You found the reel on the left . There is a long, narrow corridor and two entrances: one up, one down. Where do you go?"
+
+179 
+izbandis_choice
+ = 
+input
+ ( '> ' )
+
+181 if "up" in 
+izbandis_choice
+ :
+
+182 
+death
+ ( "Wrong and bad. Your air finishes as you try to find the way back."
+
+185 elif "down" in 
+izbandis_choice
+ :
+
+186 
+print
+ ( """Perfect, your dive goes on as planned.\n You have enough air to explore the big beautiful cave.\n You ask the instructor to take a few pictures of you then you both ascend. Well done!"""
+
+189 
+print
+ ( "Not an option!" )
+
+190 
+izbandis
+ ( ) 
+	}
+
+193 def 
+	$mina
+ ( ) :
+
+194 
+print
+ ( """There's an old gold mine that was abandoned 20 years ago. \n After an earthquake some of its walls collapsed and it was filled with water.\n You enter a dark tunnel. The water level is high enough.\n Once you reach the water, the instructor is helping you with handling the bottles.\n Just follow the reel, the instructor tells you. I will be in front of you at all times.\n If you stay behind and can't see me just check the reel.\n You go in and follow him. You turn on the light. \n Brilliant turquoise shafts of light plunge more than 30 m straight down.\n While enjoying the view your lights go off. What do you do? Change batteries or dive into the unknown?"""
+
+197 
+mina_choice
+ = 
+input
+ ( '> ' )
+
+199 if "change" in 
+mina_choice
+ :
+
+200 
+print
+ ( """Good, you are going to enjoy a great dive.\n You know what to do in limit situations.\n The instructor takes pictures of you and you ascend happy."""
+
+203 elif "dive" in 
+mina_choice
+ :
+
+204 
+death
+ ( "You should have listened to your mother when she said this is a dangerous sport.\n You die like she expected."
+
+208 
+print
+ ( "Not an option!" )
+
+209 
+mina
+ ( ) 
+	}
+
+212 def 
+	$bulz
+ ( ) :
+
+213 
+print
+ ( """This one is a 4 km cave. It has lots of tunnels and obstacles. You really need to stay close to me, says the instructor.\n The entrance is 6 m long and it's entirely submersed. The first gallery is 13 m long and it's only accessible by rib.\n There's a 2 m waterfall on the South wall. We can bypass it keeping right.\n In 5 m we face the second waterfall. On the left of it, the main tunnel.\n We enter this one then go down to 40 m. We play a bit there than come back. The reel is always on our right.\n You go in the water and swim to the rib. The instructor lights the waterfall. \n You follow the reel and reach 40 m in a 5 minutes descend. \n You look back but the instructor is gone. What do you do next? Go back? Wait for him there? """
+
+216 
+bulz_choice
+ = 
+input
+ ( '> ' )
+
+218 if "go" in 
+bulz_choice
+ :
+
+219 
+death
+ ( "You panick and get lost.You breathe like a running giraffe. At 30 bars you don't have enough air for safety stops"
+
+222 elif "wait" in 
+bulz_choice
+ :
+
+223 
+print
+ ( """You have lots of air to wait for him. Soon enough you see his light above you.\n The dive goes on. He takes pictures of you and you surface"""
+
+227 
+print
+ ( "Not an option!" )
+
+228 
+bulz
+ ( ) 
+	}
+
+230 
+choose_diver
+ ( )
+
+
+	@./ex12/ex12.py
+
+1 
+age
+ = 
+input
+ ( "How old are you? " )
+
+2 
+height
+ = 
+input
+ ( "How tall are you? " )
+
+3 
+weight
+ = 
+input
+ ( "How much do you weigh? " )
+
+5 
+print
+ ( f"So, you're {age} old, {height} tall and {weight} heavy." )
+
+
+	@./ex8/ex8_sd1.py
+
+2 
+formatter
+ = "{} {} {} {}"
+
+5 
+print
+ ( 
+formatter
+ . 
+format
+ ( 1 , 2 , 3 , 4 ) )
+
+7 
+print
+ ( 
+formatter
+ . 
+format
+ ( "one" , "two" , "three" , "four" ) )
+
+9 
+print
+ ( 
+formatter
+ . 
+format
+ ( True , False , False , True ) )
+
+11 
+print
+ ( 
+formatter
+ . 
+format
+ ( 
+formatter
+ , 
+formatter
+ , 
+formatter
+ , 
+formatter
+ ) )
+
+13 
+print
+ ( 
+formatter
+ . 
+format
+ ( "Try your"
+
+
+	@./ex8/ex8.py
+
+1 
+formatter
+ = "{} {} {} {}"
+
+3 
+print
+ ( 
+formatter
+ . 
+format
+ ( 1 , 2 , 3 , 4 ) )
+
+4 
+print
+ ( 
+formatter
+ . 
+format
+ ( "one" , "two" , "three" , "four" ) )
+
+5 
+print
+ ( 
+formatter
+ . 
+format
+ ( True , False , False , True ) )
+
+6 
+print
+ ( 
+formatter
+ . 
+format
+ ( 
+formatter
+ , 
+formatter
+ , 
+formatter
+ , 
+formatter
+ ) )
+
+7 
+print
+ ( 
+formatter
+ . 
+format
+ ( "Try your"
+
+
+	@./ex42/ex42_sd3.py
+
+2 class 
+	cAnimal
+ ( 
+object
+ ) :
+
+3 def 
+	$__init__
+ ( 
+self
+ , 
+name
+ ) :
+
+4 
+self
+ . 
+name
+ = 
+name
+ 
+	}
+
+6 def 
+	$furry
+ ( 
+self
+ ) :
+
+7 
+self
+ . 
+has_fur
+ = "furry"
+
+8 
+print
+ ( f"This is  a {self.has_fur} animal." ) 
+	}
+
+10 def 
+	$not_furry
+ ( 
+self
+ ) :
+
+11 
+self
+ . 
+no_fur
+ = "not furry"
+
+12 
+print
+ ( f"This is a {self.no_fur} animal." ) 
+	}
+
+14 def 
+	$predator
+ ( 
+self
+ ) :
+
+15 
+print
+ ( "It attacks smaller birds and eats them." ) 
+	}
+
+17 def 
+	$prey
+ ( 
+self
+ ) :
+
+18 
+print
+ ( "It is eaten by its enemies." ) 
+	}
+
+20 def 
+	$veg
+ ( 
+self
+ ) :
+
+21 
+print
+ ( "It loves eating grass." ) 
+	}
+
+23 class 
+	cDog
+ ( 
+Animal
+ ) :
+
+25 def 
+	$__init__
+ ( 
+self
+ , 
+name
+ ) :
+
+27 
+self
+ . 
+name
+ = 
+name
+
+28 
+self
+ . 
+furry
+ ( )
+
+29 
+print
+ ( f"His name is {self.name}." )
+
+30 
+self
+ . 
+predator
+ ( ) 
+	}
+
+33 class 
+	cCat
+ ( 
+Animal
+ ) :
+
+35 def 
+	$__init__
+ ( 
+self
+ , 
+name
+ ) :
+
+37 
+self
+ . 
+name
+ = 
+name
+ 
+	}
+
+40 class 
+	cPerson
+ ( 
+object
+ ) :
+
+42 def 
+	$__init__
+ ( 
+self
+ , 
+name
+ ) :
+
+44 
+self
+ . 
+name
+ = 
+name
+
+47 
+self
+ . 
+pet
+ = None
+
+48 
+self
+ . 
+age
+ = None 
+	}
+
+52 class 
+	cEmployee
+ ( 
+Person
+ ) :
+
+54 def 
+	$__init__
+ ( 
+self
+ , 
+name
+ , 
+salary
+ ) :
+
+56 
+super
+ ( 
+Employee
+ , 
+self
+ ) . 
+__init__
+ ( 
+name
+ )
+
+58 
+self
+ . 
+salary
+ = 
+salary
+
+59 
+self
+ . 
+age
+ = 
+int
+ ( 
+input
+ ( "Tell me your age.\n" ) )
+
+60 
+print
+ ( f"Employee's age is {self.age}" ) 
+	}
+
+63 class 
+	cFish
+ ( 
+object
+ ) :
+
+65 def 
+	$__init__
+ ( 
+self
+ , 
+name
+ ) :
+
+66 
+self
+ . 
+name
+ = 
+name
+
+67 
+self
+ . 
+colours
+ = [ 'pink' , 'blue' , 'violet' ] 
+	}
+
+70 class 
+	cSalmon
+ ( 
+Fish
+ ) :
+
+71 def 
+	$__init__
+ ( 
+self
+ , 
+name
+ ) :
+
+72 
+self
+ . 
+name
+ = 
+name
+
+73 
+super
+ ( ) . 
+__init__
+ ( 
+name
+ )
+
+74 
+print
+ ( f"{self.name} is a {self.colours[0]} fish." ) 
+	}
+
+78 class 
+	cHalibut
+ ( 
+Fish
+ ) :
+
+83 
+rover
+ = 
+Dog
+ ( "Rover" )
+
+86 
+satan
+ = 
+Cat
+ ( "Satan" )
+
+89 
+mary
+ = 
+Person
+ ( "Mary" )
+
+92 
+mary
+ . 
+pet
+ = 
+satan
+
+95 
+frank
+ = 
+Employee
+ ( "Frank" , 120000 )
+
+98 
+frank
+ . 
+pet
+ = 
+rover
+
+101 
+flipper
+ = 
+Fish
+ ( "Flipper" )
+
+104 
+crouse
+ = 
+Salmon
+ ( "Crouse" )
+
+107 
+harry
+ = 
+Halibut
+ ( "Harry" )
+
+
+	@./ex42/ex42.py
+
+2 class 
+	cAnimal
+ ( 
+object
+ ) :
+
+6 class 
+	cDog
+ ( 
+Animal
+ ) :
+
+8 def 
+	$__init__
+ ( 
+self
+ , 
+name
+ ) :
+
+10 
+self
+ . 
+name
+ = 
+name
+ 
+	}
+
+13 class 
+	cCat
+ ( 
+Animal
+ ) :
+
+15 def 
+	$__init__
+ ( 
+self
+ , 
+name
+ ) :
+
+17 
+self
+ . 
+name
+ = 
+name
+ 
+	}
+
+20 class 
+	cPerson
+ ( 
+object
+ ) :
+
+22 def 
+	$__init__
+ ( 
+self
+ , 
+name
+ ) :
+
+24 
+self
+ . 
+name
+ = 
+name
+
+27 
+self
+ . 
+pet
+ = None 
+	}
+
+30 class 
+	cEmployee
+ ( 
+Person
+ ) :
+
+32 def 
+	$__init__
+ ( 
+self
+ , 
+name
+ , 
+salary
+ ) :
+
+34 
+super
+ ( 
+Employee
+ , 
+self
+ ) . 
+__init__
+ ( 
+name
+ )
+
+36 
+self
+ . 
+salary
+ = 
+salary
+ 
+	}
+
+39 class 
+	cFish
+ ( 
+object
+ ) :
+
+43 class 
+	cSalmon
+ ( 
+Fish
+ ) :
+
+47 class 
+	cHalibut
+ ( 
+Fish
+ ) :
+
+52 
+rover
+ = 
+Dog
+ ( "Rover" )
+
+55 
+satan
+ = 
+Cat
+ ( "Satan" )
+
+58 
+mary
+ = 
+Person
+ ( "Mary" )
+
+61 
+mary
+ . 
+pet
+ = 
+satan
+
+64 
+frank
+ = 
+Employee
+ ( "Frank" , 120000 )
+
+67 
+frank
+ . 
+pet
+ = 
+rover
+
+70 
+flipper
+ = 
+Fish
+ ( )
+
+73 
+crouse
+ = 
+Salmon
+ ( )
+
+76 
+harry
+ = 
+Halibut
+ ( )
+
+
+	@./ex32/ex32.py
+
+1 
+the_count
+ = [ 1 , 2 , 3 , 4 , 5 ]
+
+2 
+fruits
+ = [ 'apples' , 'oranges' , 'pears' , 'apricots' ]
+
+3 
+change
+ = [ 1 , 'pennies' , 2 , 'dimes' , 3 , 'quarters' ]
+
+6 for 
+number
+ in 
+the_count
+ :
+
+7 
+print
+ ( f"This is count {number}" )
+
+10 for 
+fruit
+ in 
+fruits
+ :
+
+11 
+print
+ ( f"A fruit of type: {fruit}" )
+
+15 for 
+i
+ in 
+change
+ :
+
+16 
+print
+ ( f"I got {i}" )
+
+19 
+elements
+ = [ ]
+
+22 for 
+i
+ in 
+range
+ ( 0 , 6 ) :
+
+23 
+print
+ ( f"Adding {i} to the list." )
+
+25 
+elements
+ . 
+append
+ ( 
+i
+ )
+
+28 for 
+i
+ in 
+elements
+ :
+
+29 
+print
+ ( f"Element was: {i}" )
+
+
+	@./ex32/ex32_sd2.py
+
+1 
+the_count
+ = [ 1 , 2 , 3 , 4 , 5 ]
+
+2 
+fruits
+ = [ 'apples' , 'oranges' , 'pears' , 'apricots' ]
+
+3 
+change
+ = [ 1 , 'pennies' , 2 , 'dimes' , 3 , 'quarters' ]
+
+6 for 
+number
+ in 
+the_count
+ :
+
+7 
+print
+ ( f"This is count {number}" )
+
+10 for 
+fruit
+ in 
+fruits
+ :
+
+11 
+print
+ ( f"A fruit of type: {fruit}" )
+
+15 for 
+i
+ in 
+change
+ :
+
+16 
+print
+ ( f"I got {i}" )
+
+19 
+elements
+ = [ ]
+
+22 
+elements
+ = 
+range
+ ( 0 , 6 )
+
+25 for 
+i
+ in 
+elements
+ :
+
+26 
+print
+ ( f"Element was: {i}" )
+
+
+	@./ex47/tests/__init__.py
+
+
+	@./ex47/tests/ex47_tests.py
+
+1 from 
+	~nose.tools
+ import *
+
+2 from 
+	~ex47.game
+ import 
+Room
+
+5 def 
+	$test_room
+ ( ) :
+
+6 
+gold
+ = 
+Room
+ ( "GoldRoom" , """This room has gold in it you can grab. There's a \n            door to the north."""
+
+9 
+assert_equal
+ ( 
+gold
+ . 
+name
+ , "GoldRoom" )
+
+10 
+assert_equal
+ ( 
+gold
+ . 
+paths
+ , { } ) 
+	}
+
+13 def 
+	$test_room_paths
+ ( ) :
+
+14 
+center
+ = 
+Room
+ ( "Center" , "Test room in the center." )
+
+15 
+north
+ = 
+Room
+ ( "North" , "Test room in the north." )
+
+16 
+south
+ = 
+Room
+ ( "South" , "Test room in the south." )
+
+18 
+center
+ . 
+add_paths
+ ( { 'north' : 
+north
+ , 'south' : 
+south
+ } )
+
+19 
+assert_equal
+ ( 
+center
+ . 
+go
+ ( 'north' ) , 
+north
+ )
+
+20 
+assert_equal
+ ( 
+center
+ . 
+go
+ ( 'south' ) , 
+south
+ ) 
+	}
+
+23 def 
+	$test_map
+ ( ) :
+
+24 
+start
+ = 
+Room
+ ( "Start" , "You can go west and down a hole." )
+
+25 
+west
+ = 
+Room
+ ( "Trees" , "There are trees here, you can go east." )
+
+26 
+down
+ = 
+Room
+ ( "Dungeon" , "It's dark down here, you can go up." )
+
+28 
+start
+ . 
+add_paths
+ ( { 'west' : 
+west
+ , 'down' : 
+down
+ } )
+
+29 
+west
+ . 
+add_paths
+ ( { 'east' : 
+start
+ } )
+
+30 
+down
+ . 
+add_paths
+ ( { 'up' : 
+start
+ } )
+
+32 
+assert_equal
+ ( 
+start
+ . 
+go
+ ( 'west' ) , 
+west
+ )
+
+33 
+assert_equal
+ ( 
+start
+ . 
+go
+ ( 'west' ) . 
+go
+ ( 'east' ) , 
+start
+ )
+
+34 
+assert_equal
+ ( 
+start
+ . 
+go
+ ( 'down' ) . 
+go
+ ( 'up' ) , 
+start
+ ) 
+	}
+
+
+	@./ex47/ex47/game.py
+
+1 class 
+	cRoom
+ ( 
+object
+ ) :
+
+3 def 
+	$__init__
+ ( 
+self
+ , 
+name
+ , 
+description
+ ) :
+
+4 
+self
+ . 
+name
+ = 
+name
+
+5 
+self
+ . 
+description
+ = 
+description
+
+6 
+self
+ . 
+paths
+ = { } 
+	}
+
+8 def 
+	$go
+ ( 
+self
+ , 
+direction
+ ) :
+
+9 return 
+self
+ . 
+paths
+ . 
+get
+ ( 
+direction
+ , None ) 
+	}
+
+11 def 
+	$add_paths
+ ( 
+self
+ , 
+paths
+ ) :
+
+12 
+self
+ . 
+paths
+ . 
+update
+ ( 
+paths
+ ) 
+	}
+
+
+	@./ex47/ex47/__init__.py
+
+
+	@./ex47/setup.py
+
+2 from 
+	~setuptools
+ import 
+setup
+
+3 except 
+ImportError
+ :
+
+4 from 
+	~distutils.core
+ import 
+setup
+
+6 
+config
+ = { 'description'
+
+19 
+setup
+ ( ** 
+config
+ )
+
+
+	@./ex10/ex10_sd3.py
+
+1 
+print
+ ( "I heard someone screaming: \"Help! My hair is on fire!\" so I ran to the {}." . 
+format
+ ( 'door' ) )
+
+2 
+print
+ ( "Go to the pharmacy and buy some:" """\n\t ACC\n\t aspirin\n\t vitamin C\n\t cod liver oil\n"""
+
+8 
+print
+ ( "You better make me a list." )
+
+9 
+pharmacy_list
+ = """\n\t ACC\n\t aspirin\n\t vitamin C\n\t cod liver oil\n"""
+
+15 
+print
+ ( 'Here\'s your list:' , 
+pharmacy_list
+ )
+
+
+	@./ex10/ex10.py
+
+1 
+tabby_cat
+ = "\tI'm tabbed in."
+
+2 
+persian_cat
+ = "I'm split\non a line."
+
+3 
+backslash_cat
+ = "I'm \\ a \\ cat."
+
+5 
+fat_cat
+ = """\nI'll do a list:\n\t* Cat food\n\t* Fishies\n\t* Catnip\n\t* Grass\n"""
+
+12 
+print
+ ( 
+tabby_cat
+ )
+
+13 
+print
+ ( 
+persian_cat
+ )
+
+14 
+print
+ ( 
+backslash_cat
+ )
+
+15 
+print
+ ( 
+fat_cat
+ )
+
+
+	@./ex48/tests/lexicon_tests.py
+
+1 from 
+	~nose.tools
+ import *
+
+2 from 
+	~ex48
+ import 
+lexicon
+
+5 def 
+	$test_directions
+ ( ) :
+
+6 
+assert_equal
+ ( 
+lexicon
+ . 
+scan
+ ( "north" ) , [ ( 'direction' , 'north' ) ] )
+
+7 
+result
+ = 
+lexicon
+ . 
+scan
+ ( "north south east" )
+
+8 
+assert_equal
+ ( 
+result
+ , [ ( 'direction' , 'north' ) ,
+
+10 ( 'direction' , 'east' ) ] ) 
+	}
+
+12 def 
+	$test_verbs
+ ( ) :
+
+13 
+assert_equal
+ ( 
+lexicon
+ . 
+scan
+ ( "go" ) , [ ( 'verb' , 'go' ) ] )
+
+14 
+result
+ = 
+lexicon
+ . 
+scan
+ ( "go kill eat" )
+
+15 
+assert_equal
+ ( 
+result
+ , [ ( 'verb' , 'go' ) ,
+
+17 ( 'verb' , 'eat' ) ] ) 
+	}
+
+20 def 
+	$test_stops
+ ( ) :
+
+21 
+assert_equal
+ ( 
+lexicon
+ . 
+scan
+ ( "the" ) , [ ( 'stop' , 'the' ) ] )
+
+22 
+result
+ = 
+lexicon
+ . 
+scan
+ ( "the in of" )
+
+23 
+assert_equal
+ ( 
+result
+ , [ ( 'stop' , 'the' ) ,
+
+25 ( 'stop' , 'of' ) ] ) 
+	}
+
+28 def 
+	$test_nouns
+ ( ) :
+
+29 
+assert_equal
+ ( 
+lexicon
+ . 
+scan
+ ( "bear" ) , [ ( 'noun' , 'bear' ) ] )
+
+30 
+result
+ = 
+lexicon
+ . 
+scan
+ ( "bear princess" )
+
+31 
+assert_equal
+ ( 
+result
+ , [ ( 'noun' , 'bear' ) ,
+
+32 ( 'noun' , 'princess' ) ] ) 
+	}
+
+34 def 
+	$test_numbers
+ ( ) :
+
+35 
+assert_equal
+ ( 
+lexicon
+ . 
+scan
+ ( "1234" ) , [ ( 'number' , "1234" ) ] )
+
+36 
+result
+ = 
+lexicon
+ . 
+scan
+ ( "3 91234" )
+
+37 
+assert_equal
+ ( 
+result
+ , [ ( 'number' , "3" ) ,
+
+38 ( 'number' , "91234" ) ] ) 
+	}
+
+40 def 
+	$test_errors
+ ( ) :
+
+41 
+assert_equal
+ ( 
+lexicon
+ . 
+scan
+ ( "ASDFADFASDF" ) ,
+
+43 
+result
+ = 
+lexicon
+ . 
+scan
+ ( "bear IAS princess" )
+
+44 
+assert_equal
+ ( 
+result
+ , [ ( 'noun' , 'bear' ) ,
+
+46 ( 'noun' , 'princess' ) ] ) 
+	}
+
+
+	@./ex48/tests/__init__.py
+
+
+	@./ex48/ex48/lexicon.py
+
+1 
+lexicon
+ = { "north"
+
+24 def 
+	$check_number
+ ( 
+str
+ ) :
+
+26 return 
+int
+ ( 
+str
+ )
+
+28 except 
+ValueError
+ :
+
+29 return None 
+	}
+
+32 def 
+	$scan
+ ( 
+sentence
+ ) :
+
+33 
+results
+ = [ ]
+
+34 
+words
+ = 
+sentence
+ . 
+split
+ ( )
+
+35 for 
+word
+ in 
+words
+ :
+
+36 if 
+word
+ in 
+lexicon
+ :
+
+37 
+results
+ . 
+append
+ ( ( 
+lexicon
+ [ 
+word
+ ] , 
+word
+ ) )
+
+38 elif 
+check_number
+ ( 
+word
+ ) :
+
+39 
+results
+ . 
+append
+ ( ( 'number' , 
+word
+ ) )
+
+41 
+results
+ . 
+append
+ ( ( 'error' , 
+word
+ ) )
+
+43 return 
+results
+ 
+	}
+
+
+	@./ex48/ex48/__init__.py
+
+
+	@./projects/gothonweb/tests/app_tests.py
+
+1 from 
+	~nose.tools
+ import *
+
+2 from 
+	~app
+ import 
+app
+
+4 
+app
+ . 
+config
+ [ 'TESTING' ] = True
+
+5 
+web
+ = 
+app
+ . 
+test_client
+ ( )
+
+7 def 
+	$test_index
+ ( ) :
+
+8 
+rv
+ = 
+web
+ . 
+get
+ ( '/' , 
+follow_redirects
+ = True )
+
+9 
+assert_equal
+ ( 
+rv
+ . 
+status_code
+ , 200 )
+
+11 
+rv
+ = 
+web
+ . 
+get
+ ( '/game' , 
+follow_redirects
+ = True )
+
+12 
+assert_equal
+ ( 
+rv
+ . 
+status_code
+ , 200 ) 
+	}
+
+
+	@./projects/gothonweb/tests/__init__.py
+
+
+	@./projects/gothonweb/tests/planisphere_tests.py
+
+1 from 
+	~nose.tools
+ import *
+
+2 from 
+	~gothonweb.planisphere
+ import *
+
+5 def 
+	$test_room
+ ( ) :
+
+6 
+gold
+ = 
+Room
+ ( "GoldRoom" , """This room has gold in it you can grab. There's a\n            door to the north."""
+
+9 
+assert_equal
+ ( 
+gold
+ . 
+name
+ , "GoldRoom" )
+
+10 
+assert_equal
+ ( 
+gold
+ . 
+paths
+ , { } ) 
+	}
+
+13 def 
+	$test_room_paths
+ ( ) :
+
+14 
+center
+ = 
+Room
+ ( "Center" , "Test room in the center." )
+
+15 
+north
+ = 
+Room
+ ( "North" , "Test room in the north." )
+
+16 
+south
+ = 
+Room
+ ( "South" , "Test room in the south." )
+
+18 
+center
+ . 
+add_paths
+ ( { 'north' : 
+north
+ , 'south' : 
+south
+ } )
+
+19 
+assert_equal
+ ( 
+center
+ . 
+go
+ ( 'north' ) , 
+north
+ )
+
+20 
+assert_equal
+ ( 
+center
+ . 
+go
+ ( 'south' ) , 
+south
+ ) 
+	}
+
+23 def 
+	$test_map
+ ( ) :
+
+24 
+start
+ = 
+Room
+ ( "Start" , "You can go west and down a hole." )
+
+25 
+west
+ = 
+Room
+ ( "Trees" , "There are trees here, you can go east." )
+
+26 
+down
+ = 
+Room
+ ( "Dungeon" , "It's dark down here, you can go up." )
+
+28 
+start
+ . 
+add_paths
+ ( { 'west' : 
+west
+ , 'down' : 
+down
+ } )
+
+29 
+west
+ . 
+add_paths
+ ( { 'east' : 
+start
+ } )
+
+30 
+down
+ . 
+add_paths
+ ( { 'up' : 
+start
+ } )
+
+32 
+assert_equal
+ ( 
+start
+ . 
+go
+ ( 'west' ) , 
+west
+ )
+
+33 
+assert_equal
+ ( 
+start
+ . 
+go
+ ( 'west' ) . 
+go
+ ( 'east' ) , 
+start
+ )
+
+34 
+assert_equal
+ ( 
+start
+ . 
+go
+ ( 'down' ) . 
+go
+ ( 'up' ) , 
+start
+ ) 
+	}
+
+36 def 
+	$test_gothon_game_map
+ ( ) :
+
+37 
+start_room
+ = 
+load_room
+ ( 
+START
+ )
+
+38 
+assert_equal
+ ( 
+start_room
+ . 
+go
+ ( 'shoot!' ) , 
+generic_death
+ )
+
+39 
+assert_equal
+ ( 
+start_room
+ . 
+go
+ ( 'dodge!' ) , 
+generic_death
+ )
+
+41 
+room
+ = 
+start_room
+ . 
+go
+ ( 'tell a joke' )
+
+42 
+assert_equal
+ ( 
+room
+ , 
+laser_weapon_armory
+ ) 
+	}
+
+
+	@./projects/gothonweb/app/routes.py
+
+1 from 
+	~flask
+ import 
+Flask
+ , 
+request
+ , 
+render_template
+ , 
+redirect
+ , 
+url_for
+ , 
+flash
+ , 
+abort
+ , 
+session
+ , 
+escape
+
+2 from 
+	~config
+ import 
+Config
+
+3 from 
+	~forms
+ import 
+SignupForm
+ , 
+LoginForm
+
+5 from 
+	~flask_login
+ import 
+LoginManager
+ , 
+UserMixin
+ , 
+login_user
+ , 
+logout_user
+ , 
+login_required
+ , 
+current_user
+
+6 from 
+	~flask_assets
+ import 
+Environment
+ , 
+Bundle
+
+7 from 
+	~app
+ import 
+app
+
+8 from 
+	~app
+ import 
+planisphere
+
+9 from 
+	~app.models
+ import 
+db
+ , 
+User
+
+13 
+assets
+ = 
+Environment
+ ( 
+app
+ )
+
+14 
+assets
+ . 
+url
+ = 
+app
+ . 
+static_url_path
+
+15 
+scss
+ = 
+Bundle
+ ( 'styles.scss' , 
+filters
+ = 'scss' , 
+output
+ = 'styles.css' )
+
+16 
+assets
+ . 
+register
+ ( 'scss_all' , 
+scss
+ )
+
+22 @ 
+app
+ . 
+	`route
+ ( "/" )
+
+23 @ 
+app
+ . 
+	`route
+ ( '/index' )
+
+24 @ 
+	`login_required
+
+25 def 
+	$index
+ ( ) :
+
+26 
+user
+ = 
+current_user
+
+28 
+session
+ [ 'room_name' ] = 
+planisphere
+ . 
+START
+
+29 return 
+redirect
+ ( 
+url_for
+ ( "game" ) ) 
+	}
+
+32 @ 
+app
+ . 
+	`route
+ ( "/game" , 
+methods
+ = [ 'GET' , 'POST' ] )
+
+33 def 
+	$game
+ ( ) :
+
+34 
+room_name
+ = 
+session
+ . 
+get
+ ( 'room_name' )
+
+36 if 
+request
+ . 
+method
+ == "GET" :
+
+37 if 
+room_name
+ :
+
+38 
+room
+ = 
+planisphere
+ . 
+load_room
+ ( 
+room_name
+ )
+
+39 return 
+render_template
+ ( "show_room.html" , 
+room
+ = 
+room
+ )
+
+43 
+print
+ ( "no room name" )
+
+45 
+action
+ = 
+request
+ . 
+form
+ . 
+get
+ ( 'action' )
+
+47 if 
+room_name
+ and 
+action
+ :
+
+48 
+room
+ = 
+planisphere
+ . 
+load_room
+ ( 
+room_name
+ )
+
+49 
+next_room
+ = 
+room
+ . 
+go
+ ( 
+action
+ )
+
+51 if not 
+next_room
+ :
+
+52 
+session
+ [ 'room_name' ] = 
+planisphere
+ . 
+name_room
+ ( 
+room
+ )
+
+54 
+session
+ [ 'room_name' ] = 
+planisphere
+ . 
+name_room
+ ( 
+next_room
+ )
+
+56 return 
+redirect
+ ( 
+url_for
+ ( "game" ) ) 
+	}
+
+59 @ 
+app
+ . 
+	`route
+ ( '/signup' , 
+methods
+ = [ 'GET' , 'POST' ] )
+
+60 def 
+	$signup
+ ( ) :
+
+61 if 
+current_user
+ . 
+is_authenticated
+ :
+
+62 return 
+redirect
+ ( 
+url_for
+ ( 'index' ) )
+
+63 
+form
+ = 
+SignupForm
+ ( )
+
+64 if 
+form
+ . 
+validate_on_submit
+ ( ) :
+
+65 
+user
+ = 
+User
+ ( 
+username
+ = 
+form
+ . 
+username
+ . 
+data
+ , 
+email
+ = 
+form
+ . 
+email
+ . 
+data
+ )
+
+66 
+user
+ . 
+set_password
+ ( 
+form
+ . 
+password
+ . 
+data
+ )
+
+67 
+db
+ . 
+session
+ . 
+add
+ ( 
+user
+ )
+
+68 
+db
+ . 
+session
+ . 
+commit
+ ( )
+
+69 
+flash
+ ( 'Congratulations, you are now a registered user!' )
+
+70 return 
+redirect
+ ( 
+url_for
+ ( 'login' ) )
+
+71 return 
+render_template
+ ( 'signup.html' , 
+title
+ = 'Register' , 
+form
+ = 
+form
+ ) 
+	}
+
+73 @ 
+app
+ . 
+	`route
+ ( '/login' , 
+methods
+ = [ 'GET' , 'POST' ] )
+
+74 def 
+	$login
+ ( ) :
+
+75 if 
+current_user
+ . 
+is_authenticated
+ :
+
+76 return 
+redirect
+ ( 
+url_for
+ ( 'index' ) )
+
+77 
+form
+ = 
+LoginForm
+ ( )
+
+78 if 
+form
+ . 
+validate_on_submit
+ ( ) :
+
+79 
+user
+ = 
+User
+ . 
+query
+ . 
+filter_by
+ ( 
+username
+ = 
+form
+ . 
+username
+ . 
+data
+ ) . 
+first
+ ( )
+
+80 if 
+user
+ is None or not 
+user
+ . 
+check_password
+ ( 
+form
+ . 
+password
+ . 
+data
+ ) :
+
+81 
+flash
+ ( 'Invalid username or password' )
+
+82 return 
+redirect
+ ( 
+url_for
+ ( 'login' ) )
+
+83 
+login_user
+ ( 
+user
+ , 
+remember
+ = 
+form
+ . 
+remember_me
+ . 
+data
+ )
+
+84 return 
+redirect
+ ( 
+url_for
+ ( 'index' ) )
+
+85 return 
+render_template
+ ( 'login.html' , 
+title
+ = 'Sign In' , 
+form
+ = 
+form
+ ) 
+	}
+
+89 @ 
+app
+ . 
+	`route
+ ( "/logout" )
+
+90 @ 
+	`login_required
+
+91 def 
+	$logout
+ ( ) :
+
+92 
+logout_user
+ ( )
+
+93 return 
+redirect
+ ( 
+url_for
+ ( 'index' ) ) 
+	}
+
+95 if 
+__name__
+ == "__main__" :
+
+96 
+app
+ . 
+run
+
+
+	@./projects/gothonweb/app/__init__.py
+
+1 from 
+	~flask
+ import 
+Flask
+
+2 from 
+	~config
+ import 
+Config
+
+3 from 
+	~flask_sqlalchemy
+ import 
+SQLAlchemy
+
+4 from 
+	~flask_migrate
+ import 
+Migrate
+
+5 from 
+	~flask_login
+ import 
+LoginManager
+
+8 
+app
+ = 
+Flask
+ ( 
+__name__
+ )
+
+9 
+app
+ . 
+config
+ . 
+from_object
+ ( 
+Config
+ )
+
+10 
+db
+ = 
+SQLAlchemy
+ ( 
+app
+ )
+
+11 
+migrate
+ = 
+Migrate
+ ( 
+app
+ , 
+db
+ )
+
+12 
+login
+ = 
+LoginManager
+ ( 
+app
+ )
+
+13 
+login
+ . 
+login_view
+ = 'login'
+
+15 from 
+	~app
+ import 
+routes
+ , 
+models
+
+
+	@./projects/gothonweb/app/planisphere.py
+
+1 from 
+	~sys
+ import 
+exit
+
+2 from 
+	~random
+ import 
+randint
+
+3 from 
+	~itertools
+ import 
+count
+
+5 class 
+	cRoom
+ ( 
+object
+ ) :
+
+7 def 
+	$__init__
+ ( 
+self
+ , 
+name
+ , 
+description
+ ) :
+
+8 
+self
+ . 
+name
+ = 
+name
+
+9 
+self
+ . 
+description
+ = 
+description
+
+10 
+self
+ . 
+paths
+ = { } 
+	}
+
+12 def 
+	$go
+ ( 
+self
+ , 
+direction
+ ) :
+
+13 return 
+self
+ . 
+paths
+ . 
+get
+ ( 
+direction
+ , None ) 
+	}
+
+15 def 
+	$add_paths
+ ( 
+self
+ , 
+paths
+ ) :
+
+16 
+self
+ . 
+paths
+ . 
+update
+ ( 
+paths
+ ) 
+	}
+
+18 def 
+	$get_hints
+ ( 
+self
+ ) :
+
+19 return 
+str
+ ( 
+list
+ ( 
+self
+ . 
+paths
+ . 
+keys
+ ( ) ) ) . 
+replace
+ ( '[' , '' ) . 
+replace
+ ( ']' , '' ) 
+	}
+
+22 class 
+	cDeath
+ ( 
+Room
+ ) :
+
+24 
+quips
+ = [ "You died. You kinda suck at this."
+
+32 def 
+	$get_quips
+ ( 
+self
+ ) :
+
+33 return ( 
+Death
+ . 
+quips
+ [ 
+randint
+ ( 0 , 
+len
+ ( 
+self
+ . 
+quips
+ ) - 1 ) ] )
+
+34 
+exit
+ ( 1 ) 
+	}
+
+37 def 
+	$code_guess
+ ( 
+self
+ ) :
+
+38 pass 
+	}
+
+40 
+central_corridor
+ = 
+Room
+ ( "Central Corridor" , """\nThe Gothons of Planet Percal #25 have invaded your ship and\ndestroyed your entire crew. You are the last surviving\nmember and your last mission is to get the neutron destruct\nbomb from Weapons Armory, put it in the bridge, and\nblow the ship up after getting into an escape pod.\n\nYou're running down the central corridor to the Weapons\nArmory when a Gothon jumps out, red scaly skin, dark grimy\nteeth, and evil clown costume flowing around his hate\nfilled body. He's blocking the door to the armory and\nabout to pull a weapon to blast you.\n"""
+
+55 
+laser_weapon_armory
+ = 
+Room
+ ( "Laser Weapon Armory" , """\nLucky for you they made you learn Gothon insults in\nthe academy. You tell the one Gothon joke you know:\nLbhe zbgure vf fb sng, jura fur fvgf nebhaq gur ubhfr,\nfur fvgf nebhaq gur ubhfr. The Gothon stops, tries\nnot to laugh, then busts out laughing and can't move.\nWhile he's laughing you run up and shoot him square in\nthe head putting him down, then jump through the\nWeapon Armory door.\nYou do a dive roll into the Weapon Armory, crouch and scan\nthe room for more Gothons that might be hiding. It's dead\nquiet, too quiet. You stand up and run to the far side of\nthe room and find the neutron bomb in its container.\nThere's a keypad lock on the box and you need the code to\nget the bomb out. If you get the code wrong 10 times then\nthe lock closes forever and you can't get the bomb. The\ncode is 3 digits.\n"""
+
+75 
+the_bridge
+ = 
+Room
+ ( "The Bridge" , """\nThe container clicks open and the seal breaks, letting\ngas out. You grab the neutron bomb and run as fast as\nyou can to the bridge where you must place it in the\nright spot.\nYou burst onto the Bridge with the netron destruct bomb\nunder your arm and surprise 5 Gothons who are trying to\ntake control of the ship. Each of them has an even uglier\nclown costume than the last. They haven't pulled their\nweapons out yet, as they see the active bomb under your\narm and don't want to set it off.\n"""
+
+89 
+escape_pod
+ = 
+Room
+ ( "Escape Pod" , """\nYou point your blaster at the bomb under your arm and\nthe Gothons put their hands up and start to sweat.\nYou inch backward to the door, open it, and then\ncarefully place the bomb on the floor, pointing your\nblaster at it. You then jump back through the door,\npunch the close buttonand blast the lock so the\nGothons can't get out. Now that the bomb is placed\nyou run to the escape pod to get off this tin can.\nYou rush through the ship desperately trying to make it to\nthe escape pod before the whole ship explodes. It seems\nlike hadly any Gothons are on the ship, so your run is\nclear of interference. You get to the chamber with the\nescape pods, and now need to pick one to take. Some of\nthem could be damaged but you don't have the time to look.\nThere's 5 pods, which one do you take?\n"""
+
+108 
+the_end_winner
+ = 
+Room
+ ( "The End" , """\nYou jump into pod 2 and hit the eject button.\nThe pod easily slides out into space heading to the\nplanet below. As it files to the planet, you look\nback and see your ship implode then explode like a\nbright star, taking out the Gothon ship at the same\ntime. You won!\n"""
+
+118 
+the_end_loser
+ = 
+Room
+ ( "The End" , """\nYou jump into a random pod and hit the eject button.\nThe pod escapes out into the void of space, then\nimplodes as the hull ruptures, crushing your body into\njam jelly.\n"""
+
+127 
+escape_pod
+ . 
+add_paths
+ ( { '2'
+
+128 : 
+the_end_winner
+ , '*'
+
+129 : 
+the_end_loser
+
+132 
+death
+ = 
+Death
+ ( "death" , "description" )
+
+133 
+quip
+ = 
+death
+ . 
+get_quips
+ ( )
+
+134 
+generic_death
+ = 
+Room
+ ( "death" , 
+quip
+ )
+
+135 
+shoot_death
+ = """\n            Quick on the draw you yank out your blaster and fire\n            it at the Gothon. His clown costume is flowing and\n            moving around his body, which throws off your aim.\n            Your laser hits his costume but misses him entirely.\n            This completely ruins his brand new costume his mother\n            bought him, which makes him fly into an insane rage\n            and blast you repeatedly in the face until you are\n            dead. Then he eats you.\n            """
+
+145 
+shoot_quip
+ = 
+Room
+ ( "death" , 
+shoot_death
+ )
+
+147 
+dodge_death
+ = """\n            Like a world class boxer you dodge, weave, slip and\n            slide right as the Gothon's blaster cranks a laser\n            past your head. In the middle of your artful dodge\n            your foot slips and you bang your head on the metal\n            wall and pass out. You wake up shortly after only to\n            die as the Gothon stomps on your head and eats you.\n            """
+
+155 
+dodge_quip
+ = 
+Room
+ ( "death" , 
+dodge_death
+ )
+
+157 
+throw_death
+ = """\n            In a panic you throw the bomb at the group of Gothons\n            and make a leap for the door. Right as you drop it a\n            Gothon shoots you right in the back killing you. As\n            you die you see another Gothon frantically try to\n            disarm the bomb. You die knowing they will probably\n            blow up when it goes off.\n            """
+
+165 
+throw_quip
+ = 
+Room
+ ( "death" , 
+throw_death
+ )
+
+166 
+laser_death
+ = """\n            The lock buzzes one last time and then you hear a\n            sickening melting sound as the mechanism is fused\n            together. Your decide to sit there, and finally the\n            Gothons blow up the ship and you die.\n            """
+
+172 
+laser_quip
+ = 
+Room
+ ( "death" , 
+laser_death
+ )
+
+174 
+the_bridge
+ . 
+add_paths
+ ( { 'throw the bomb'
+
+175 : 
+throw_quip
+ , 'slowly place the bomb'
+
+176 : 
+escape_pod
+
+179 
+laser_weapon_armory
+ . 
+add_paths
+ ( { '0132'
+
+180 : 
+the_bridge
+ , '*'
+
+181 : 
+laser_quip
+
+184 
+central_corridor
+ . 
+add_paths
+ ( { 'shoot!'
+
+185 : 
+shoot_quip
+ , 'dodge!'
+
+186 : 
+dodge_quip
+ , 'tell a joke'
+
+187 : 
+laser_weapon_armory
+
+191 
+START
+ = 'central_corridor'
+
+194 def 
+	$load_room
+ ( 
+name
+ ) :
+
+199 return 
+globals
+ ( ) . 
+get
+ ( 
+name
+ ) 
+	}
+
+202 def 
+	$name_room
+ ( 
+room
+ ) :
+
+207 for 
+key
+ , 
+value
+ in 
+globals
+ ( ) . 
+items
+ ( ) :
+
+208 if 
+value
+ == 
+room
+ :
+
+209 return 
+key
+ 
+	}
+
+
+	@./projects/gothonweb/app/forms.py
+
+1 from 
+	~flask_wtf
+ import 
+FlaskForm
+
+2 from 
+	~wtforms
+ import 
+StringField
+ , 
+PasswordField
+ , 
+BooleanField
+ , 
+SubmitField
+
+3 from 
+	~wtforms.validators
+ import 
+ValidationError
+ , 
+DataRequired
+ , 
+Email
+ , 
+EqualTo
+
+4 from 
+	~app.models
+ import 
+User
+
+6 class 
+	cSignupForm
+ ( 
+FlaskForm
+ ) :
+
+7 
+username
+ = 
+StringField
+ ( 'Username' , 
+validators
+ = [ 
+DataRequired
+ ( ) ] )
+
+8 
+email
+ = 
+StringField
+ ( 'Email' , 
+validators
+ = [ 
+DataRequired
+ ( ) , 
+Email
+ ( ) ] )
+
+9 
+password
+ = 
+PasswordField
+ ( 'Password' , 
+validators
+ = [ 
+DataRequired
+ ( ) ] )
+
+10 
+password2
+ = 
+PasswordField
+ ( 'Repeat Password'
+
+11 , 
+validators
+ = [ 
+DataRequired
+ ( ) , 
+EqualTo
+ ( 'password' ) ] )
+
+12 
+submit
+ = 
+SubmitField
+ ( 'Register' )
+
+14 def 
+	$validate_username
+ ( 
+self
+ , 
+username
+ ) :
+
+15 
+user
+ = 
+User
+ . 
+query
+ . 
+filter_by
+ ( 
+username
+ = 
+username
+ . 
+data
+ ) . 
+first
+ ( )
+
+16 if 
+user
+ is not None :
+
+17 raise 
+ValidationError
+ ( 'Please use a different username.' ) 
+	}
+
+19 def 
+	$validate_email
+ ( 
+self
+ , 
+email
+ ) :
+
+20 
+user
+ = 
+User
+ . 
+query
+ . 
+filter_by
+ ( 
+email
+ = 
+email
+ . 
+data
+ ) . 
+first
+ ( )
+
+21 if 
+user
+ is not None :
+
+22 raise 
+ValidationError
+ ( 'Please use a different email address.' ) 
+	}
+
+24 class 
+	cLoginForm
+ ( 
+FlaskForm
+ ) :
+
+25 
+username
+ = 
+StringField
+ ( 'Username' , 
+validators
+ = [ 
+DataRequired
+ ( ) ] )
+
+26 
+password
+ = 
+PasswordField
+ ( 'Password' , 
+validators
+ = [ 
+DataRequired
+ ( ) ] )
+
+27 
+remember_me
+ = 
+BooleanField
+ ( 'Remember Me' )
+
+28 
+submit
+ = 
+SubmitField
+ ( 'Sign In' )
+
+
+	@./projects/gothonweb/app/models.py
+
+1 from 
+	~flask
+ import 
+Flask
+
+2 from 
+	~flask_sqlalchemy
+ import 
+SQLAlchemy
+
+3 from 
+	~werkzeug.security
+ import 
+generate_password_hash
+ , 
+check_password_hash
+
+4 from 
+	~flask_login
+ import 
+UserMixin
+
+5 from 
+	~app
+ import 
+db
+
+6 from 
+	~app
+ import 
+login
+
+8 class 
+	cUser
+ ( 
+UserMixin
+ , 
+db
+ . 
+Model
+ ) :
+
+9 
+id
+ = 
+db
+ . 
+Column
+ ( 
+db
+ . 
+Integer
+ , 
+primary_key
+ = True , 
+autoincrement
+ = True )
+
+10 
+username
+ = 
+db
+ . 
+Column
+ ( 
+db
+ . 
+String
+ ( 64 ) , 
+index
+ = True , 
+autoincrement
+ = True , 
+unique
+ = True )
+
+11 
+email
+ = 
+db
+ . 
+Column
+ ( 
+db
+ . 
+String
+ ( 80 ) , 
+index
+ = True , 
+unique
+ = True , 
+autoincrement
+ = True )
+
+12 
+password_hash
+ = 
+db
+ . 
+Column
+ ( 
+db
+ . 
+String
+ ( 80 ) )
+
+14 def 
+	$__repr__
+ ( 
+self
+ ) :
+
+15 return '<User{}>' . 
+format
+ ( 
+self
+ . 
+username
+ ) 
+	}
+
+17 def 
+	$set_password
+ ( 
+self
+ , 
+password
+ ) :
+
+18 
+self
+ . 
+password_hash
+ = 
+generate_password_hash
+ ( 
+password
+ ) 
+	}
+
+20 def 
+	$check_password
+ ( 
+self
+ , 
+password
+ ) :
+
+21 return 
+check_password_hash
+ ( 
+self
+ . 
+password_hash
+ , 
+password
+ ) 
+	}
+
+23 @ 
+login
+ . 
+	`user_loader
+
+24 def 
+	$load_user
+ ( 
+id
+ ) :
+
+25 return 
+User
+ . 
+query
+ . 
+get
+ ( 
+int
+ ( 
+id
+ ) ) 
+	}
+
+
+	@./projects/gothonweb/config.py
+
+1 import 
+	~os
+
+2 
+basedir
+ = 
+os
+ . 
+path
+ . 
+abspath
+ ( 
+os
+ . 
+path
+ . 
+dirname
+ ( 
+__file__
+ ) )
+
+4 class 
+	cConfig
+ ( 
+object
+ ) :
+
+5 
+SECRET_KEY
+ = 
+os
+ . 
+environ
+ . 
+get
+ ( 'SECRET_KEY' ) or 'DeboNEflUKEDCarpe32TIngCHUckLE5r '
+
+6 
+SQLALCHEMY_DATABASE_URI
+ = 
+os
+ . 
+environ
+ . 
+get
+ ( 'DATABASE_URL' ) or 'sqlite:///' + 
+os
+ . 
+path
+ . 
+join
+ ( 
+basedir
+ , 'test.db' )
+
+7 
+SQLALCHEMY_TRACK_MODIFICATIONS
+ = False
+
+
+	@./projects/gothonweb/migrations/env.py
+
+1 from 
+	~__future__
+ import 
+with_statement
+
+2 from 
+	~alembic
+ import 
+context
+
+3 from 
+	~sqlalchemy
+ import 
+engine_from_config
+ , 
+pool
+
+4 from 
+	~logging.config
+ import 
+fileConfig
+
+5 import 
+	~logging
+
+9 
+config
+ = 
+context
+ . 
+config
+
+13 
+fileConfig
+ ( 
+config
+ . 
+config_file_name
+ )
+
+14 
+logger
+ = 
+logging
+ . 
+getLogger
+ ( 'alembic.env' )
+
+20 from 
+	~flask
+ import 
+current_app
+
+21 
+config
+ . 
+set_main_option
+ ( 'sqlalchemy.url' ,
+
+22 
+current_app
+ . 
+config
+ . 
+get
+ ( 'SQLALCHEMY_DATABASE_URI' ) )
+
+23 
+target_metadata
+ = 
+current_app
+ . 
+extensions
+ [ 'migrate' ] . 
+db
+ . 
+metadata
+
+31 def 
+	$run_migrations_offline
+ ( ) :
+
+43 
+url
+ = 
+config
+ . 
+get_main_option
+ ( "sqlalchemy.url" )
+
+44 
+context
+ . 
+configure
+ ( 
+url
+ = 
+url
+ )
+
+46 with 
+context
+ . 
+begin_transaction
+ ( ) :
+
+47 
+context
+ . 
+run_migrations
+ ( ) 
+	}
+
+50 def 
+	$run_migrations_online
+ ( ) :
+
+61 def 
+process_revision_directives
+ ( 
+context
+ , 
+revision
+ , 
+directives
+ ) :
+
+62 if 
+getattr
+ ( 
+config
+ . 
+cmd_opts
+ , 'autogenerate' , False ) :
+
+63 
+script
+ = 
+directives
+ [ 0 ]
+
+64 if 
+script
+ . 
+upgrade_ops
+ . 
+is_empty
+ ( ) :
+
+65 
+directives
+ [ : ] = [ ]
+
+66 
+logger
+ . 
+info
+ ( 'No changes in schema detected.' )
+
+68 
+engine
+ = 
+engine_from_config
+ ( 
+config
+ . 
+get_section
+ ( 
+config
+ . 
+config_ini_section
+ ) ,
+
+69 
+prefix
+ = 'sqlalchemy.' ,
+
+70 
+poolclass
+ = 
+pool
+ . 
+NullPool
+ )
+
+72 
+connection
+ = 
+engine
+ . 
+connect
+ ( )
+
+73 
+context
+ . 
+configure
+ ( 
+connection
+ = 
+connection
+ ,
+
+74 
+target_metadata
+ = 
+target_metadata
+ ,
+
+75 
+process_revision_directives
+ = 
+process_revision_directives
+ ,
+
+76 ** 
+current_app
+ . 
+extensions
+ [ 'migrate' ] . 
+configure_args
+ )
+
+79 with 
+context
+ . 
+begin_transaction
+ ( ) :
+
+80 
+context
+ . 
+run_migrations
+ ( )
+
+82 
+connection
+ . 
+close
+ ( ) 
+	}
+
+84 if 
+context
+ . 
+is_offline_mode
+ ( ) :
+
+85 
+run_migrations_offline
+ ( )
+
+87 
+run_migrations_online
+ ( )
+
+
+	@./projects/gothonweb/migrations/versions/4c3549cb167f_users_table.py
+
+8 from 
+	~alembic
+ import 
+op
+
+9 import 
+	~sqlalchemy
+ as 
+sa
+
+13 
+revision
+ = '4c3549cb167f'
+
+14 
+down_revision
+ = None
+
+15 
+branch_labels
+ = None
+
+16 
+depends_on
+ = None
+
+19 def 
+	$upgrade
+ ( ) :
+
+21 
+op
+ . 
+create_table
+ ( 'user' ,
+
+22 
+sa
+ . 
+Column
+ ( 'id' , 
+sa
+ . 
+Integer
+ ( ) , 
+nullable
+ = False ) ,
+
+23 
+sa
+ . 
+Column
+ ( 'username' , 
+sa
+ . 
+String
+ ( 
+length
+ = 64 ) , 
+nullable
+ = True ) ,
+
+24 
+sa
+ . 
+Column
+ ( 'email' , 
+sa
+ . 
+String
+ ( 
+length
+ = 80 ) , 
+nullable
+ = True ) ,
+
+25 
+sa
+ . 
+Column
+ ( 'password_hash' , 
+sa
+ . 
+String
+ ( 
+length
+ = 80 ) , 
+nullable
+ = True ) ,
+
+26 
+sa
+ . 
+PrimaryKeyConstraint
+ ( 'id' )
+
+28 
+op
+ . 
+create_index
+ ( 
+op
+ . 
+f
+ ( 'ix_user_email' ) , 'user' , [ 'email' ] , 
+unique
+ = True )
+
+29 
+op
+ . 
+create_index
+ ( 
+op
+ . 
+f
+ ( 'ix_user_username' ) , 'user' , [ 'username' ] , 
+unique
+ = True ) 
+	}
+
+33 def 
+	$downgrade
+ ( ) :
+
+35 
+op
+ . 
+drop_index
+ ( 
+op
+ . 
+f
+ ( 'ix_user_username' ) , 
+table_name
+ = 'user' )
+
+36 
+op
+ . 
+drop_index
+ ( 
+op
+ . 
+f
+ ( 'ix_user_email' ) , 
+table_name
+ = 'user' )
+
+37 
+op
+ . 
+drop_table
+ ( 'user' ) 
+	}
+
+
+	@./projects/gothonweb/gothon.py
+
+1 from 
+	~app
+ import 
+app
+
+
+	@./ex15/ex15_sd1.py
+
+2 from 
+	~sys
+ import 
+argv
+
+5 
+script
+ , 
+filename
+ = 
+argv
+
+8 
+txt
+ = 
+open
+ ( 
+filename
+ )
+
+11 
+print
+ ( f"Here's your file {filename}:" )
+
+13 
+print
+ ( 
+txt
+ . 
+read
+ ( ) )
+
+16 
+print
+ ( "Type the filename again:" )
+
+18 
+file_again
+ = 
+input
+ ( "> " )
+
+21 
+txt_again
+ = 
+open
+ ( 
+file_again
+ )
+
+24 
+print
+ ( 
+txt_again
+ . 
+read
+ ( ) )
+
+
+	@./ex15/ex15_sd5.py
+
+1 
+print
+ ( "Type the filename again:" )
+
+2 
+file_again
+ = 
+input
+ ( "> " )
+
+4 
+txt_again
+ = 
+open
+ ( 
+file_again
+ )
+
+6 
+print
+ ( 
+txt_again
+ . 
+read
+ ( ) )
+
+
+	@./ex15/ex15.py
+
+1 from 
+	~sys
+ import 
+argv
+
+3 
+script
+ , 
+filename
+ = 
+argv
+
+5 
+txt
+ = 
+open
+ ( 
+filename
+ )
+
+7 
+print
+ ( f"Here's your file {filename}:" )
+
+8 
+print
+ ( 
+txt
+ . 
+read
+ ( ) )
+
+10 
+print
+ ( "Type the filename again:" )
+
+11 
+file_again
+ = 
+input
+ ( "> " )
+
+13 
+txt_again
+ = 
+open
+ ( 
+file_again
+ )
+
+15 
+print
+ ( 
+txt_again
+ . 
+read
+ ( ) )
+
+
+	@./ex15/ex15_sd7.py
+
+1 from 
+	~sys
+ import 
+argv
+
+3 
+script
+ , 
+filename
+ = 
+argv
+
+5 
+txt
+ = 
+open
+ ( 
+filename
+ )
+
+7 
+print
+ ( f"Here's your file {filename}:" )
+
+8 
+print
+ ( 
+txt
+ . 
+read
+ ( ) )
+
+9 
+txt
+ . 
+close
+ ( )
+
+11 
+print
+ ( "Type the filename again:" )
+
+12 
+file_again
+ = 
+input
+ ( "> " )
+
+14 
+txt_again
+ = 
+open
+ ( 
+file_again
+ )
+
+16 
+print
+ ( 
+txt_again
+ . 
+read
+ ( ) )
+
+17 
+txt_again
+ . 
+close
+ ( )
+
+
+	@./ex15/ex15_sd4.py
+
+1 from 
+	~sys
+ import 
+argv
+
+3 
+script
+ , 
+filename
+ = 
+argv
+
+5 
+txt
+ = 
+open
+ ( 
+filename
+ )
+
+7 
+print
+ ( f"Here's your file {filename}:" )
+
+8 
+print
+ ( 
+txt
+ . 
+read
+ ( ) )
+
+
+	@./ex37/dirsize.py
+
+
+	@./ex43/ex43_sd1.py
+
+1 from 
+	~sys
+ import 
+exit
+
+2 from 
+	~textwrap
+ import 
+dedent
+
+5 class 
+	cReward
+ ( 
+object
+ ) :
+
+7 def 
+	$__init__
+ ( 
+self
+ , 
+measurement
+ ) :
+
+8 
+self
+ . 
+counter
+ = 
+measurement
+
+9 
+self
+ . 
+points
+ = 
+self
+ . 
+counter
+ * 10 
+	}
+
+12 class 
+	cDeath
+ ( 
+object
+ ) :
+
+14 def 
+	$__init__
+ ( 
+self
+ , 
+reason
+ ) :
+
+15 
+self
+ . 
+reason
+ = 
+reason
+
+16 
+print
+ ( 
+reason
+ , "This is the end. At least you died in a beautiful scenery." ) 
+	}
+
+19 class 
+	cEquipment
+ ( 
+object
+ ) :
+
+21 def 
+	$__init__
+ ( 
+self
+ ) :
+
+23 
+self
+ . 
+equipment
+ = { 'Fins'
+
+36 
+self
+ . 
+equipment_list
+ = 
+list
+ ( 
+self
+ . 
+equipment
+ . 
+keys
+ ( ) )
+
+37 
+self
+ . 
+choices
+ = [ ] 
+	}
+
+39 def 
+	$choose_equipment
+ ( 
+self
+ ) :
+
+40 
+print
+ ( 
+dedent
+ ( """\n                    You better know your equipment.\n                    You will receive points for getting ready\n                    without asking our divers for help.\n                    First we need to test your knowledge.\n                    What do you need?\n                    """
+
+48 
+available_items
+ = 
+self
+ . 
+equipment_list
+
+51 while 
+available_items
+ :
+
+53 
+print
+ ( "Available equipment" )
+
+54 
+print
+ ( * 
+available_items
+ , 
+sep
+ = ', ' )
+
+56 
+choice
+ = 
+input
+ ( '> ' )
+
+58 if 
+choice
+ in 
+available_items
+ :
+
+60 
+item_place
+ = 
+available_items
+ . 
+index
+ ( 
+choice
+ )
+
+62 
+item
+ = 
+available_items
+ . 
+pop
+ ( 
+item_place
+ )
+
+64 
+print
+ ( f"{self.equipment[item]}" )
+
+66 
+self
+ . 
+choices
+ . 
+append
+ ( 
+item
+ )
+
+68 
+print
+ ( "\nDo you need more equipment? Answer with yes or no." )
+
+70 
+next_choice
+ = 
+input
+ ( '> ' )
+
+72 if "yes" in 
+next_choice
+ :
+
+76 
+print
+ ( "You chose:" )
+
+77 
+print
+ ( * 
+self
+ . 
+choices
+ , 
+sep
+ = ( ', ' ) )
+
+81 elif 
+choice
+ in 
+self
+ . 
+choices
+ :
+
+82 
+print
+ ( "You already chose that." )
+
+86 
+print
+ ( "Not an option" )
+
+88 
+print
+ ( "You chose:" )
+
+89 
+print
+ ( * 
+self
+ . 
+choices
+ , 
+sep
+ = ( ', ' ) ) 
+	}
+
+92 class 
+	cCave
+ ( 
+object
+ ) :
+
+94 def 
+	$__init__
+ ( 
+self
+ , 
+name
+ ) :
+
+95 
+self
+ . 
+name
+ = 
+name
+
+96 
+self
+ . 
+entry_scene
+ = """\n        dummy text dummy text\n        dummy text dummy text\n        dummy text dummy text\n        """
+
+102 
+self
+ . 
+description
+ = """\n        some dummy text for the cave\n        description in general\n        """
+
+106 
+self
+ . 
+cave_map
+ = """\n        this is the map\n        of the cave and it should be\n        totally cool\n        """
+
+111 
+self
+ . 
+depth
+ = None
+
+112 
+self
+ . 
+problem
+ = """\n        this is the problem\n        the diver needs to solve\n        to find out if he won\n        or lost.\n        """
+
+118 
+self
+ . 
+won_choice
+ = "won choice"
+
+119 
+self
+ . 
+death_choice
+ = "death choice"
+
+120 
+self
+ . 
+death_phrase
+ = "death phrase"
+
+121 
+self
+ . 
+won_phrase
+ = "won phrase" 
+	}
+
+123 def 
+	$enter
+ ( 
+self
+ ) :
+
+124 
+print
+ ( 
+dedent
+ ( 
+self
+ . 
+entry_scene
+ ) ) 
+	}
+
+126 def 
+	$get_description
+ ( 
+self
+ ) :
+
+127 
+print
+ ( 
+dedent
+ ( 
+self
+ . 
+description
+ ) ) 
+	}
+
+129 def 
+	$get_map
+ ( 
+self
+ ) :
+
+130 
+print
+ ( 
+dedent
+ ( 
+self
+ . 
+cave_map
+ ) ) 
+	}
+
+132 def 
+	$get_depth
+ ( 
+self
+ , 
+depth
+ ) :
+
+133 
+self
+ . 
+depth
+ = 
+depth
+ 
+	}
+
+135 def 
+	$get_problem
+ ( 
+self
+ ) :
+
+136 
+print
+ ( 
+dedent
+ ( 
+self
+ . 
+problem
+ ) ) 
+	}
+
+138 def 
+	$get_won_phrase
+ ( 
+self
+ ) :
+
+139 
+print
+ ( 
+dedent
+ ( 
+self
+ . 
+won_phrase
+ ) ) 
+	}
+
+142 class 
+	cDiver
+ ( 
+object
+ ) :
+
+144 def 
+	$__init__
+ ( 
+self
+ , 
+diver_name
+ ) :
+
+145 
+self
+ . 
+name
+ = 
+diver_name
+
+146 
+self
+ . 
+choices
+ = { 'instructor_name'
+
+152 
+self
+ . 
+points
+ = None 
+	}
+
+154 def 
+	$set_instructor
+ ( 
+self
+ , 
+instructor_name
+ ) :
+
+155 
+self
+ . 
+choices
+ [ 'instructor_name' ] = 
+instructor_name
+ 
+	}
+
+157 def 
+	$set_cave
+ ( 
+self
+ , 
+cave_name
+ ) :
+
+158 
+self
+ . 
+choices
+ [ 'cave_name' ] = 
+cave_name
+ 
+	}
+
+160 def 
+	$set_equipment
+ ( 
+self
+ , 
+equipment_choices
+ ) :
+
+161 
+self
+ . 
+choices
+ [ 'equipment' ] = 
+equipment_choices
+ 
+	}
+
+164 class 
+	cInstructor
+ ( 
+object
+ ) :
+
+165 def 
+	$__init__
+ ( 
+self
+ , 
+name
+ ) :
+
+166 
+self
+ . 
+name
+ = 
+name
+ 
+	}
+
+169 def 
+	$main
+ ( ) :
+
+171 
+mike
+ = 
+Instructor
+ ( "Mike" )
+
+172 
+alex
+ = 
+Instructor
+ ( "Alex" )
+
+173 
+vali
+ = 
+Instructor
+ ( "Vali" )
+
+175 
+instructors
+ = [ 
+mike
+ , 
+alex
+ , 
+vali
+ ]
+
+177 
+izbandis
+ = 
+Cave
+ ( "Izbandis" )
+
+178 
+mina
+ = 
+Cave
+ ( "Mina" )
+
+179 
+bulz
+ = 
+Cave
+ ( "Bulz" )
+
+181 
+caves
+ = [ 
+izbandis
+ , 
+mina
+ , 
+bulz
+ ]
+
+182 
+equip
+ = 
+Equipment
+ ( )
+
+184 
+izbandis
+ . 
+entry_scene
+ = "Izbandis is quite dangerous if you are not good at cave diving."
+
+186 
+izbandis
+ . 
+description
+ = """\n			You see a beautiful tiny cristal clear lake.\n			It is not very cold outside.\n			The autumn leaves are the only reminders of this planet.\n			The rest looks like in a dream.\n			You put your drysuit on, carry your big tanks to the brink of the lake.\n			Your heart is pounding with hope:\n			this is starting well, it will be a promissing dive.\n			The instructor is already in the water, waiting for you.\n			"""
+
+196 
+izbandis
+ . 
+depth
+ = 100
+
+197 
+izbandis
+ . 
+cave_map
+ = """\n			Hey, he says, we are going to descend directly to 28 m then find the entrance of the cave on the left.\n			No guiding reel to that point.\n			Once in the cave we are going to see the reel on the left.\n			Following a narrow left corridor we'll reach a point where the reel goes under in a deep tunnel.\n			50 m deep. Then it opens up to a bigger cave.\n			We explore that a little bit then ascend.\n			Let's go!\n			"""
+
+206 
+izbandis
+ . 
+problem
+ = """\n			You found the reel on the left .\n			There is a long, narrow corridor and two entrances:\n			one up, one down.\n			Where do you go?\n			"""
+
+213 
+izbandis
+ . 
+won_choice
+ = "up"
+
+214 
+izbandis
+ . 
+death_choice
+ = "down"
+
+215 
+izbandis
+ . 
+death_phrase
+ = "Wrong and bad. Your air finishes as you try to find the way back."
+
+216 
+izbandis
+ . 
+won_phrase
+ = """\n                        Perfect, your dive goes on as planned.\n                        You have enough air to explore the big beautiful cave.\n                        You ask the instructor to take a few pictures of you then you both ascend.\n                        Well done!\n                        """
+
+223 
+mina
+ . 
+entry_scene
+ = """\n			There's an old gold mine that was abandoned 20 years ago.\n			After an earthquake some of its walls collapsed\n			and the mine was filled with water.\n			"""
+
+228 
+mina
+ . 
+description
+ = """\n			You enter a dark tunnel. The water level is high enough.\n			Once you reach the water, the instructor is helping you with handling the bottles.\n			Just follow the reel, the instructor tells you.\n			I will be in front of you at all times.\n			If you stay behind and can't see me just check the reel.\n			You go in and follow him. You turn on the light.\n			Brilliant turquoise shafts of light plunge more than 30 m straight down.\n			"""
+
+237 
+mina
+ . 
+depth
+ = 35
+
+238 
+mina
+ . 
+cave_map
+ = """\n		There is a 500 m long, 4 m wide tunnel right in front of you.\n		It then goes right and opens up downwards in a huge chamber.\n		The descent is quite rocky and you have to be careful and follow the reel.\n		"""
+
+243 
+mina
+ . 
+problem
+ = """\n		while enjoying the view your lights go off.\n		what do you do?\n		change batteries or dive into the unknown?\n		"""
+
+248 
+mina
+ . 
+won_choice
+ = "change"
+
+249 
+mina
+ . 
+death_choice
+ = "dive"
+
+250 
+mina
+ . 
+won_phrase
+ = """\n                    Good, you are going to enjoy a great dive.\n                    You know what to do in limit situations.\n                    The instructor takes pictures of you and you ascend happy.\n                    """
+
+255 
+mina
+ . 
+death_phrase
+ = "You should have listened to your mommy, this is a dangerous sport."
+
+257 
+bulz
+ . 
+entry_scene
+ = """\n			Bulz doesn't have long galleries, but it's spectacular.\n			The surrounding Valley is called The Valey of Hell.\n			"""
+
+262 
+bulz
+ . 
+description
+ = """\n			This one is a 4 km cave. It has lots of tunnels and obstacles.\n			You really need to stay close to me, says the instructor.\n			"""
+
+266 
+bulz
+ . 
+depth
+ = 95
+
+268 
+bulz
+ . 
+cave_map
+ = """\n		The entrance is 6 m long and it's entirely submersed.\n		The first gallery is 13 m long and it's only accessible by rib.\n		There's a 2 m waterfall on the South wall. We can bypass it keeping right.\n		In 5 m we face the second waterfall. On the left of it, the main tunnel.\n		We enter this one then go down to 40 m. We play a bit there than come back.\n		The reel is always on our right.\n		You go in the water and swim to the rib. The instructor lights the waterfall.\n		You follow the reel and reach 40 m in a 5 minutes descent.\n		"""
+
+278 
+bulz
+ . 
+problem
+ = """\n		You look back but the instructor is gone.\n		What do you do next?\n		Go back? Wait for him there?\n		"""
+
+283 
+bulz
+ . 
+won_choice
+ = "wait"
+
+284 
+bulz
+ . 
+death_choice
+ = "go"
+
+285 
+bulz
+ . 
+won_phrase
+ = """\n                    You have lots of air to wait for him.\n                    Soon enough you see his light above you.\n                    The dive goes on.\n                    He takes pictures of you and you surface\n                    """
+
+291 
+bulz
+ . 
+death_phrase
+ = "You panick and get lost.You breathe like a running giraffe. At 30 bars you don't have enough air for safety stops"
+
+293 
+print
+ ( 
+dedent
+ ( """\n                Welcome to our cave diving center, brave creature.\n                What is you name?\n                """
+
+298 
+answer
+ = 
+input
+ ( '> ' )
+
+300 
+diver
+ = 
+Diver
+ ( 
+answer
+ )
+
+301 
+diver
+ . 
+name
+ = 
+answer
+
+303 
+equip
+ . 
+choose_equipment
+ ( )
+
+304 
+diver
+ . 
+set_equipment
+ ( 
+equip
+ . 
+choices
+ )
+
+305 
+reward
+ = 
+Reward
+ ( 
+len
+ ( 
+equip
+ . 
+choices
+ ) )
+
+307 
+print
+ ( f"You get {reward.points} points!" )
+
+309 
+print
+ ( 
+dedent
+ ( f"""\n                We have 3 instructors you can choose from, {diver.name}.\n                They all are quite experienced. Make a wise choice:\n                """
+
+313 for 
+instructor
+ in 
+instructors
+ :
+
+314 
+print
+ ( 
+instructor
+ . 
+name
+ )
+
+316 
+instructor_choice
+ = 
+input
+ ( '> ' )
+
+318 
+diver
+ . 
+set_instructor
+ ( 
+instructor_choice
+ )
+
+320 if 
+instructor_choice
+ == "Alex" or 
+instructor_choice
+ == "Vali" :
+
+321 
+print
+ ( 
+dedent
+ ( """\n                    Good choice! Your life is in good hands.\n                    There are very beautiful underwater caves out there.\n                    What is the cave you'd like to explore today?\n                    """
+
+327 for 
+cave
+ in 
+caves
+ :
+
+328 
+print
+ ( 
+cave
+ . 
+name
+ )
+
+330 
+cave_choice
+ = 
+input
+ ( '> ' )
+
+332 for 
+cave
+ in 
+caves
+ :
+
+333 if 
+cave_choice
+ in 
+cave
+ . 
+name
+ :
+
+334 
+diver
+ . 
+set_cave
+ ( 
+cave_choice
+ )
+
+335 
+cave
+ . 
+enter
+ ( )
+
+336 
+cave
+ . 
+get_description
+ ( )
+
+337 
+cave
+ . 
+get_map
+ ( )
+
+338 
+cave
+ . 
+get_problem
+ ( )
+
+339 
+choice
+ = 
+input
+ ( '> ' )
+
+340 if 
+cave
+ . 
+won_choice
+ in 
+choice
+ :
+
+341 
+cave
+ . 
+get_won_phrase
+ ( )
+
+342 elif 
+cave
+ . 
+death_choice
+ in 
+choice
+ :
+
+343 
+Death
+ ( 
+cave
+ . 
+death_phrase
+ )
+
+345 
+print
+ ( "Not an option" )
+
+346 
+Death
+ ( 
+cave
+ . 
+death_phrase
+ )
+
+351 elif 
+instructor_choice
+ == "Mike" :
+
+353 
+print
+ ( 
+dedent
+ ( """\n                    Hmmm, I wouldn't trust that one.\n                    He is sneakier than a serpent.\n                    He is a good diver though.\n                    Expect the unexpected.\n                    Mike:\n                    For 5000 GBP I can take you to the secret caves.\n                    If you buy me a pizza, you get to see the normal caves.\n                    Where do you want to dive?\n                    """
+
+363 
+cave
+ = 
+input
+ ( "> " )
+
+365 if "secret" in 
+cave
+ :
+
+366 
+print
+ ( 
+dedent
+ ( """\n			I can show you 3 more caves!\n			But life is short and time is money.\n			Give me the 5000.\n			You give him the money and the adventure begins.\n			"""
+
+372 
+print
+ ( 
+dedent
+ ( """\n                        Mike points a gun at you:\n                        We are all alone in the equipment room.\n                        I must tell you the truth.\n                        Your money's lost.\n                        I am a dangerous killer hiding in this diving resort.\n                        You either choose to tell everyone or dive in the usual places.\n                        No such thing as the promised secret caves.\n                        What's your choice?\n                        """
+
+382 
+choice
+ = 
+input
+ ( '> ' )
+
+384 if "tell" in 
+choice
+ :
+
+385 
+Death
+ ( "Mike shoots you" )
+
+387 elif "dive" in 
+choice
+ :
+
+388 
+print
+ ( 
+dedent
+ ( """\n                            Good choice! Your life is in good hands.\n                            There are very beautiful underwater caves out there.\n                            What is the cave you'd like to explore today?\n                            """
+
+394 for 
+cave
+ in 
+caves
+ :
+
+395 
+print
+ ( 
+cave
+ . 
+name
+ )
+
+397 
+cave_choice
+ = 
+input
+ ( '> ' )
+
+399 for 
+cave
+ in 
+caves
+ :
+
+400 if 
+cave_choice
+ in 
+cave
+ . 
+name
+ :
+
+401 
+diver
+ . 
+set_cave
+ ( 
+cave_choice
+ )
+
+402 
+cave
+ . 
+enter
+ ( )
+
+403 
+cave
+ . 
+get_description
+ ( )
+
+404 
+cave
+ . 
+get_map
+ ( )
+
+405 
+cave
+ . 
+get_problem
+ ( )
+
+406 
+choice
+ = 
+input
+ ( '> ' )
+
+407 if 
+cave
+ . 
+won_choice
+ in 
+choice
+ :
+
+408 
+cave
+ . 
+get_won_phrase
+ ( )
+
+409 elif 
+cave
+ . 
+death_choice
+ in 
+choice
+ :
+
+410 
+Death
+ ( 
+cave
+ . 
+death_phrase
+ )
+
+412 
+print
+ ( "Not an option" )
+
+413 
+Death
+ ( 
+cave
+ . 
+death_phrase
+ )
+
+418 
+Death
+ ( "Not an option, you die!" )
+
+420 elif "normal" in 
+cave
+ :
+
+421 
+Death
+ ( "Bye bye life! Mike shoots you." )
+
+424 
+print
+ ( "You can only choose a normal cave or a secret one." )
+
+427 
+Death
+ ( "You can't even type a name. You die!" ) 
+	}
+
+430 if 
+__name__
+ == '__main__' :
+
+431 
+main
+ ( )
+
+
+	@./ex43/ex43.py
+
+1 from 
+	~sys
+ import 
+exit
+
+2 from 
+	~random
+ import 
+randint
+
+3 from 
+	~textwrap
+ import 
+dedent
+
+6 class 
+	cScene
+ ( 
+object
+ ) :
+
+8 def 
+	$enter
+ ( 
+self
+ ) :
+
+9 
+print
+ ( "This scene is not yet configured." )
+
+10 
+print
+ ( "Subclass it and implement enter()." )
+
+11 
+exit
+ ( 1 ) 
+	}
+
+14 class 
+	cEngine
+ ( 
+object
+ ) :
+
+16 def 
+	$__init__
+ ( 
+self
+ , 
+scene_map
+ ) :
+
+17 
+self
+ . 
+scene_map
+ = 
+scene_map
+ 
+	}
+
+19 def 
+	$play
+ ( 
+self
+ ) :
+
+20 
+current_scene
+ = 
+self
+ . 
+scene_map
+ . 
+opening_scene
+ ( )
+
+21 
+last_scene
+ = 
+self
+ . 
+scene_map
+ . 
+next_scene
+ ( 'finished' )
+
+23 while 
+current_scene
+ != 
+last_scene
+ :
+
+24 
+next_scene_name
+ = 
+current_scene
+ . 
+enter
+ ( )
+
+25 
+current_scene
+ = 
+self
+ . 
+scene_map
+ . 
+next_scene
+ ( 
+next_scene_name
+ )
+
+28 
+current_scene
+ . 
+enter
+ ( ) 
+	}
+
+31 class 
+	cDeath
+ ( 
+Scene
+ ) :
+
+33 
+quips
+ = [ "You died. You kinda suck at this."
+
+42 def 
+	$enter
+ ( 
+self
+ ) :
+
+43 
+print
+ ( 
+Death
+ . 
+quips
+ [ 
+randint
+ ( 0 , 
+len
+ ( 
+self
+ . 
+quips
+ ) - 1 ) ] )
+
+44 
+exit
+ ( 1 ) 
+	}
+
+47 class 
+	cCentralCorridor
+ ( 
+Scene
+ ) :
+
+49 def 
+	$enter
+ ( 
+self
+ ) :
+
+50 
+print
+ ( 
+dedent
+ ( """\n            The Gothons of Planet Percal #25 have invaded your ship and\n            destroyed your entire crew. You are the last surviving\n            member and your last mission is to get the neutron destruct\n            bomb from Weapons Armory, put it in the bridge, and\n            blow the ship up after getting into an escape pod.\n\n            You're running down the central corridor to the Weapons\n            Armory when a Gothon jumps out, red scaly skin, dark grimy\n            teeth, and evil clown costume flowing around his hate\n            filled body. He's blocking the door to the armory and\n            about to pull a weapon to blast you.\n            """
+
+64 
+action
+ = 
+input
+ ( "> " )
+
+66 if 
+action
+ == "shoot!" :
+
+67 
+print
+ ( 
+dedent
+ ( """\n                  Quick on the draw you yank out your blaster and fire\n                  it at the Gothon. His clown costume is flowing and\n                  moving around his body, which throws off your aim.\n                  Your laser hits his costume but misses him entirely.\n                  This completely ruins his brand new costume his mother\n                  bought him, which makes him fly into an insane rage\n                  and blast you repeatedlyin the face until you are\n                  dead. Then he eats you.\n                  """
+
+79 elif 
+action
+ == "dodge!" :
+
+80 
+print
+ ( 
+dedent
+ ( """\n                  Like a world class boxer you dodge, weave, slip and\n                  slide right as the Gothon's blaster cranks a laser\n                  past your head. In the middle of your artful dodge\n                  your foot slips and you bang your head on the metal\n                  wall and pass out. You wake up shortly after only to\n                  die as the Gothon stomps on your head and eats you.\n                  """
+
+90 elif 
+action
+ == "tell a joke" :
+
+91 
+print
+ ( 
+dedent
+ ( """\n                  Lucky for you they made you learn Gothon insults in\n                  the academy. You tell the one Gothon joke you know:\n                  Lbhe zbgure vf fb sng, jura fur fvgf nebhaq gur ubhfr,\n                  fur fvgf nebhaq gur ubhfr. The Gothon stops, tries\n                  not to laugh, then busts out laughing and can't move.\n                  While he's laughing you run up and shoot him square in\n                  the head putting him down, then jump through the\n                  Weapon Armory door.\n                  """
+
+104 
+print
+ ( "DOES NOT COMPUTE!" )
+
+105 return 'central_corridor' 
+	}
+
+108 class 
+	cLaserWeaponArmory
+ ( 
+Scene
+ ) :
+
+110 def 
+	$enter
+ ( 
+self
+ ) :
+
+111 
+print
+ ( 
+dedent
+ ( """\n              You do a dive roll into the Weapon Armory, crouch and scan\n              the room for more Gothons that might be hiding. It's dead\n              quiet, too quiet. You stand up and run to the far side of\n              the room and find the neutron bomb in its container.\n              There's a keypad lock on the box and you need the code to\n              get the bomb out. If you get the code wrong 10 times then\n              the lock closes forever and you can't get the bomb. The\n              code is 3 digits.\n              """
+
+122 
+code
+ = f"{randint(1,9)}{randint(1,9)}{randint(1,9)}"
+
+123 
+guess
+ = 
+input
+ ( "[keypad]> " )
+
+124 
+guesses
+ = 0
+
+126 while 
+guess
+ != 
+code
+ and 
+guesses
+ < 10 :
+
+127 
+print
+ ( "BZZZZEDDD!" )
+
+128 
+guesses
+ += 1
+
+129 
+guess
+ = 
+input
+ ( "[keypadd]> " )
+
+131 if 
+guess
+ == 
+code
+ :
+
+132 
+print
+ ( 
+dedent
+ ( """\n                  The container clicks open and the seal breaks, letting\n                  gas out. You grab the neutron bomb and run as fast as\n                  you can to the bridge where you must place it in the\n                  right spot.\n                  """
+
+141 
+print
+ ( 
+dedent
+ ( """\n                  The lock buzzes one last time and then you hear a\n                  sickening melting sound as the mechanism is fused\n                  together. Your decide to sit there, and finally the\n                  Gothons blow up the ship and you die.\n                  """
+
+147 return 'death' 
+	}
+
+150 class 
+	cTheBridge
+ ( 
+Scene
+ ) :
+
+152 def 
+	$enter
+ ( 
+self
+ ) :
+
+153 
+print
+ ( 
+dedent
+ ( """\n              You burst onto the Bridge with the netron destruct bomb\n              under your arm and surprise 5 Gothons who are trying to\n              take control of the ship. Each of them has an even uglier\n              clown costume than the last. They haven't pulled their\n              weapons out yet, as they see the active bomb under your\n              arm and don't want to set it off.\n              """
+
+161 
+action
+ = 
+input
+ ( "> " )
+
+163 if 
+action
+ == "throw the bomb" :
+
+164 
+print
+ ( 
+dedent
+ ( """\n                  In a panic you throw the bomb at the group of Gothons\n                  and make a leap for the door. Right as you drop it a\n                  Gothon shoots you right in the back killing you. As\n                  you die you see another Gothon frantically try to\n                  disarm the bomb. You die knowing they will probably\n                  blow up when it goes off.\n                  """
+
+173 elif 
+action
+ == "slowly place the bomb" :
+
+174 
+print
+ ( 
+dedent
+ ( """\n                  You point your blaster at the bomb under your arm and\n                  the Gothons put their hands up and start to sweat.\n                  You inch backward to the door, open it, and then\n                  carefully place the bomb on the floor, pointing your\n                  blaster at it. You then jump back through the door,\n                  punch the close buttonand blast the lock so the\n                  Gothons can't get out. Now that the bomb is placed\n                  you run to the escape pod to get off this tin can.\n                  """
+
+187 
+print
+ ( "DOES NOT COMPUTE!" )
+
+188 return "the_bridge" 
+	}
+
+191 class 
+	cEscapePod
+ ( 
+Scene
+ ) :
+
+193 def 
+	$enter
+ ( 
+self
+ ) :
+
+194 
+print
+ ( 
+dedent
+ ( """\n              You rush through the ship desperately trying to make it to\n              the escape pod before the whole ship explodes. It seems\n              like hadly any Gothons are on the ship, so your run is\n              clear of interference. You get to the chamber with the\n              escape pods, and now need to pick one to take. Some of\n              them could be damaged but you don't have the time to look.\n              There's 5 pods, which one do you take?\n              """
+
+203 
+good_pod
+ = 
+randint
+ ( 1 , 5 )
+
+204 
+guess
+ = 
+input
+ ( "[pod #]> " )
+
+206 if 
+int
+ ( 
+guess
+ ) != 
+good_pod
+ :
+
+207 
+print
+ ( 
+dedent
+ ( """\n                  You jump into pod {guess} and hit the eject button.\n                  The pod escapes out into the void of space, then\n                  implodes as the hull ruptures, crushing your body into\n                  jam jelly.\n                  """
+
+215 
+print
+ ( 
+dedent
+ ( """\n                  You jump into pod {guess} and hit the eject button.\n                  The pod easily slides out into space heading to the\n                  planet below. As it files to the planet, you look\n                  back and see your ship implode then explode like a\n                  bright star, taking out the Gothon ship at the same\n                  time. You won!\n                  """
+
+224 return 'finished' 
+	}
+
+227 class 
+	cFinished
+ ( 
+Scene
+ ) :
+
+229 def 
+	$enter
+ ( 
+self
+ ) :
+
+230 
+print
+ ( "You won! Good job." )
+
+231 return 'finished' 
+	}
+
+234 class 
+	cMap
+ ( 
+object
+ ) :
+
+235 
+scenes
+ = { 'central_corridor'
+
+236 : 
+CentralCorridor
+ ( ) , 'laser_weapon_armory'
+
+237 : 
+LaserWeaponArmory
+ ( ) , 'the_bridge'
+
+238 : 
+TheBridge
+ ( ) , 'escape_pod'
+
+239 : 
+EscapePod
+ ( ) , 'death'
+
+240 : 
+Death
+ ( ) ,
+
+243 def 
+	$__init__
+ ( 
+self
+ , 
+start_scene
+ ) :
+
+244 
+self
+ . 
+start_scene
+ = 
+start_scene
+ 
+	}
+
+246 def 
+	$next_scene
+ ( 
+self
+ , 
+scene_name
+ ) :
+
+247 
+val
+ = 
+Map
+ . 
+scenes
+ . 
+get
+ ( 
+scene_name
+ )
+
+248 return 
+val
+ 
+	}
+
+250 def 
+	$opening_scene
+ ( 
+self
+ ) :
+
+251 return 
+self
+ . 
+next_scene
+ ( 
+self
+ . 
+start_scene
+ ) 
+	}
+
+254 
+a_map
+ = 
+Map
+ ( 'central_corridor' )
+
+255 
+a_game
+ = 
+Engine
+ ( 
+a_map
+ )
+
+256 
+a_game
+ . 
+play
+ ( )
+
+
+	@./ex41/oop_test.py
+
+1 import 
+	~random
+
+2 from 
+	~urllib.request
+ import 
+urlopen
+
+3 import 
+	~sys
+
+5 
+WORD_URL
+ = "http://learncodethehardway.org/words.txt"
+
+6 
+WORDS
+ = [ ]
+
+8 
+PHRASES
+ = { "class %%%(%%%):"
+
+24 if 
+len
+ ( 
+sys
+ . 
+argv
+ ) == 2 and 
+sys
+ . 
+argv
+ [ 1 ] == "english" :
+
+25 
+PHRASE_FIRST
+ = True
+
+27 
+PHRASE_FIRST
+ = False
+
+30 for 
+word
+ in 
+urlopen
+ ( 
+WORD_URL
+ ) . 
+readlines
+ ( ) :
+
+31 
+WORDS
+ . 
+append
+ ( 
+str
+ ( 
+word
+ . 
+strip
+ ( ) , 
+encoding
+ = "utf-8" ) )
+
+34 def 
+	$convert
+ ( 
+snippet
+ , 
+phrase
+ ) :
+
+35 
+class_names
+ = [ 
+w
+ . 
+capitalize
+ ( ) for 
+w
+ in
+
+36 
+random
+ . 
+sample
+ ( 
+WORDS
+ , 
+snippet
+ . 
+count
+ ( "%%%" ) ) ]
+
+37 
+other_names
+ = 
+random
+ . 
+sample
+ ( 
+WORDS
+ , 
+snippet
+ . 
+count
+ ( "***" ) )
+
+38 
+results
+ = [ ]
+
+39 
+param_names
+ = [ ]
+
+41 for 
+i
+ in 
+range
+ ( 0 , 
+snippet
+ . 
+count
+ ( "@@@" ) ) :
+
+42 
+param_count
+ = 
+random
+ . 
+randint
+ ( 1 , 3 )
+
+43 
+param_names
+ . 
+append
+ ( ',' . 
+join
+ (
+
+44 
+random
+ . 
+sample
+ ( 
+WORDS
+ , 
+param_count
+ ) ) )
+
+46 for 
+sentence
+ in 
+snippet
+ , 
+phrase
+ :
+
+48 
+result
+ = 
+sentence
+ [ : ]
+
+51 for 
+word
+ in 
+class_names
+ :
+
+52 
+result
+ = 
+result
+ . 
+replace
+ ( "%%%" , 
+word
+ , 1 )
+
+55 for 
+word
+ in 
+other_names
+ :
+
+56 
+result
+ = 
+result
+ . 
+replace
+ ( "***" , 
+word
+ , 1 )
+
+59 for 
+word
+ in 
+param_names
+ :
+
+60 
+result
+ = 
+result
+ . 
+replace
+ ( "@@@" , 
+word
+ , 1 )
+
+62 
+results
+ . 
+append
+ ( 
+result
+ )
+
+64 return 
+results
+ 
+	}
+
+70 
+snippets
+ = 
+list
+ ( 
+PHRASES
+ . 
+keys
+ ( ) )
+
+71 
+random
+ . 
+shuffle
+ ( 
+snippets
+ )
+
+73 for 
+snippet
+ in 
+snippets
+ :
+
+74 
+phrase
+ = 
+PHRASES
+ [ 
+snippet
+ ]
+
+75 
+question
+ , 
+answer
+ = 
+convert
+ ( 
+snippet
+ , 
+phrase
+ )
+
+76 if 
+PHRASE_FIRST
+ :
+
+77 
+question
+ , 
+answer
+ = 
+answer
+ , 
+question
+
+79 
+print
+ ( 
+question
+ )
+
+81 
+input
+ ( "> " )
+
+82 
+print
+ ( f"ANSWER: {answer}\n\n" )
+
+83 except 
+EOFError
+ :
+
+84 
+print
+ ( "\nBye" )
+
+
+	@./ex11/ex11.py
+
+1 
+print
+ ( "How old are you?" , 
+end
+ = ' ' )
+
+2 
+age
+ = 
+input
+ ( )
+
+3 
+print
+ ( "How tall are you?" , 
+end
+ = ' ' )
+
+4 
+height
+ = 
+input
+ ( )
+
+5 
+print
+ ( "How much do you weigh?" , 
+end
+ = ' ' )
+
+6 
+weight
+ = 
+input
+ ( )
+
+8 
+print
+ ( f"So, you're {age} old, {height} tall and {weight} heavy." )
+
+
+	@./ex11/ex11_sd2.py
+
+1 
+person
+ = 
+input
+ ( 'Enter your name: ' )
+
+2 
+print
+ ( 'Hello' , 
+person
+ )
+
+3 
+age
+ = 
+input
+ ( 'Enter your age: ' )
+
+4 
+print
+ ( 'Hello' , 
+person
+ , '!' , 'Your age is:' , 
+age
+ , 
+sep
+ = ' ' )
+
+5 
+xString
+ = 
+input
+ ( "Enter a number: " )
+
+6 
+x
+ = 
+int
+ ( 
+xString
+ )
+
+7 
+yString
+ = 
+input
+ ( "Enter a second number: " )
+
+8 
+y
+ = 
+int
+ ( 
+yString
+ )
+
+9 
+print
+ ( 'The sum of' , 
+x
+ , 'and' , 
+y
+ , 'is' , 
+x
+ + 
+y
+ , '.' , 
+sep
+ = ' ' )
+
+10 
+z
+ = 
+int
+ ( 
+input
+ ( "Enter a third number: " ) )
+
+11 
+print
+ ( 'Substracting' , 
+z
+ , 'from' , 
+y
+ , 'gives us:' , 
+y
+ - 
+z
+ , '.' , 
+sep
+ = ' ' )
+
+
+	@./ex11/ex11_sd3.py
+
+1 
+print
+ ( "This is a very hidden place where you can find Japanese rarities." )
+
+2 
+print
+ ( "The old man in the shop asks you a few questions before showing you stuff." )
+
+3 
+city
+ = 
+input
+ ( "What part of Japan did you visit? " )
+
+4 
+answer
+ = "Great, {} is an interesting city!"
+
+5 
+print
+ ( 
+answer
+ . 
+format
+ ( 
+city
+ ) )
+
+6 
+print
+ ( "What Japanese traditional music do you listen to?" , 
+end
+ = ' ' )
+
+7 
+music
+ = 
+input
+ ( )
+
+8 
+print
+ ( f"So you like {music}, this is what grandpas listen to." )
+
+
+	@./ex2/ex2.py
+
+4 
+print
+ ( "I could have code like this." )
+
+9 
+print
+ ( "This will run." )
+
+
+	@./ex1/ex1_sd2.py
+
+1 
+print
+ ( "Hello again" )
+
+
+	@./ex1/ex1_sd1.py
+
+1 
+print
+ ( "Hello World!" )
+
+2 
+print
+ ( "Hello Again" )
+
+3 
+print
+ ( "I like typing this." )
+
+4 
+print
+ ( "This is fun." )
+
+5 
+print
+ ( 'Yay! Printing.' )
+
+6 
+print
+ ( "I'd much rather you 'not'." )
+
+7 
+print
+ ( 'I "said" do not touch this.' )
+
+11 
+print
+ ( "Printing this new line." )
+
+
+	@./ex1/ex1_sd3.py
+
+2 
+print
+ ( "Hello Again" )
+
+3 
+print
+ ( "I like typing this." )
+
+4 
+print
+ ( "This is fun." )
+
+5 
+print
+ ( 'Yay! Printing.' )
+
+6 
+print
+ ( "I'd much rather you 'not'." )
+
+7 
+print
+ ( 'I "said" do not touch this.' )
+
+
+	@./ex1/ex1.py
+
+1 
+print
+ ( "Hello World!" )
+
+2 
+print
+ ( "Hello Again" )
+
+3 
+print
+ ( "I like typing this." )
+
+4 
+print
+ ( "This is fun." )
+
+5 
+print
+ ( 'Yay! Printing.' )
+
+6 
+print
+ ( "I'd much rather you 'not'." )
+
+7 
+print
+ ( 'I "said" do not touch this.' )
+
+
+	@./ex22/ex22.py
+
+1 
+print
+ ( """\n1. print - writes strings \n2. () - paratheses\n3. # - octothorpe - comments out text\n4. + - plus - adds numbers or concatenates strings\n5. - - minus - substracts\n6. / - slash - divides\n7. * - asterisk - multiplies\n8. % - modulus - divides left operand by right operand , returns remainder.\n9. < - less than\n10. > - greater than\n11. <= less than equal\n12. >= greater than equal\n13. 5.0 - float\n14. 3² = exponent - multiplies the number by itself exponent times\n15."" - double quotes, encloses strings\n16. '' - single quotes, encloses strings\n17. = - equals, assigns values\n18. _ - underscore, used as a space between words in variable names\n19. == - double-equal, tests if 2 things have the same value\n20. {} -curly brackets, embeds variables in strings\n21. f - formats strings and embeds variables in them, inside {}\n22. round() - rounds a floating number\n23. .format() - applies a format to an already created string\n24. .py - python file\n25. true - a boolean with the value of true\n26. false - a boolean with the value of false\n27. \""" - triple quote , encloses multi line strings\n28. \\n - ASCII linefeed\n29. \\ - backward slash - escapes \n30. \\t - horizontal tab (TAB)\n31. \\a - ASCII bell(BELL)\n32. \\b - ASCII backspace (BS)\n33. \\f - ASCII formfeed (FF)\n34. \\N{name} - character named name in Unicode database\n35. \\r - carriage return (CR)\n36. \\uxxxx - character with 16-bit hex value xxxx\n37. \\Uxxxxxxxx - character with 32-bit hex value xxxxxxxx\n38. \\v - ASCII vertical tab (VT)\n39. \\ooo - character with octal value ooo\n40. \\xhh - character with hex value hh\n41. input() - take input from user\n42. end=' ' - a space at the end of each print line tells print to not end the line with a \\n\n43. int() - converts to integer\n44. pydoc - python documentation\n45. q - exits pydoc\n46. sys - a module\n47. import - imports packages from modules\n48. argv - argument variable, holds the arguments passed to the script\n49. open() - opens file\n50. 'w' - write mode\n51. 'r' - read mode\n52. 'a' - append mode\n53. close() - closes file\n54. reads() - reads the file,I can assign the value to a variable\n55. readline - reads just one line\n56. truncate - empties the file\n57. write('stuff') - writes stuff to the file\n58. seek(0) - moves the read/write location to the beginning of the file\n59. exists - returns True if a file exists\n60. - gets the length of the string\n61. EOL - end of line\n62. def - defines a function\n63. *args - unpacks all arguments\n64. run, call, use a function\n65. return - returns the value of a function\n66. float(input()) - turns input into a floating number\n"""
+
+
+	@./ex35/ex35_sd4.py
+
+1 from 
+	~sys
+ import 
+exit
+
+3 def 
+	$start
+ ( ) :
+
+4 
+print
+ ( "You are in a dark room." )
+
+5 
+print
+ ( "There is a door to your right and left." )
+
+6 
+print
+ ( "Which one do you take?" )
+
+8 
+choice
+ = 
+input
+ ( "> " )
+
+10 if 
+choice
+ == "left" :
+
+11 
+bear_room
+ ( )
+
+12 elif 
+choice
+ == "right" :
+
+13 
+cthulhu_room
+ ( )
+
+15 
+dead
+ ( "You stumble around the room until you starve." ) 
+	}
+
+17 def 
+	$dead
+ ( 
+why
+ ) :
+
+18 
+print
+ ( 
+why
+ , "Good job!" )
+
+19 
+exit
+ ( 0 ) 
+	}
+
+21 def 
+	$bear_room
+ ( ) :
+
+22 
+print
+ ( "There is a bear here." )
+
+23 
+print
+ ( "The bear has a bunch of honey." )
+
+24 
+print
+ ( "The fat bear is in front of another door." )
+
+25 
+print
+ ( "How are you going to move the bear?" )
+
+26 
+print
+ ( "taunt bear" )
+
+27 
+print
+ ( "take honey" )
+
+28 
+print
+ ( "open door" )
+
+29 
+bear_moved
+ = False
+
+32 
+choice
+ = 
+input
+ ( "> " )
+
+34 if 
+choice
+ == "take honey" :
+
+35 
+dead
+ ( "The bear looks at you then slaps your face off." )
+
+36 elif 
+choice
+ == "taunt bear" and not 
+bear_moved
+ :
+
+37 
+print
+ ( "The bear has moved from the door." )
+
+38 
+print
+ ( "You can go through it now." )
+
+39 
+bear_moved
+ = True
+
+40 elif 
+choice
+ == "open door" and 
+bear_moved
+ :
+
+41 
+gold_room
+ ( )
+
+43 
+print
+ ( "I got no idea what that means." ) 
+	}
+
+45 def 
+	$gold_room
+ ( ) :
+
+46 
+print
+ ( "This room is full of gold. How much do you take?" )
+
+48 
+choice
+ = 
+input
+ ( "> " )
+
+49 if "0" in 
+choice
+ or "1" in 
+choice
+ :
+
+50 
+how_much
+ = 
+int
+ ( 
+choice
+ )
+
+52 
+dead
+ ( "Man, learn to type a number." )
+
+54 if 
+how_much
+ < 50 :
+
+55 
+print
+ ( "Nice, you're not greedy, you win!" )
+
+56 
+exit
+ ( 0 )
+
+58 
+dead
+ ( "You greedy bastard!" ) 
+	}
+
+61 def 
+	$cthulhu_room
+ ( ) :
+
+62 
+print
+ ( "Here you see the great evil Cthulhu." )
+
+63 
+print
+ ( "He, it, whatever stares at you and you go insane." )
+
+64 
+print
+ ( "Do you flee for your life or eat your head?" )
+
+66 
+choice
+ = 
+input
+ ( "> " )
+
+68 if "flee" in 
+choice
+ :
+
+70 
+gold_room
+ ( )
+
+71 elif "head" in 
+choice
+ :
+
+72 
+dead
+ ( "Well that was tasty!" )
+
+75 
+gold_room
+ ( ) 
+	}
+
+78 
+start
+ ( )
+
+
+	@./ex35/ex35_sd3.py
+
+1 from 
+	~sys
+ import 
+exit
+
+3 def 
+	$gold_room
+ ( ) :
+
+4 
+print
+ ( "This room is full of gold. How much do you take?" )
+
+6 
+choice
+ = 
+input
+ ( "> " )
+
+7 if "0" in 
+choice
+ or "1" in 
+choice
+ :
+
+8 
+how_much
+ = 
+int
+ ( 
+choice
+ )
+
+11 
+dead
+ ( "Man, learn to type a number." )
+
+13 if 
+how_much
+ < 50 :
+
+14 
+print
+ ( "Nice, you're not greedy, you win!" )
+
+15 
+exit
+ ( 0 )
+
+17 
+dead
+ ( "You greedy bastard!" ) 
+	}
+
+20 def 
+	$bear_room
+ ( ) :
+
+21 
+print
+ ( "There is a bear here." )
+
+22 
+print
+ ( "The bear has a bunch of honey." )
+
+23 
+print
+ ( "The fat bear is in front of another door." )
+
+24 
+print
+ ( "How are you going to move the bear?" )
+
+25 
+bear_moved
+ = False
+
+28 
+choice
+ = 
+input
+ ( "> " )
+
+30 if 
+choice
+ == "take honey" :
+
+31 
+dead
+ ( "The bear looks at you then slaps your face off." )
+
+32 elif 
+choice
+ == "taunt bear" and not 
+bear_moved
+ :
+
+33 
+print
+ ( "The bear has moved from the door." )
+
+34 
+print
+ ( "You can go through it now." )
+
+35 
+bear_moved
+ = True
+
+36 elif 
+choice
+ == "taunt bear" and 
+bear_moved
+ :
+
+38 
+dead
+ ( "The bear gets pissed off and chews your leg off." )
+
+39 elif 
+choice
+ == "open door" and 
+bear_moved
+ :
+
+40 
+gold_room
+ ( )
+
+42 
+print
+ ( "I got no idea what that means." ) 
+	}
+
+45 def 
+	$cthulhu_room
+ ( ) :
+
+46 
+print
+ ( "Here you see the great evil Cthulhu." )
+
+47 
+print
+ ( "He, it, whatever stares at you and you go insane." )
+
+48 
+print
+ ( "Do you flee for your life or eat your head?" )
+
+50 
+choice
+ = 
+input
+ ( "> " )
+
+52 if "flee" in 
+choice
+ :
+
+53 
+start
+ ( )
+
+54 elif "head" in 
+choice
+ :
+
+55 
+dead
+ ( "Well that was tasty!" )
+
+57 
+cthulhu_room
+ ( ) 
+	}
+
+60 def 
+	$dead
+ ( 
+why
+ ) :
+
+61 
+print
+ ( 
+why
+ , "Good job!" )
+
+63 
+exit
+ ( 0 ) 
+	}
+
+65 def 
+	$start
+ ( ) :
+
+66 
+print
+ ( "You are in a dark room." )
+
+67 
+print
+ ( "There is a door to your right and left." )
+
+68 
+print
+ ( "Which one do you take?" )
+
+70 
+choice
+ = 
+input
+ ( "> " )
+
+72 if 
+choice
+ == "left" :
+
+73 
+bear_room
+ ( )
+
+74 elif 
+choice
+ == "right" :
+
+75 
+cthulhu_room
+ ( )
+
+77 
+dead
+ ( "You stumble around the room until you starve." ) 
+	}
+
+80 
+start
+ ( )
+
+
+	@./ex35/ex35.py
+
+1 from 
+	~sys
+ import 
+exit
+
+3 def 
+	$gold_room
+ ( ) :
+
+4 
+print
+ ( "This room is full of gold. How much do you take?" )
+
+6 
+choice
+ = 
+input
+ ( "> " )
+
+7 if "0" in 
+choice
+ or "1" in 
+choice
+ :
+
+8 
+how_much
+ = 
+int
+ ( 
+choice
+ )
+
+10 
+dead
+ ( "Man, learn to type a number." )
+
+12 if 
+how_much
+ < 50 :
+
+13 
+print
+ ( "Nice, you're not greedy, you win!" )
+
+14 
+exit
+ ( 0 )
+
+16 
+dead
+ ( "You greedy bastard!" ) 
+	}
+
+19 def 
+	$bear_room
+ ( ) :
+
+20 
+print
+ ( "There is a bear here." )
+
+21 
+print
+ ( "The bear has a bunch of honey." )
+
+22 
+print
+ ( "The fat bear is in front of another door." )
+
+23 
+print
+ ( "How are you going to move the bear?" )
+
+24 
+bear_moved
+ = False
+
+27 
+choice
+ = 
+input
+ ( "> " )
+
+29 if 
+choice
+ == "take honey" :
+
+30 
+dead
+ ( "The bear looks at you then slaps your face off." )
+
+31 elif 
+choice
+ == "taunt bear" and not 
+bear_moved
+ :
+
+32 
+print
+ ( "The bear has moved from the door." )
+
+33 
+print
+ ( "You can go through it now." )
+
+34 
+bear_moved
+ = True
+
+35 elif 
+choice
+ == "taunt bear" and 
+bear_moved
+ :
+
+36 
+dead
+ ( "The bear gets pissed off and chews your leg off." )
+
+37 elif 
+choice
+ == "open door" and 
+bear_moved
+ :
+
+38 
+gold_room
+ ( )
+
+40 
+print
+ ( "I got no idea what that means." ) 
+	}
+
+43 def 
+	$cthulhu_room
+ ( ) :
+
+44 
+print
+ ( "Here you see the great evil Cthulhu." )
+
+45 
+print
+ ( "He, it, whatever stares at you and you go insane." )
+
+46 
+print
+ ( "Do you flee for your life or eat your head?" )
+
+49 
+choice
+ = 
+input
+ ( "> " )
+
+51 if "flee" in 
+choice
+ :
+
+52 
+start
+ ( )
+
+53 elif "head" in 
+choice
+ :
+
+54 
+dead
+ ( "Well that was tasty!" )
+
+56 
+cthulhu_room
+ ( ) 
+	}
+
+59 def 
+	$dead
+ ( 
+why
+ ) :
+
+60 
+print
+ ( 
+why
+ , "Good job!" )
+
+61 
+exit
+ ( 0 ) 
+	}
+
+63 def 
+	$start
+ ( ) :
+
+64 
+print
+ ( "You are in a dark room." )
+
+65 
+print
+ ( "There is a door to your right and left." )
+
+66 
+print
+ ( "Which one do you take?" )
+
+68 
+choice
+ = 
+input
+ ( "> " )
+
+70 if 
+choice
+ == "left" :
+
+71 
+bear_room
+ ( )
+
+72 elif 
+choice
+ == "right" :
+
+73 
+cthulhu_room
+ ( )
+
+75 
+dead
+ ( "You stumble around the room until you starve." ) 
+	}
+
+78 
+start
+ ( )
+
+
+	@./ex35/ex35_sd5.py
+
+1 from 
+	~sys
+ import 
+exit
+
+3 def 
+	$start
+ ( ) :
+
+4 
+print
+ ( "You are in a dark room." )
+
+5 
+print
+ ( "There is a door to your right and left." )
+
+6 
+print
+ ( "Which one do you take?" )
+
+8 
+choice
+ = 
+input
+ ( "> " )
+
+10 if 
+choice
+ == "left" :
+
+11 
+bear_room
+ ( )
+
+12 elif 
+choice
+ == "right" :
+
+13 
+cthulhu_room
+ ( )
+
+15 
+dead
+ ( "You stumble around the room until you starve." ) 
+	}
+
+17 def 
+	$dead
+ ( 
+why
+ ) :
+
+18 
+print
+ ( 
+why
+ , "Good job!" )
+
+19 
+exit
+ ( 0 ) 
+	}
+
+21 def 
+	$bear_room
+ ( ) :
+
+22 
+print
+ ( "There is a bear here." )
+
+23 
+print
+ ( "The bear has a bunch of honey." )
+
+24 
+print
+ ( "The fat bear is in front of another door." )
+
+25 
+print
+ ( "How are you going to move the bear?" )
+
+26 
+print
+ ( "taunt bear" )
+
+27 
+print
+ ( "take honey" )
+
+28 
+print
+ ( "open door" )
+
+29 
+bear_moved
+ = False
+
+32 
+choice
+ = 
+input
+ ( "> " )
+
+34 if 
+choice
+ == "take honey" :
+
+35 
+dead
+ ( "The bear looks at you then slaps your face off." )
+
+36 elif 
+choice
+ == "taunt bear" and not 
+bear_moved
+ :
+
+37 
+print
+ ( "The bear has moved from the door." )
+
+38 
+print
+ ( "You can go through it now." )
+
+39 
+bear_moved
+ = True
+
+40 elif 
+choice
+ == "open door" and 
+bear_moved
+ :
+
+41 
+gold_room
+ ( )
+
+43 
+print
+ ( "I got no idea what that means." ) 
+	}
+
+45 def 
+	$gold_room
+ ( ) :
+
+46 
+print
+ ( "This room is full of gold. How much do you take?" )
+
+48 
+choice
+ = 
+input
+ ( "> " )
+
+49 
+how_much
+ = 
+int
+ ( 
+choice
+ )
+
+51 for 
+n
+ in 
+choice
+ :
+
+52 if 
+n
+ not in '1234567890' :
+
+53 
+dead
+ ( "Man, learn to type a number." )
+
+56 if 
+how_much
+ < 50 :
+
+57 
+print
+ ( "Nice, you're not greedy, you win!" )
+
+58 
+exit
+ ( 0 )
+
+60 
+dead
+ ( "You greedy bastard!" ) 
+	}
+
+63 def 
+	$cthulhu_room
+ ( ) :
+
+64 
+print
+ ( "Here you see the great evil Cthulhu." )
+
+65 
+print
+ ( "He, it, whatever stares at you and you go insane." )
+
+66 
+print
+ ( "Do you flee for your life or eat your head?" )
+
+68 
+choice
+ = 
+input
+ ( "> " )
+
+70 if "flee" in 
+choice
+ :
+
+72 
+gold_room
+ ( )
+
+73 elif "head" in 
+choice
+ :
+
+74 
+dead
+ ( "Well that was tasty!" )
+
+77 
+gold_room
+ ( ) 
+	}
+
+80 
+start
+ ( )
+
+
+	@./ex31/ex31_sd1.py
+
+1 
+print
+ ( """You enter a dark room with 7 doors.\nChoose a door from #1 to #7. """
+
+4 
+door
+ = 
+input
+ ( "> " )
+
+6 if 
+door
+ == "1" :
+
+7 
+print
+ ( "There's a giant bear here eating a cheese cake." )
+
+8 
+print
+ ( "What do you do?" )
+
+9 
+print
+ ( "1. Take the cake." )
+
+10 
+print
+ ( "2. Scream at the bear." )
+
+11 
+print
+ ( "3. Wink two times." )
+
+12 
+print
+ ( "4. Run for my life." )
+
+14 
+bear
+ = 
+input
+ ( "> " )
+
+16 if 
+bear
+ == "1" :
+
+17 
+print
+ ( "The bear eats your face off. Good job!" )
+
+18 elif 
+bear
+ == "2" :
+
+19 
+print
+ ( "The bear eats your legs off. Good job!" )
+
+20 elif 
+bear
+ == "3" :
+
+21 
+print
+ ( "The bear winks back at you and doesn't move." )
+
+22 elif 
+bear
+ == "4" :
+
+23 
+print
+ ( "The bear loughs. He never saw such a coward." )
+
+25 
+print
+ ( f"Well, doing {bear} is probably better." )
+
+26 
+print
+ ( "Bear runs away." )
+
+28 elif 
+door
+ == "2" :
+
+29 
+print
+ ( "You stare into the endless abyss at Cthulu's retina." )
+
+30 
+print
+ ( "1. Blueberries." )
+
+31 
+print
+ ( "2. Yellow jacket clothespins." )
+
+32 
+print
+ ( "3. Understanding revolvers yelling melodies." )
+
+33 
+print
+ ( "4. Hungry medusas approaching." )
+
+34 
+print
+ ( "5. Cthulu closes one eye." )
+
+36 
+insanity
+ = 
+input
+ ( "> " )
+
+38 if 
+insanity
+ == "1" or 
+insanity
+ == "2" :
+
+39 
+print
+ ( "Your body survives powered by a mind of jello." )
+
+40 
+print
+ ( "Good job!" )
+
+41 elif 
+insanity
+ == "3" or 
+insanity
+ == "4" :
+
+42 
+print
+ ( "Keep quiet or you can go insane." )
+
+43 
+print
+ ( "Good job!" )
+
+44 elif 
+insanity
+ == "5" :
+
+45 
+print
+ ( "You are doomed. A single retina is bad luck. Your head will explode in 20 seconds." )
+
+47 
+print
+ ( "The insanity rots your eyes into a pool of muck." )
+
+48 
+print
+ ( "Good job!" )
+
+50 elif 
+door
+ == "3" :
+
+51 
+print
+ ( "There's Count Dracula grinning and asking you for a secret word." )
+
+52 
+print
+ ( "You need to guess the first letter or your head is chopped off." )
+
+53 
+print
+ ( "The word starts with:" )
+
+54 
+print
+ ( "A" )
+
+55 
+print
+ ( "B" )
+
+56 
+print
+ ( "C" )
+
+57 
+print
+ ( "D" )
+
+58 
+print
+ ( "E" )
+
+60 
+letter
+ = 
+input
+ ( "> " )
+
+62 if 
+letter
+ == "A" or 
+letter
+ == "B" :
+
+63 
+print
+ ( "Wrong.Try more." )
+
+64 
+print
+ ( "My biggest pleasure is to see your head chopped off." )
+
+65 elif 
+letter
+ == "C" or 
+letter
+ == "D" :
+
+66 
+print
+ ( "Wrong.Try more." )
+
+67 
+print
+ ( "My machette has been sharpen in the morning...ha ha!" )
+
+68 elif 
+letter
+ == "E" :
+
+69 
+print
+ ( "Good job, you didn't seem so clever at first sight." )
+
+70 
+print
+ ( "You are forgiven, your head will stay where it is." )
+
+72 
+print
+ ( "How dare you choose another letter?! You deserve to die!" )
+
+73 
+print
+ ( "I will chop you head off! Good job!" )
+
+75 elif 
+door
+ == "4" :
+
+76 
+print
+ ( "There's a giant cat yawning." )
+
+77 
+print
+ ( "You can only pass if you give her the right food." )
+
+78 
+print
+ ( "1. Give her mice." )
+
+79 
+print
+ ( "2. Give her kibble." )
+
+80 
+print
+ ( "3. Give her pizza." )
+
+82 
+food
+ = 
+input
+ ( "> " )
+
+84 if 
+food
+ == "1" :
+
+85 
+print
+ ( "There you go, mice is what I craved for." )
+
+86 
+print
+ ( "You can pass." )
+
+87 elif 
+food
+ == "2" :
+
+88 
+print
+ ( "Kibble is for sucker dogs who obey their owners." )
+
+89 
+print
+ ( "You won't pass." )
+
+90 elif 
+food
+ == "3" :
+
+91 
+print
+ ( "This pizza looks 5 years old. How about you eat it?" )
+
+93 
+print
+ ( "A cat like me would never eat such crap." )
+
+95 elif 
+door
+ == "5" :
+
+96 
+print
+ ( "A huge spider is ready to jump on you." )
+
+97 
+print
+ ( "You need something to scare him off." )
+
+98 
+print
+ ( "1. You take a broom." )
+
+99 
+print
+ ( "2. You choose a towel." )
+
+100 
+print
+ ( "3. You use a spray." )
+
+102 
+tool
+ = 
+input
+ ( "> " )
+
+104 if 
+tool
+ == "1" :
+
+105 
+print
+ ( "You fail at scaring me away. Good job!" )
+
+106 elif 
+tool
+ == "2" :
+
+107 
+print
+ ( "Not scared at all. Good job!" )
+
+108 elif 
+tool
+ == "3" :
+
+109 
+print
+ ( "Not moving anywhere. Having lunch." )
+
+111 
+print
+ ( "Didn't expect this one. You are really good at scaring spiders!" )
+
+112 
+print
+ ( "The door is yours." )
+
+114 elif 
+door
+ == "6" :
+
+115 
+print
+ ( "Here's a cursed mummy. If you touch it with the wrong gloves, you turn into stone." )
+
+116 
+print
+ ( "You need a pair of special gloves to move it." )
+
+117 
+print
+ ( "1. red gloves." )
+
+118 
+print
+ ( "2. yellow gloves." )
+
+119 
+print
+ ( "3. pink gloves." )
+
+121 
+gloves
+ = 
+input
+ ( "> " )
+
+123 if 
+gloves
+ == "1" :
+
+124 
+print
+ ( "Wrong pair of gloves. You are cursed. Good job." )
+
+125 elif 
+gloves
+ == "2" :
+
+126 
+print
+ ( "Not the best choice. Be a stone for the next 400 years!" )
+
+127 elif 
+gloves
+ == "3" :
+
+128 
+print
+ ( "You broke the ancient curse. The mummy will move out of your way!" )
+
+129 
+print
+ ( "Good job!" )
+
+131 
+print
+ ( "There's no such thing. Go see an eye doctor." )
+
+133 elif 
+door
+ == "7" :
+
+134 
+print
+ ( "A slow loris sits at his desk." )
+
+135 
+print
+ ( "Only a combo of numbers will make him move faster." )
+
+136 
+print
+ ( "1. 1 , 3" )
+
+137 
+print
+ ( "2. 4, 6" )
+
+139 
+numbers
+ = 
+input
+ ( "> " )
+
+141 if 
+numbers
+ == "1" :
+
+142 
+print
+ ( "Life is unfair. You have to wait for one month till I move." )
+
+143 elif 
+numbers
+ == "2" :
+
+144 
+print
+ ( "Bingo!This combo makes me faster than a lightning!" )
+
+145 
+print
+ ( "Door is free, good job!" )
+
+147 
+print
+ ( "Slow Loris is my name. Slooooow moooving is myyyy gaaaaame!" )
+
+150 
+print
+ ( "You stumble around and fall on a knife and die. Good job!" )
+
+
+	@./ex31/ex31.py
+
+1 
+print
+ ( """You enter a dark room with two doors.\nDo you go through door #1 or door #2?"""
+
+4 
+door
+ = 
+input
+ ( "> " )
+
+6 if 
+door
+ == "1" :
+
+7 
+print
+ ( "There's a giant bear here eating a cheese cake." )
+
+8 
+print
+ ( "What do you do?" )
+
+9 
+print
+ ( "1. Take the cake." )
+
+10 
+print
+ ( "2. Scream at the bear." )
+
+12 
+bear
+ = 
+input
+ ( "> " )
+
+14 if 
+bear
+ == "1" :
+
+15 
+print
+ ( "The bear eats your face off. Good job!" )
+
+16 elif 
+bear
+ == "2" :
+
+17 
+print
+ ( "The bear eats your legs off. Good job!" )
+
+19 
+print
+ ( f"Well, doing {bear} is probably better." )
+
+20 
+print
+ ( "Bear runs away." )
+
+22 elif 
+door
+ == "2" :
+
+23 
+print
+ ( "You stare into the endless abyss at Cthulu's retina." )
+
+24 
+print
+ ( "1. Blueberries." )
+
+25 
+print
+ ( "2. Yellow jacket clothespins." )
+
+26 
+print
+ ( "3. Understanding revolvers yelling melodies." )
+
+28 
+insanity
+ = 
+input
+ ( "> " )
+
+30 if 
+insanity
+ == "1" or 
+insanity
+ == "2" :
+
+31 
+print
+ ( "your body survives powered by a mind of jello." )
+
+32 
+print
+ ( "Good job!" )
+
+34 
+print
+ ( "The insanity rots your eyes into a pool of muck." )
+
+35 
+print
+ ( "Good job!" )
+
+37 
+print
+ ( "You stumble around and fall on a knife and die. Good job!" )
+
+
+	@./ex31/ex31_sd2.py
+
+1 
+print
+ ( """You are in the forest.\nYou have no ideea what mushrooms are poisonous.\nYou pick the #1 red ones or the #2 purple ones?"""
+
+5 
+mushrooms
+ = 
+input
+ ( "> " )
+
+7 if 
+mushrooms
+ == "1" :
+
+8 
+print
+ ( "Among the two red mushrooms only 1 is edible" )
+
+9 
+print
+ ( "Which one you choose?" )
+
+10 
+print
+ ( "1. The smaller one." )
+
+11 
+print
+ ( "2. The bigger one." )
+
+13 
+red
+ = 
+input
+ ( "> " )
+
+15 if 
+red
+ == "1" :
+
+16 
+print
+ ( "This is the safe mushroom. Go for it!" )
+
+17 
+print
+ ( "You're safe!" )
+
+18 elif 
+red
+ == "2" :
+
+19 
+print
+ ( "You better stay away.It looks good, but it smells bad." )
+
+20 
+print
+ ( "You die!" )
+
+22 
+print
+ ( "No way, not an option!" )
+
+24 elif 
+mushrooms
+ == "2" :
+
+25 
+print
+ ( "All the violet mushrooms are poisonous." )
+
+26 
+print
+ ( "Seriously? Good bye, your life was short." )
+
+29 
+print
+ ( "Not an option. Choose #1 or #2." )
+
+
+	@./ex4/ex4.py
+
+1 
+cars
+ = 100
+
+2 
+space_in_a_car
+ = 4.0
+
+3 
+drivers
+ = 30
+
+4 
+passengers
+ = 90
+
+5 
+cars_not_driven
+ = 
+cars
+ - 
+drivers
+
+6 
+cars_driven
+ = 
+drivers
+
+7 
+carpool_capacity
+ = 
+cars_driven
+ * 
+space_in_a_car
+
+8 
+average_passengers_per_car
+ = 
+passengers
+ / 
+cars_driven
+
+11 
+print
+ ( "There are" , 
+cars
+ , "cars available." )
+
+12 
+print
+ ( "There are only" , 
+drivers
+ , "drivers available." )
+
+13 
+print
+ ( "There will be" , 
+cars_not_driven
+ , "empty cars today." )
+
+14 
+print
+ ( "We can transport" , 
+carpool_capacity
+ , "people today." )
+
+15 
+print
+ ( "We have" , 
+passengers
+ , "to carpool today." )
+
+16 
+print
+ ( "We need to put about" , 
+average_passengers_per_car
+ , "in each car."
+
+
+	@./ex4/ex4_sd3.py
+
+2 
+cars
+ = 100
+
+4 
+space_in_a_car
+ = 4.0
+
+6 
+drivers
+ = 30
+
+8 
+passengers
+ = 90
+
+10 
+cars_not_driven
+ = 
+cars
+ - 
+drivers
+
+12 
+cars_driven
+ = 
+drivers
+
+14 
+carpool_capacity
+ = 
+cars_driven
+ * 
+space_in_a_car
+
+16 
+average_passengers_per_car
+ = 
+passengers
+ / 
+cars_driven
+
+19 
+print
+ ( "There are" , 
+cars
+ , "cars available." )
+
+20 
+print
+ ( "There are only" , 
+drivers
+ , "drivers available." )
+
+21 
+print
+ ( "There will be" , 
+cars_not_driven
+ , "empty cars today." )
+
+22 
+print
+ ( "We can transport" , 
+carpool_capacity
+ , "people today." )
+
+23 
+print
+ ( "We have" , 
+passengers
+ , "to carpool today." )
+
+24 
+print
+ ( "We need to put about" , 
+average_passengers_per_car
+ , "in each car."
+
+
+	@./ex19/ex19.py
+
+1 def 
+	$cheese_and_crackers
+ ( 
+cheese_count
+ , 
+boxes_of_crackers
+ ) :
+
+2 
+print
+ ( f"You have {cheese_count} cheeses!" )
+
+3 
+print
+ ( f"You have {boxes_of_crackers} boxes of crackers!" )
+
+4 
+print
+ ( "Man that's enough for a party!" )
+
+5 
+print
+ ( "Get a blanket.\n" ) 
+	}
+
+8 
+print
+ ( "We can just give the function numbers directly:" )
+
+9 
+cheese_and_crackers
+ ( 20 , 30 )
+
+12 
+print
+ ( "OR, we can use variables from our script:" )
+
+13 
+amount_of_cheese
+ = 10
+
+14 
+amount_of_crackers
+ = 50
+
+16 
+cheese_and_crackers
+ ( 
+amount_of_cheese
+ , 
+amount_of_crackers
+ )
+
+19 
+print
+ ( "We can even do math inside too:" )
+
+20 
+cheese_and_crackers
+ ( 10 + 20 , 5 + 6 )
+
+23 
+print
+ ( "And we can combine the two, variables and math:" )
+
+24 
+cheese_and_crackers
+ ( 
+amount_of_cheese
+ + 100 , 
+amount_of_crackers
+ + 1000 )
+
+
+	@./ex19/ex19_sd3.py
+
+1 def 
+	$our_chicken
+ ( 
+white
+ , 
+black
+ , 
+red
+ ) :
+
+2 
+print
+ ( f"We have {white} white chicken." )
+
+3 
+print
+ ( f"There are {black} black chicken in our backyard." )
+
+4 
+print
+ ( f"The rest {red} of them are red." )
+
+7 return ( 
+white
+ + 
+black
+ + 
+red
+ ) 
+	}
+
+9 
+print
+ ( "1" )
+
+10 
+our_chicken
+ ( 12 , 5 , 4 )
+
+12 
+print
+ ( "2" )
+
+13 
+whites
+ = 12
+
+14 
+blacks
+ = 5
+
+15 
+reds
+ = 4
+
+16 
+our_chicken
+ ( 
+whites
+ , 
+blacks
+ , 
+reds
+ )
+
+18 
+print
+ ( "3" )
+
+19 
+print
+ ( 
+our_chicken
+ ( 12 , 5 , 4 ) )
+
+21 
+print
+ ( "4" )
+
+22 
+our_chicken
+ ( 2 * 6 , 7 - 2 , 1 + 3 )
+
+24 
+print
+ ( "5" )
+
+25 
+our_chicken
+ ( 12.0 , 5.0 , 4.0 )
+
+27 
+print
+ ( "6" )
+
+28 
+white_chicken
+ = 
+int
+ ( 
+input
+ ( "Number of white chicken: " ) )
+
+29 
+black_chicken
+ = 
+int
+ ( 
+input
+ ( "Number of black chicken: " ) )
+
+30 
+red_chicken
+ = 
+int
+ ( 
+input
+ ( "Number of red chicken: " ) )
+
+31 
+our_chicken
+ ( 
+white_chicken
+ , 
+black_chicken
+ , 
+red_chicken
+ )
+
+33 
+print
+ ( "7" )
+
+34 
+our_chicken
+ ( 
+white_chicken
+ + 12 , 
+black_chicken
+ + 5 , 
+red_chicken
+ + 4 )
+
+36 
+print
+ ( "8" )
+
+37 def 
+	$village_chicken
+ ( ) :
+
+38 
+our_chicken
+ ( 12 , 5 , 4 ) 
+	}
+
+39 
+village_chicken
+ ( )
+
+41 
+print
+ ( "9" )
+
+42 
+our_chicken
+ ( 23 * 17 , 5 , 4 )
+
+43 
+print
+ ( "10" )
+
+44 
+our_chicken
+ ( 
+white_chicken
+ , 5 , 
+red_chicken
+ )
+
+
+	@./ex19/ex19_sd1.py
+
+3 def 
+	$cheese_and_crackers
+ ( 
+cheese_count
+ , 
+boxes_of_crackers
+ ) :
+
+5 
+print
+ ( f"You have {cheese_count} cheeses!" )
+
+7 
+print
+ ( f"You have {boxes_of_crackers} boxes of crackers!" )
+
+9 
+print
+ ( "Man that's enough for a party!" )
+
+11 
+print
+ ( "Get a blanket.\n" ) 
+	}
+
+14 
+print
+ ( "We can just give the function numbers directly:" )
+
+16 
+cheese_and_crackers
+ ( 20 , 30 )
+
+19 
+print
+ ( "OR, we can use variables from our script:" )
+
+21 
+amount_of_cheese
+ = 10
+
+23 
+amount_of_crackers
+ = 50
+
+26 
+cheese_and_crackers
+ ( 
+amount_of_cheese
+ , 
+amount_of_crackers
+ )
+
+29 
+print
+ ( "We can even do math inside too:" )
+
+31 
+cheese_and_crackers
+ ( 10 + 20 , 5 + 6 )
+
+34 
+print
+ ( "And we can combine the two, variables and math:" )
+
+36 
+cheese_and_crackers
+ ( 
+amount_of_cheese
+ + 100 , 
+amount_of_crackers
+ + 1000 )
+
+
+	@./ex39/ex39.py
+
+2 
+states
+ = { 'Oregon'
+
+11 
+cities
+ = { 'CA'
+
+18 
+cities
+ [ 'NY' ] = 'New York'
+
+19 
+cities
+ [ 'OR' ] = 'Portland'
+
+22 
+print
+ ( '-' * 10 )
+
+23 
+print
+ ( "NY State has: " , 
+cities
+ [ 'NY' ] )
+
+24 
+print
+ ( "OR State has: " , 
+cities
+ [ 'OR' ] )
+
+27 
+print
+ ( '-' * 10 )
+
+28 
+print
+ ( "Michigan's abbreviation is: " , 
+states
+ [ 'Michigan' ] )
+
+29 
+print
+ ( "Florida's abbreviation is:." , 
+states
+ [ 'Florida' ] )
+
+32 
+print
+ ( '-' * 10 )
+
+33 
+print
+ ( "Michigan has: " , 
+cities
+ [ 
+states
+ [ 'Michigan' ] ] )
+
+34 
+print
+ ( "FLorida has: " , 
+cities
+ [ 
+states
+ [ 'Florida' ] ] )
+
+37 
+print
+ ( '-' * 10 )
+
+38 for 
+state
+ , 
+abbrev
+ in 
+list
+ ( 
+states
+ . 
+items
+ ( ) ) :
+
+39 
+print
+ ( f"{state} is abbreviated {abbrev}" )
+
+42 
+print
+ ( '-' * 10 )
+
+43 for 
+abbrev
+ , 
+city
+ in 
+list
+ ( 
+cities
+ . 
+items
+ ( ) ) :
+
+44 
+print
+ ( f"{abbrev} has the city {city}" )
+
+47 
+print
+ ( '-' * 10 )
+
+48 for 
+state
+ , 
+abbrev
+ in 
+list
+ ( 
+states
+ . 
+items
+ ( ) ) :
+
+49 
+print
+ ( f"{state} state is abbreviated {abbrev}" )
+
+50 
+print
+ ( f"and has city {cities[abbrev]}" )
+
+52 
+print
+ ( '-' * 10 )
+
+54 
+state
+ = 
+states
+ . 
+get
+ ( 'Texas' )
+
+56 if not 
+state
+ :
+
+57 
+print
+ ( "sorry, no Texas." )
+
+60 
+city
+ = 
+cities
+ . 
+get
+ ( 'TX' , 'Does Not Exist' )
+
+61 
+print
+ ( f"The city for the state 'TX' is: {city}" )
+
+
+	@./ex39/ex39_sd1.py
+
+2 
+counties
+ = { 'Bihor'
+
+11 
+cities
+ = { 'BH'
+
+19 for 
+county
+ , 
+abbrev
+ in 
+list
+ ( 
+counties
+ . 
+items
+ ( ) ) :
+
+20 
+print
+ ( f"{county} county is abbreviated {abbrev}" )
+
+21 
+print
+ ( f"and has capital {cities[abbrev]}" )
+
+
+	@./ex49/tests/lexicon_tests.py
+
+1 from 
+	~nose.tools
+ import *
+
+2 from 
+	~ex48
+ import 
+lexicon
+
+5 def 
+	$test_directions
+ ( ) :
+
+6 
+assert_equal
+ ( 
+lexicon
+ . 
+scan
+ ( "north" ) , [ ( 'direction' , 'north' ) ] )
+
+7 
+result
+ = 
+lexicon
+ . 
+scan
+ ( "north south east" )
+
+8 
+assert_equal
+ ( 
+result
+ , [ ( 'direction' , 'north' ) ,
+
+10 ( 'direction' , 'east' ) ] ) 
+	}
+
+12 def 
+	$test_verbs
+ ( ) :
+
+13 
+assert_equal
+ ( 
+lexicon
+ . 
+scan
+ ( "go" ) , [ ( 'verb' , 'go' ) ] )
+
+14 
+result
+ = 
+lexicon
+ . 
+scan
+ ( "go kill eat" )
+
+15 
+assert_equal
+ ( 
+result
+ , [ ( 'verb' , 'go' ) ,
+
+17 ( 'verb' , 'eat' ) ] ) 
+	}
+
+20 def 
+	$test_stops
+ ( ) :
+
+21 
+assert_equal
+ ( 
+lexicon
+ . 
+scan
+ ( "the" ) , [ ( 'stop' , 'the' ) ] )
+
+22 
+result
+ = 
+lexicon
+ . 
+scan
+ ( "the in of" )
+
+23 
+assert_equal
+ ( 
+result
+ , [ ( 'stop' , 'the' ) ,
+
+25 ( 'stop' , 'of' ) ] ) 
+	}
+
+28 def 
+	$test_nouns
+ ( ) :
+
+29 
+assert_equal
+ ( 
+lexicon
+ . 
+scan
+ ( "bear" ) , [ ( 'noun' , 'bear' ) ] )
+
+30 
+result
+ = 
+lexicon
+ . 
+scan
+ ( "bear princess" )
+
+31 
+assert_equal
+ ( 
+result
+ , [ ( 'noun' , 'bear' ) ,
+
+32 ( 'noun' , 'princess' ) ] ) 
+	}
+
+34 def 
+	$test_numbers
+ ( ) :
+
+35 
+assert_equal
+ ( 
+lexicon
+ . 
+scan
+ ( "1234" ) , [ ( 'number' , "1234" ) ] )
+
+36 
+result
+ = 
+lexicon
+ . 
+scan
+ ( "3 91234" )
+
+37 
+assert_equal
+ ( 
+result
+ , [ ( 'number' , "3" ) ,
+
+38 ( 'number' , "91234" ) ] ) 
+	}
+
+40 def 
+	$test_errors
+ ( ) :
+
+41 
+assert_equal
+ ( 
+lexicon
+ . 
+scan
+ ( "ASDFADFASDF" ) ,
+
+43 
+result
+ = 
+lexicon
+ . 
+scan
+ ( "bear IAS princess" )
+
+44 
+assert_equal
+ ( 
+result
+ , [ ( 'noun' , 'bear' ) ,
+
+46 ( 'noun' , 'princess' ) ] ) 
+	}
+
+
+	@./ex49/tests/__init__.py
+
+
+	@./ex49/tests/parser_tests.py
+
+1 from 
+	~nose.tools
+ import *
+
+2 from 
+	~ex48
+ import 
+lexicon
+ , 
+parser
+
+6 def 
+	$test_sentence
+ ( ) :
+
+7 
+s1
+ = 
+parser
+ . 
+Sentence
+ (
+
+9 assert 
+s1
+ . 
+verb
+ == "hear"
+
+10 assert 
+s1
+ . 
+subject
+ == "soap"
+
+11 assert 
+s1
+ . 
+object
+ == "pillow" 
+	}
+
+15 def 
+	$test_peek
+ ( ) :
+
+16 
+word_list
+ = [ ]
+
+17 
+word_list
+ = 
+lexicon
+ . 
+scan
+ ( "princess kill bear" )
+
+18 
+word
+ = 
+word_list
+ [ 0 ]
+
+19 
+assert_false
+ ( 
+parser
+ . 
+peek
+ ( None ) )
+
+20 
+assert_true
+ ( 
+parser
+ . 
+peek
+ ( 
+word_list
+ ) ) 
+	}
+
+23 def 
+	$test_match
+ ( ) :
+
+24 
+word_list
+ = [ ]
+
+25 
+assert_false
+ ( 
+parser
+ . 
+match
+ ( None , 'noun' ) )
+
+26 
+word_list
+ = 
+lexicon
+ . 
+scan
+ ( "bear eat princess" )
+
+27 
+assert_equal
+ ( ( 'noun' , "bear" ) , 
+parser
+ . 
+match
+ ( 
+word_list
+ , 'noun' ) )
+
+28 
+assert_equal
+ ( None , 
+parser
+ . 
+match
+ ( 
+word_list
+ , '' ) ) 
+	}
+
+30 def 
+	$test_skip
+ ( ) :
+
+31 
+word_list
+ = 
+lexicon
+ . 
+scan
+ ( "princess kill bear" )
+
+32 
+word_type
+ = [ 'noun' , 'verb' , 'noun' ]
+
+33 
+wrd_type
+ = 
+word_type
+ [ 0 ]
+
+34 
+assert_equal
+ ( 
+parser
+ . 
+peek
+ ( 
+word_list
+ ) , 
+wrd_type
+ ) 
+	}
+
+36 def 
+	$test_parse_verb
+ ( ) :
+
+37 
+word_list
+ = 
+lexicon
+ . 
+scan
+ ( "kill the bear" )
+
+38 
+assert_equal
+ ( 
+parser
+ . 
+peek
+ ( 
+word_list
+ ) , 'verb' )
+
+39 
+assert_raises
+ ( 
+Exception
+ , 
+parser
+ . 
+parse_verb
+ , [ ( 'stop' , "the" ) ,
+
+40 ( 'noun' , "bear" ) ] ) 
+	}
+
+42 def 
+	$test_parse_object
+ ( ) :
+
+43 
+word_list
+ = 
+lexicon
+ . 
+scan
+ ( "go to the north door" )
+
+44 
+next_word
+ = 
+parser
+ . 
+peek
+ ( 
+word_list
+ )
+
+45 
+assert_raises
+ ( 
+Exception
+ , 
+parser
+ . 
+parse_object
+ , [ ( 'verb' , "go" ) ,
+
+47 ( 'stop' , "the" ) ] ) 
+	}
+
+49 def 
+	$test_parse_subject
+ ( ) :
+
+50 
+word_list
+ = "princess kill bear"
+
+51 
+next_word
+ = 
+parser
+ . 
+peek
+ ( 
+word_list
+ )
+
+52 
+assert_raises
+ ( 
+Exception
+ , 
+parser
+ . 
+parse_subject
+ , [ ( 'stop' , "the" ) ] ) 
+	}
+
+54 def 
+	$test_parse_sentence
+ ( ) :
+
+55 
+word_list
+ = 
+lexicon
+ . 
+scan
+ ( "princess kill the bear" )
+
+56 
+subj
+ = 
+parser
+ . 
+parse_subject
+ ( 
+word_list
+ )
+
+57 
+verb
+ = 
+parser
+ . 
+parse_verb
+ ( 
+word_list
+ )
+
+58 
+obj
+ = 
+parser
+ . 
+parse_object
+ ( 
+word_list
+ )
+
+59 assert 
+parser
+ . 
+Sentence
+ ( 
+subj
+ , 
+verb
+ , 
+obj
+ ) 
+	}
+
+
+	@./ex49/ex48/parser.py
+
+1 class 
+	cParserError
+ ( 
+Exception
+ ) :
+
+4 class 
+	cSentence
+ ( 
+object
+ ) :
+
+6 def 
+	$__init__
+ ( 
+self
+ , 
+subject
+ , 
+verb
+ , 
+obj
+ ) :
+
+8 
+self
+ . 
+subject
+ = 
+subject
+ [ 1 ]
+
+9 
+self
+ . 
+verb
+ = 
+verb
+ [ 1 ]
+
+10 
+self
+ . 
+object
+ = 
+obj
+ [ 1 ] 
+	}
+
+12 def 
+	$peek
+ ( 
+word_list
+ ) :
+
+13 if 
+word_list
+ :
+
+14 
+word
+ = 
+word_list
+ [ 0 ]
+
+15 return 
+word
+ [ 0 ]
+
+17 return None 
+	}
+
+19 def 
+	$match
+ ( 
+word_list
+ , 
+expecting
+ ) :
+
+20 if 
+word_list
+ :
+
+21 
+word
+ = 
+word_list
+ . 
+pop
+ ( 0 )
+
+23 if 
+word
+ [ 0 ] == 
+expecting
+ :
+
+24 return 
+word
+
+28 return None 
+	}
+
+30 def 
+	$skip
+ ( 
+word_list
+ , 
+word_type
+ ) :
+
+31 while 
+peek
+ ( 
+word_list
+ ) == 
+word_type
+ :
+
+32 
+match
+ ( 
+word_list
+ , 
+word_type
+ ) 
+	}
+
+34 def 
+	$parse_verb
+ ( 
+word_list
+ ) :
+
+35 
+skip
+ ( 
+word_list
+ , 'stop' )
+
+37 if 
+peek
+ ( 
+word_list
+ ) == 'verb' :
+
+38 return 
+match
+ ( 
+word_list
+ , 'verb' )
+
+40 raise 
+ParserError
+ ( "Expected a verb next." ) 
+	}
+
+42 def 
+	$parse_object
+ ( 
+word_list
+ ) :
+
+43 
+skip
+ ( 
+word_list
+ , 'stop' )
+
+44 
+next_word
+ = 
+peek
+ ( 
+word_list
+ )
+
+46 if 
+next_word
+ == 'noun' :
+
+47 return 
+match
+ ( 
+word_list
+ , 'noun' )
+
+48 elif 
+next_word
+ == 'direction' :
+
+49 return 
+match
+ ( 
+word_list
+ , 'direction' )
+
+51 raise 
+ParserError
+ ( "Expected a noun or direction next." ) 
+	}
+
+53 def 
+	$parse_subject
+ ( 
+word_list
+ ) :
+
+54 
+skip
+ ( 
+word_list
+ , 'stop' )
+
+55 
+next_word
+ = 
+peek
+ ( 
+word_list
+ )
+
+57 if 
+next_word
+ == 'noun' :
+
+58 return 
+match
+ ( 
+word_list
+ , 'noun' )
+
+59 elif 
+next_word
+ == 'verb' :
+
+62 raise 
+ParserError
+ ( "Expected a verb next." ) 
+	}
+
+64 def 
+	$parse_sentence
+ ( 
+word_list
+ ) :
+
+65 
+subj
+ = 
+parse_subject
+ ( 
+word_list
+ )
+
+66 
+verb
+ = 
+parse_verb
+ ( 
+word_list
+ )
+
+67 
+obj
+ = 
+parse_object
+ ( 
+word_list
+ )
+
+69 return 
+Sentence
+ ( 
+subj
+ , 
+verb
+ , 
+obj
+ ) 
+	}
+
+
+	@./ex49/ex48/lexicon.py
+
+1 
+lexicon
+ = { "north"
+
+24 def 
+	$check_number
+ ( 
+str
+ ) :
+
+26 return 
+int
+ ( 
+str
+ )
+
+28 except 
+ValueError
+ :
+
+29 return None 
+	}
+
+32 def 
+	$scan
+ ( 
+sentence
+ ) :
+
+33 
+results
+ = [ ]
+
+34 
+words
+ = 
+sentence
+ . 
+split
+ ( )
+
+35 for 
+word
+ in 
+words
+ :
+
+36 if 
+word
+ in 
+lexicon
+ :
+
+37 
+results
+ . 
+append
+ ( ( 
+lexicon
+ [ 
+word
+ ] , 
+word
+ ) )
+
+38 elif 
+check_number
+ ( 
+word
+ ) :
+
+39 
+results
+ . 
+append
+ ( ( 'number' , 
+word
+ ) )
+
+41 
+results
+ . 
+append
+ ( ( 'error' , 
+word
+ ) )
+
+43 return 
+results
+ 
+	}
+
+
+	@./ex49/ex48/__init__.py
+
+
+	@./ex26/ex26.py
+
+1 from 
+	~sys
+ import 
+argv
+
+3 
+print
+ ( "How old are you?" , 
+end
+ = ' ' )
+
+4 
+age
+ = 
+input
+ ( )
+
+5 
+print
+ ( "How tall are you?" , 
+end
+ = ' ' )
+
+6 
+height
+ = 
+input
+ ( )
+
+7 
+print
+ ( "How much do you weigh?" , 
+end
+ = ' ' )
+
+8 
+weight
+ = 
+input
+ ( )
+
+10 
+print
+ ( f"So, you're {age} old, {height} tall and {weight} heavy." )
+
+12 
+script
+ , 
+filename
+ = 
+argv
+
+14 
+txt
+ = 
+open
+ ( 
+filename
+ )
+
+16 
+print
+ ( "Here's your file {filename}:" )
+
+17 
+print
+ ( 
+txt
+ . 
+read
+ ( ) )
+
+19 
+print
+ ( "Type the filename again:" )
+
+20 
+file_again
+ = 
+input
+ ( "> " )
+
+22 
+txt_again
+ = 
+open
+ ( 
+file_again
+ )
+
+24 
+print
+ ( 
+txt_again
+ . 
+read
+ ( ) )
+
+27 
+print
+ ( 'Let\'s practice everything.' )
+
+28 
+print
+ ( 'You\'d need to know \'bout escapes with \\ that do \n newlines and \t tabs.' )
+
+30 
+poem
+ = """\n\tThe lovely world\nwith logic so firmly planted\ncannot discern \n the needs of love\nnor comprehend passion from intuition\nand requires an explanation\n\n\t\twhere there is none.\n"""
+
+39 
+print
+ ( "--------------" )
+
+40 
+print
+ ( 
+poem
+ )
+
+41 
+print
+ ( "--------------" )
+
+44 
+five
+ = 10 - 2 + 3 - 6
+
+45 
+print
+ ( f"This should be five: {five}" )
+
+47 def 
+	$secret_formula
+ ( 
+started
+ ) :
+
+48 
+jelly_beans
+ = 
+started
+ * 500
+
+49 
+jars
+ = 
+jelly_beans
+ / 1000
+
+50 
+crates
+ = 
+jars
+ / 100
+
+51 return 
+jelly_beans
+ , 
+jars
+ , 
+crates
+ 
+	}
+
+54 
+start_point
+ = 10000
+
+55 
+beans
+ , 
+jars
+ , 
+crates
+ = 
+secret_formula
+ ( 
+start_point
+ )
+
+58 
+print
+ ( "With a starting point of: {}" . 
+format
+ ( 
+start_point
+ ) )
+
+60 
+print
+ ( f"We'd have {beans} beans, {jars} jars, and {crates} crates." )
+
+62 
+start_point
+ = 
+start_point
+ / 10
+
+64 
+print
+ ( "We can also do that this way:" )
+
+65 
+formula
+ = 
+secret_formula
+ ( 
+start_point
+ )
+
+67 
+print
+ ( "We'd have {} beans, {} jars, and {} crates." . 
+format
+ ( * 
+formula
+ ) )
+
+71 
+people
+ = 20
+
+72 
+cats
+ = 30
+
+73 
+dogs
+ = 15
+
+76 if 
+people
+ < 
+cats
+ :
+
+77 
+print
+ ( "Too many cats! The world is doomed!" )
+
+79 if 
+people
+ > 
+cats
+ :
+
+80 
+print
+ ( "Not many cats! The world is saved!" )
+
+82 if 
+people
+ < 
+dogs
+ :
+
+83 
+print
+ ( "The world is drooled on!" )
+
+85 if 
+people
+ > 
+dogs
+ :
+
+86 
+print
+ ( "The world is dry!" )
+
+89 
+dogs
+ += 5
+
+91 if 
+people
+ >= 
+dogs
+ :
+
+92 
+print
+ ( "People are greater than or equal to dogs." )
+
+94 if 
+people
+ <= 
+dogs
+ :
+
+95 
+print
+ ( "People are less than or equal to dogs." )
+
+98 if 
+people
+ == 
+dogs
+ :
+
+99 
+print
+ ( "People are dogs." )
+
+
+	@./ex21/ex21_sd2.py
+
+1 def 
+	$add
+ ( 
+a
+ , 
+b
+ ) :
+
+2 
+print
+ ( f"ADDING {a} + {b}" )
+
+3 return 
+a
+ + 
+b
+ 
+	}
+
+5 def 
+	$substract
+ ( 
+a
+ , 
+b
+ ) :
+
+6 
+print
+ ( f"SUBSTRACTING {a} - {b}" )
+
+7 return 
+a
+ - 
+b
+ 
+	}
+
+9 def 
+	$multiply
+ ( 
+a
+ , 
+b
+ ) :
+
+10 
+print
+ ( f"MULTIPLYING {a} * {b}" )
+
+11 return 
+a
+ * 
+b
+ 
+	}
+
+13 def 
+	$divide
+ ( 
+a
+ , 
+b
+ ) :
+
+14 
+print
+ ( f"DIVIDING {a} / {b}" )
+
+15 return 
+a
+ / 
+b
+ 
+	}
+
+18 
+print
+ ( "Let's do some math with just functions!" )
+
+20 
+age
+ = 
+add
+ ( 30 , 5 )
+
+21 
+height
+ = 
+substract
+ ( 78 , 4 )
+
+22 
+weight
+ = 
+multiply
+ ( 90 , 2 )
+
+23 
+iq
+ = 
+divide
+ ( 100 , 2 )
+
+25 
+what
+ = 
+age
+ + ( 
+height
+ - ( 
+iq
+ / 2 ) * 
+weight
+ )
+
+26 
+print
+ ( f"What is {what}." )
+
+
+	@./ex21/ex21.py
+
+1 def 
+	$add
+ ( 
+a
+ , 
+b
+ ) :
+
+2 
+print
+ ( f"ADDING {a} + {b}" )
+
+3 return 
+a
+ + 
+b
+ 
+	}
+
+5 def 
+	$substract
+ ( 
+a
+ , 
+b
+ ) :
+
+6 
+print
+ ( f"SUBSTRACTING {a} - {b}" )
+
+7 return 
+a
+ - 
+b
+ 
+	}
+
+9 def 
+	$multiply
+ ( 
+a
+ , 
+b
+ ) :
+
+10 
+print
+ ( f"MULTIPLYING {a} * {b}" )
+
+11 return 
+a
+ * 
+b
+ 
+	}
+
+13 def 
+	$divide
+ ( 
+a
+ , 
+b
+ ) :
+
+14 
+print
+ ( f"DIVIDING {a} / {b}" )
+
+15 return 
+a
+ / 
+b
+ 
+	}
+
+18 
+print
+ ( "Let's do some math with just functions!" )
+
+20 
+age
+ = 
+add
+ ( 30 , 5 )
+
+21 
+height
+ = 
+substract
+ ( 78 , 4 )
+
+22 
+weight
+ = 
+multiply
+ ( 90 , 2 )
+
+23 
+iq
+ = 
+divide
+ ( 100 , 2 )
+
+25 
+print
+ ( f"Age: {age}, Height: {height}, Weight: {weight}, IQ: {iq}" )
+
+29 
+print
+ ( "Here is a puzzle." )
+
+31 
+what
+ = 
+add
+ ( 
+age
+ , 
+substract
+ ( 
+height
+ , 
+multiply
+ ( 
+weight
+ , 
+divide
+ ( 
+iq
+ , 2 ) ) ) )
+
+33 
+print
+ ( "That becomes: " , 
+what
+ , "Can you do it by hand?" )
+
+
+	@./ex21/ex21_sd4.py
+
+1 def 
+	$add
+ ( 
+a
+ , 
+b
+ ) :
+
+2 
+print
+ ( f"ADDING {a} + {b}" )
+
+3 return 
+a
+ + 
+b
+ 
+	}
+
+5 def 
+	$substract
+ ( 
+a
+ , 
+b
+ ) :
+
+6 
+print
+ ( f"SUBSTRACTING {a} - {b}" )
+
+7 return 
+a
+ - 
+b
+ 
+	}
+
+9 def 
+	$multiply
+ ( 
+a
+ , 
+b
+ ) :
+
+10 
+print
+ ( f"MULTIPLYING {a} * {b}" )
+
+11 return 
+a
+ * 
+b
+ 
+	}
+
+13 def 
+	$divide
+ ( 
+a
+ , 
+b
+ ) :
+
+14 
+print
+ ( f"DIVIDING {a} / {b}" )
+
+15 return 
+a
+ / 
+b
+ 
+	}
+
+18 
+print
+ ( "Let's do some math with just functions!" )
+
+20 
+age
+ = 
+add
+ ( 30 , 5 )
+
+21 
+height
+ = 
+substract
+ ( 78 , 4 )
+
+22 
+weight
+ = 
+multiply
+ ( 90 , 2 )
+
+23 
+iq
+ = 
+divide
+ ( 100 , 2 )
+
+25 
+what
+ = 
+weight
+ - ( 
+height
+ + ( 
+age
+ * 
+iq
+ / 3 ) )
+
+26 
+print
+ ( f"What is {what}." )
+
+
+	@./ex21/ex21_sd3.py
+
+1 def 
+	$add
+ ( 
+a
+ , 
+b
+ ) :
+
+2 
+print
+ ( f"ADDING {a} + {b}" )
+
+3 return 
+a
+ + 
+b
+ 
+	}
+
+5 def 
+	$substract
+ ( 
+a
+ , 
+b
+ ) :
+
+6 
+print
+ ( f"SUBSTRACTING {a} - {b}" )
+
+7 return 
+a
+ - 
+b
+ 
+	}
+
+9 def 
+	$multiply
+ ( 
+a
+ , 
+b
+ ) :
+
+10 
+print
+ ( f"MULTIPLYING {a} * {b}" )
+
+11 return 
+a
+ * 
+b
+ 
+	}
+
+13 def 
+	$divide
+ ( 
+a
+ , 
+b
+ ) :
+
+14 
+print
+ ( f"DIVIDING {a} / {b}" )
+
+15 return 
+a
+ / 
+b
+ 
+	}
+
+18 
+print
+ ( "Let's do some math with just functions!" )
+
+20 
+age
+ = 
+add
+ ( 30 , 5 )
+
+21 
+height
+ = 
+substract
+ ( 78 , 4 )
+
+22 
+weight
+ = 
+multiply
+ ( 90 , 2 )
+
+23 
+iq
+ = 
+divide
+ ( 100 , 2 )
+
+25 
+what
+ = 
+add
+ ( 
+age
+ , 
+substract
+ ( 
+multiply
+ ( 
+weight
+ , 
+divide
+ ( 
+iq
+ , 2 ) ) , 
+height
+ ) )
+
+26 
+print
+ ( f"What is {what}." )
+
+
+	@./ex17/ex17_sd1.py
+
+1 from 
+	~sys
+ import 
+argv
+
+2 from 
+	~os.path
+ import 
+exists
+
+4 
+script
+ , 
+from_file
+ , 
+to_file
+ = 
+argv
+
+7 
+indata
+ = 
+open
+ ( 
+from_file
+ ) . 
+read
+ ( )
+
+9 
+out_file
+ = 
+open
+ ( 
+to_file
+ , 'w' )
+
+10 
+out_file
+ . 
+write
+ ( 
+indata
+ )
+
+12 
+print
+ ( "Alright, all done." )
+
+14 
+out_file
+ . 
+close
+ ( )
+
+15 
+in_file
+ . 
+close
+ ( )
+
+
+	@./ex17/ex17.py
+
+1 from 
+	~sys
+ import 
+argv
+
+2 from 
+	~os.path
+ import 
+exists
+
+4 
+script
+ , 
+from_file
+ , 
+to_file
+ = 
+argv
+
+6 
+print
+ ( f"Copying from {from_file} to {to_file}" )
+
+9 
+in_file
+ = 
+open
+ ( 
+from_file
+ )
+
+10 
+indata
+ = 
+in_file
+ . 
+read
+ ( )
+
+12 
+print
+ ( f"The input file is {len(indata)} bytes long" )
+
+14 
+print
+ ( f"Does the output file exist? {exists(to_file)}" )
+
+15 
+print
+ ( "Ready, hit RETURN to continue, CTRL-C to abort." )
+
+16 
+input
+ ( )
+
+18 
+out_file
+ = 
+open
+ ( 
+to_file
+ , 'w' )
+
+19 
+out_file
+ . 
+write
+ ( 
+indata
+ )
+
+21 
+print
+ ( "Alright, all done." )
+
+23 
+out_file
+ . 
+close
+ ( )
+
+24 
+in_file
+ . 
+close
+ ( )
+
+
+	@./ex17/ex17_sd2.py
+
+1 from 
+	~sys
+ import 
+argv
+ ; 
+script
+ , 
+from_file
+ , 
+to_file
+ = 
+argv
+ ; 
+open
+ ( 
+to_file
+ , 'w' ) . 
+write
+ ( 
+open
+ ( 
+from_file
+ ) . 
+read
+ ( ) )
+
+
+	@./ex5/ex5.py
+
+1 
+my_name
+ = 'Zed A. Shaw'
+
+2 
+my_age
+ = 35
+
+3 
+my_height
+ = 74
+
+4 
+my_weight
+ = 180
+
+5 
+my_eyes
+ = 'Blue'
+
+6 
+my_teeth
+ = 'White'
+
+7 
+my_hair
+ = 'Brown'
+
+9 
+print
+ ( f"Let's talk about {my_name}." )
+
+10 
+print
+ ( f"He's {my_height} inches tall." )
+
+11 
+print
+ ( f"He's {my_weight} pounds heavy." )
+
+12 
+print
+ ( f"Actually that's not too heavy." )
+
+13 
+print
+ ( f"He's got {my_eyes} eyes and {my_hair} hair." )
+
+14 
+print
+ ( f"His teeth are usually {my_teeth} depending on the coffee." )
+
+17 
+total
+ = 
+my_age
+ + 
+my_height
+ + 
+my_weight
+
+18 
+print
+ ( f"If I add {my_age}, {my_height}, and {my_weight} I get {total}." )
+
+
+	@./ex5/ex5_sd1.py
+
+1 
+name
+ = 'Zed A. Shaw'
+
+2 
+age
+ = 35
+
+3 
+height
+ = 74
+
+4 
+weight
+ = 180
+
+5 
+eyes
+ = 'Blue'
+
+6 
+teeth
+ = 'White'
+
+7 
+hair
+ = 'Brown'
+
+9 
+print
+ ( f"Let's talk about {name}." )
+
+10 
+print
+ ( f"He's {height} inches tall." )
+
+11 
+print
+ ( f"He's {weight} pounds heavy." )
+
+12 
+print
+ ( f"Actually that's not too heavy." )
+
+13 
+print
+ ( f"He's got {eyes} eyes and {hair} hair." )
+
+14 
+print
+ ( f"His teeth are usually {teeth} depending on the coffee." )
+
+17 
+total
+ = 
+age
+ + 
+height
+ + 
+weight
+
+18 
+print
+ ( f"If I add {age}, {height}, and {weight} I get {total}." )
+
+
+	@./ex5/ex5_sd2.py
+
+1 
+inch
+ = 2.54
+
+2 
+pound
+ = 0.45
+
+3 
+name
+ = 'Zed A. Shaw'
+
+4 
+age
+ = 35
+
+5 
+height
+ = 74 * 
+inch
+
+6 
+weight
+ = 180 * 
+pound
+
+7 
+eyes
+ = 'Blue'
+
+8 
+teeth
+ = 'White'
+
+9 
+hair
+ = 'Brown'
+
+11 
+print
+ ( f"Let's talk about {name}." )
+
+12 
+print
+ ( f"He's {height} cm tall." )
+
+13 
+print
+ ( f"He's {weight} kg heavy." )
+
+14 
+print
+ ( f"Actually that's not too heavy." )
+
+15 
+print
+ ( f"He's got {eyes} eyes and {hair} hair." )
+
+16 
+print
+ ( f"His teeth are usually {teeth} depending on the coffee." )
+
+19 
+total
+ = 
+age
+ + 
+height
+ + 
+weight
+
+20 
+print
+ ( f"If I add {age}, {height}, and {weight} I get {round(total)}." )
+
+
+	@./ex13/ex13.py
+
+1 from 
+	~sys
+ import 
+argv
+
+3 
+script
+ , 
+first
+ , 
+second
+ , 
+third
+ = 
+argv
+
+5 
+print
+ ( "The script is called:" , 
+script
+ )
+
+6 
+print
+ ( "Your first variable is:" , 
+first
+ )
+
+7 
+print
+ ( "Your second variable is:" , 
+second
+ )
+
+8 
+print
+ ( "Your third variable is:" , 
+third
+ )
+
+
+	@./ex13/ex13_sd2a.py
+
+1 from 
+	~sys
+ import 
+argv
+
+2 
+exercise
+ , 
+book
+ , 
+website
+ = 
+argv
+
+4 
+print
+ ( "The exercise you try to solve now is:" , 
+exercise
+ )
+
+5 
+print
+ ( "The book you use to learn Python is:" , 
+book
+ )
+
+6 
+print
+ ( "The website that you surf most is:" , 
+website
+ )
+
+
+	@./ex13/ex13_sd3.py
+
+1 from 
+	~sys
+ import 
+argv
+
+2 
+script
+ , 
+pet
+ , 
+food
+ , 
+car
+ = 
+argv
+
+3 
+print
+ ( "You are reading: " , 
+script
+ )
+
+4 
+print
+ ( "Your favourite pet is: " , 
+pet
+ )
+
+5 
+print
+ ( "The food you love best is: " , 
+food
+ )
+
+6 
+print
+ ( "The car of your dreams is: " , 
+car
+ )
+
+7 
+colour
+ = 
+input
+ ( "Your bedroom is painted: " )
+
+8 
+print
+ ( "You bedroom looks dark in " , 
+colour
+ , "." )
+
+
+	@./ex13/ex13_sd2b.py
+
+1 from 
+	~sys
+ import 
+argv
+
+2 
+exercise
+ , 
+book
+ , 
+website
+ , 
+toy
+ , 
+app
+ , 
+food
+ , 
+drink
+ , 
+pen
+ , 
+music
+ , 
+computer
+ = 
+argv
+
+4 
+print
+ ( "The exercise you try to solve now is:" , 
+exercise
+ )
+
+5 
+print
+ ( "The book you use to learn Python is:" , 
+book
+ )
+
+6 
+print
+ ( "The website that you surf most is:" , 
+website
+ )
+
+7 
+print
+ ( "The toy you like to play with is:" , 
+toy
+ )
+
+8 
+print
+ ( "The app that tracks your time is:" , 
+app
+ )
+
+9 
+print
+ ( "The food you eat mostly in the morning is:" , 
+food
+ )
+
+10 
+print
+ ( "The drink you have daily is:" , 
+drink
+ )
+
+11 
+print
+ ( "The pen you write with is made by:" , 
+pen
+ )
+
+12 
+print
+ ( "The music you listen to right now is:" , 
+music
+ )
+
+13 
+print
+ ( "The computer you use now is:" , 
+computer
+ )
+
+
+	@./ex40/ex40_sd1.py
+
+1 class 
+	cSong
+ ( 
+object
+ ) :
+
+3 def 
+	$__init__
+ ( 
+self
+ , 
+lyrics
+ ) :
+
+4 
+self
+ . 
+lyrics
+ = 
+lyrics
+ 
+	}
+
+6 def 
+	$sing_me_a_song
+ ( 
+self
+ ) :
+
+7 for 
+line
+ in 
+self
+ . 
+lyrics
+ :
+
+8 
+print
+ ( 
+line
+ ) 
+	}
+
+10 
+people_are_strange
+ = 
+Song
+ ( [ "People are strange when you're a stranger" , "Faces look ugly when you're alone"
+
+15 
+the_crystal_ship
+ = 
+Song
+ ( [ "The crystal ship is being filled" , "A thousand girls, a thousand thrills"
+
+20 
+people_are_strange
+ . 
+sing_me_a_song
+ ( )
+
+22 
+the_crystal_ship
+ . 
+sing_me_a_song
+ ( )
+
+
+	@./ex40/ex40.py
+
+1 class 
+	cSong
+ ( 
+object
+ ) :
+
+3 def 
+	$__init__
+ ( 
+self
+ , 
+lyrics
+ ) :
+
+4 
+self
+ . 
+lyrics
+ = 
+lyrics
+ 
+	}
+
+6 def 
+	$sing_me_a_song
+ ( 
+self
+ ) :
+
+7 for 
+line
+ in 
+self
+ . 
+lyrics
+ :
+
+8 
+print
+ ( 
+line
+ ) 
+	}
+
+10 
+happy_bday
+ = 
+Song
+ ( [ "Happy birthday to you" , "I don't want to get sued"
+
+14 
+bulls_on_parade
+ = 
+Song
+ ( [ "They rally around tha family" , "With pockets full of shells"
+
+17 
+happy_bday
+ . 
+sing_me_a_song
+ ( )
+
+19 
+bulls_on_parade
+ . 
+sing_me_a_song
+ ( )
+
+
+	@./ex40/ex40_sd2.py
+
+1 class 
+	cSong
+ ( 
+object
+ ) :
+
+3 def 
+	$__init__
+ ( 
+self
+ , 
+lyrics
+ ) :
+
+4 
+self
+ . 
+lyrics
+ = 
+lyrics
+ 
+	}
+
+6 def 
+	$sing_me_a_song
+ ( 
+self
+ ) :
+
+7 for 
+line
+ in 
+self
+ . 
+lyrics
+ :
+
+8 
+print
+ ( 
+line
+ ) 
+	}
+
+10 
+right_there
+ = 
+Song
+ ( [ "Happy birthday to you" , "I don't want to get sued"
+
+14 
+pockets_of_shells
+ = 
+Song
+ ( [ "They rally around tha family" , "With pockets full of shells"
+
+17 
+right_there
+ . 
+sing_me_a_song
+ ( )
+
+19 
+pockets_of_shells
+ . 
+sing_me_a_song
+ ( )
+
+
+	@./ex6/ex6_sd1.py
+
+2 
+types_of_people
+ = 10
+
+4 
+x
+ = f"There are {types_of_people} types of people."
+
+7 
+binary
+ = "binary"
+
+9 
+do_not
+ = "don't"
+
+11 
+y
+ = f"Those who know {binary} and those who {do_not}."
+
+14 
+print
+ ( 
+x
+ )
+
+16 
+print
+ ( 
+y
+ )
+
+19 
+print
+ ( f"I said: {x}" )
+
+21 
+print
+ ( f"I also said: '{y}'" )
+
+24 
+hilarious
+ = False
+
+26 
+joke_evaluation
+ = "Isn't that joke so funny?! {}"
+
+29 
+print
+ ( 
+joke_evaluation
+ . 
+format
+ ( 
+hilarious
+ ) )
+
+32 
+w
+ = "This is the left side of..."
+
+34 
+e
+ = "a string with a right side."
+
+37 
+print
+ ( 
+w
+ + 
+e
+ )
+
+
+	@./ex6/ex6.py
+
+1 
+types_of_people
+ = 10
+
+2 
+x
+ = f"There are {types_of_people} types of people."
+
+4 
+binary
+ = "binary"
+
+5 
+do_not
+ = "don't"
+
+6 
+y
+ = f"Those who know {binary} and those who {do_not}."
+
+8 
+print
+ ( 
+x
+ )
+
+9 
+print
+ ( 
+y
+ )
+
+11 
+print
+ ( f"I said: {x}" )
+
+12 
+print
+ ( f"I also said: '{y}'" )
+
+14 
+hilarious
+ = False
+
+15 
+joke_evaluation
+ = "Isn't that joke so funny?! {}"
+
+17 
+print
+ ( 
+joke_evaluation
+ . 
+format
+ ( 
+hilarious
+ ) )
+
+19 
+w
+ = "This is the left side of..."
+
+20 
+e
+ = "a string with a right side."
+
+22 
+print
+ ( 
+w
+ + 
+e
+ )
+
+
+	@./ex9/ex9.py
+
+3 
+days
+ = "Mon Tue Wed Thu Fri Sat Sun"
+
+4 
+months
+ = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
+
+6 
+print
+ ( "Here are the days: " , 
+days
+ )
+
+7 
+print
+ ( "Here are the months: " , 
+months
+ )
+
+9 
+print
+ ( """\nThere's something going on here.\nWith the three double-quotes.\nWe'll be able to type as much as we like.\nEven 4 lines if we want, or 5, or 6. \n"""
+
+
+	@./ex9/ex9_sd1.py
+
+3 
+days
+ = "Mon Tue Wed Thu Fri Sat Sun"
+
+5 
+months
+ = "\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
+
+8 
+print
+ ( "Here are the days: " , 
+days
+ )
+
+10 
+print
+ ( "Here are the months: " , 
+months
+ )
+
+13 
+print
+ ( """\n    There's something going on here.\nWith the three double-quotes.\nWe'll be able to type as much as we like.\nEven 4 lines if we want, or 5, or 6. \n"""
+
+
+	@./ex16/ex16_sd3.py
+
+1 from 
+	~sys
+ import 
+argv
+
+3 
+script
+ , 
+filename
+ = 
+argv
+
+5 
+print
+ ( f"We're going to erase {filename}." )
+
+6 
+print
+ ( "If you don't want that, hit CTRL-C (^C)." )
+
+7 
+print
+ ( "If you do want that, hit RETURN." )
+
+9 
+input
+ ( "?" )
+
+11 
+print
+ ( "Opening the file..." )
+
+12 
+target
+ = 
+open
+ ( 
+filename
+ , 'w' )
+
+14 
+print
+ ( "Truncating the file. Goodbye!" )
+
+15 
+target
+ . 
+truncate
+ ( )
+
+17 
+print
+ ( "Now I'm going to ask you for three lines." )
+
+19 
+line1
+ = 
+input
+ ( "line 1: " )
+
+20 
+line2
+ = 
+input
+ ( "line 2: " )
+
+21 
+line3
+ = 
+input
+ ( "line 3: " )
+
+23 
+print
+ ( "I'm going to write these to the file." )
+
+25 
+target
+ . 
+write
+ ( f"{line1}\n{line2}\n{line3}\n" )
+
+27 
+print
+ ( "And finally, we close it." )
+
+28 
+target
+ . 
+close
+ ( )
+
+
+	@./ex16/ex16_sd2.py
+
+1 from 
+	~sys
+ import 
+argv
+
+2 
+script
+ , 
+filename
+ = 
+argv
+
+3 
+text
+ = 
+open
+ ( 
+filename
+ )
+
+4 
+print
+ ( "Now we read the file" , 
+filename
+ )
+
+5 
+print
+ ( "Bad poetry alert!" )
+
+6 
+print
+ ( 
+text
+ . 
+read
+ ( ) )
+
+7 
+text
+ . 
+close
+ ( )
+
+
+	@./ex16/ex16.py
+
+1 from 
+	~sys
+ import 
+argv
+
+3 
+script
+ , 
+filename
+ = 
+argv
+
+5 
+print
+ ( f"We're going to erase {filename}." )
+
+6 
+print
+ ( "If you don't want that, hit CTRL-C (^C)." )
+
+7 
+print
+ ( "If you do want that, hit RETURN." )
+
+9 
+input
+ ( "?" )
+
+11 
+print
+ ( "Opening the file..." )
+
+12 
+target
+ = 
+open
+ ( 
+filename
+ , 'w' )
+
+14 
+print
+ ( "Truncating the file. Goodbye!" )
+
+15 
+target
+ . 
+truncate
+ ( )
+
+17 
+print
+ ( "Now I'm going to ask you for three lines." )
+
+19 
+line1
+ = 
+input
+ ( "line 1: " )
+
+20 
+line2
+ = 
+input
+ ( "line 2: " )
+
+21 
+line3
+ = 
+input
+ ( "line 3: " )
+
+23 
+print
+ ( "I'm going to write these to the file." )
+
+25 
+target
+ . 
+write
+ ( 
+line1
+ )
+
+26 
+target
+ . 
+write
+ ( "\n" )
+
+27 
+target
+ . 
+write
+ ( 
+line2
+ )
+
+28 
+target
+ . 
+write
+ ( "\n" )
+
+29 
+target
+ . 
+write
+ ( 
+line3
+ )
+
+30 
+target
+ . 
+write
+ ( "\n" )
+
+32 
+print
+ ( "And finally, we close it." )
+
+33 
+target
+ . 
+close
+ ( )
+
+
+	@./ex16/ex16_sd1.py
+
+2 from 
+	~sys
+ import 
+argv
+
+5 
+script
+ , 
+filename
+ = 
+argv
+
+8 
+print
+ ( f"We're going to erase {filename}." )
+
+10 
+print
+ ( "If you don't want that, hit CTRL-C (^C)." )
+
+12 
+print
+ ( "If you do want that, hit RETURN." )
+
+15 
+input
+ ( "?" )
+
+18 
+print
+ ( "Opening the file..." )
+
+21 
+target
+ = 
+open
+ ( 
+filename
+ , 'w' )
+
+24 
+print
+ ( "Truncating the file. Goodbye!" )
+
+26 
+target
+ . 
+truncate
+ ( )
+
+29 
+print
+ ( "Now I'm going to ask you for three lines." )
+
+33 
+line1
+ = 
+input
+ ( "line 1: " )
+
+36 
+line2
+ = 
+input
+ ( "line 2: " )
+
+39 
+line3
+ = 
+input
+ ( "line 3: " )
+
+42 
+print
+ ( "I'm going to write these to the file." )
+
+45 
+target
+ . 
+write
+ ( 
+line1
+ )
+
+47 
+target
+ . 
+write
+ ( "\n" )
+
+49 
+target
+ . 
+write
+ ( 
+line2
+ )
+
+51 
+target
+ . 
+write
+ ( "\n" )
+
+53 
+target
+ . 
+write
+ ( 
+line3
+ )
+
+55 
+target
+ . 
+write
+ ( "\n" )
+
+58 
+print
+ ( "And finally, we close it." )
+
+60 
+target
+ . 
+close
+ ( )
+
+
+	@./ex45/equipment.py
+
+1 from 
+	~textwrap
+ import 
+dedent
+
+4 class 
+	cEquipment
+ ( 
+object
+ ) :
+
+7 def 
+	$__init__
+ ( 
+self
+ ) :
+
+12 
+self
+ . 
+equipment
+ = { 'Fins'
+
+26 
+self
+ . 
+equipment_list
+ = 
+list
+ ( 
+self
+ . 
+equipment
+ . 
+keys
+ ( ) )
+
+27 
+self
+ . 
+choices
+ = [ ] 
+	}
+
+29 def 
+	$choose_equipment
+ ( 
+self
+ ) :
+
+32 
+print
+ ( 
+dedent
+ ( """\n                    You better know your equipment.\n                    You will receive points for getting ready\n                    without asking our divers for help.\n                    First we need to test your knowledge.\n                    What do you need?\n                    """
+
+40 
+available_items
+ = 
+self
+ . 
+equipment_list
+
+43 while 
+available_items
+ :
+
+46 
+print
+ ( "Available equipment" )
+
+47 
+print
+ ( * 
+available_items
+ , 
+sep
+ = ', ' )
+
+49 
+choice
+ = 
+input
+ ( '> ' )
+
+51 if 
+choice
+ in 
+available_items
+ :
+
+53 
+item_place
+ = 
+available_items
+ . 
+index
+ ( 
+choice
+ )
+
+55 
+item
+ = 
+available_items
+ . 
+pop
+ ( 
+item_place
+ )
+
+57 
+print
+ ( f"{self.equipment[item]}" )
+
+59 
+self
+ . 
+choices
+ . 
+append
+ ( 
+item
+ )
+
+61 
+print
+ ( "\nDo you need more equipment? Answer with yes or no." )
+
+63 
+next_choice
+ = 
+input
+ ( '> ' )
+
+65 if "yes" in 
+next_choice
+ :
+
+69 
+print
+ ( "You chose:" )
+
+70 
+print
+ ( * 
+self
+ . 
+choices
+ , 
+sep
+ = ( ', ' ) )
+
+74 elif 
+choice
+ in 
+self
+ . 
+choices
+ :
+
+75 
+print
+ ( "You already chose that." )
+
+79 
+print
+ ( "Not an option" )
+
+81 
+print
+ ( "You chose:" )
+
+82 
+print
+ ( * 
+self
+ . 
+choices
+ , 
+sep
+ = ( ', ' ) ) 
+	}
+
+84 
+equip
+ = 
+Equipment
+ ( )
+
+
+	@./ex45/instructor.py
+
+1 from 
+	~textwrap
+ import 
+dedent
+
+2 import 
+	~cave
+ as 
+ca
+
+3 import 
+	~result
+ as 
+res
+
+6 class 
+	cInstructor
+ ( 
+object
+ ) :
+
+9 def 
+	$__init__
+ ( 
+self
+ , 
+name
+ ) :
+
+11 
+self
+ . 
+name
+ = 
+name
+
+12 
+self
+ . 
+instructor
+ = " "
+
+13 
+self
+ . 
+intro
+ = """ """ 
+	}
+
+15 def 
+	$get_intro
+ ( 
+self
+ ) :
+
+18 
+print
+ ( 
+dedent
+ ( 
+self
+ . 
+intro
+ ) ) 
+	}
+
+22 
+mike
+ = 
+Instructor
+ ( "Mike" )
+
+23 
+alex
+ = 
+Instructor
+ ( "Alex" )
+
+24 
+vali
+ = 
+Instructor
+ ( "Vali" )
+
+26 
+instructors
+ = [ 
+mike
+ , 
+alex
+ , 
+vali
+ ]
+
+28 
+mike
+ . 
+intro
+ = """\n            Hmmm, I wouldn't trust that one.\n            He is sneakier than a serpent.\n            He is a good diver though.\n            Expect the unexpected.\n            Mike:\n            For 5000 GBP I can take you to the secret caves.\n            If you buy me a pizza, you get to see the normal caves.\n            Where do you want to dive?\n            """
+
+38 
+alex
+ . 
+intro
+ = """\n            Good choice! Your life is in good hands.\n            There are very beautiful underwater caves out there\n            """
+
+43 
+vali
+ . 
+intro
+ = """\n            Good choice! Your life is in good hands.\n            There are very beautiful underwater caves out there\n            """
+
+49 def 
+	$choose_instructor
+ ( ) :
+
+52 
+print
+ ( 
+dedent
+ ( """\n                We have 3 instructors you can choose from.\n                They all are quite experienced. Make a wise choice:\n                """
+
+57 
+print
+ ( "Alex\nVali\nMike" )
+
+59 
+instructor_choice
+ = 
+input
+ ( '> ' )
+
+63 for 
+instructor
+ in 
+instructors
+ :
+
+64 if 
+instructor_choice
+ in 
+instructor
+ . 
+name
+ :
+
+65 
+instructor
+ . 
+get_intro
+ ( )
+
+69 if 
+instructor_choice
+ == "Alex" or 
+instructor_choice
+ == "Vali" :
+
+71 
+ca
+ . 
+choose_cave
+ ( )
+
+78 
+cave
+ = 
+input
+ ( '> ' )
+
+84 if "secret" in 
+cave
+ :
+
+85 
+print
+ ( 
+dedent
+ ( """\n                                I can show you 3 more caves!\n                                But life is short and time is money.\n                                Give me the 5000.\n                                You give him the money and the adventure begins.\n                                """
+
+91 
+print
+ ( 
+dedent
+ ( """\n                                Mike points a gun at you:\n                                We are all alone in the equipment room.\n                                I must tell you the truth.\n                                Your money's lost.\n                                I am a dangerous killer hiding in this diving resort.\n                                You either choose to tell everyone or dive in the usual places.\n                                No such thing as the promised secret caves.\n                                What's your choice?\n                                """
+
+101 
+choice
+ = 
+input
+ ( '> ' )
+
+105 if "tell" in 
+choice
+ :
+
+106 
+res
+ . 
+Death
+ ( "Mike shoots you" )
+
+111 elif "dive" in 
+choice
+ :
+
+112 
+ca
+ . 
+choose_cave
+ ( )
+
+115 
+print
+ ( "Learn to type!" )
+
+119 elif "normal" in 
+cave
+ :
+
+120 
+ca
+ . 
+choose_cave
+ ( )
+
+123 
+print
+ ( "Learn how to type!" )
+
+127 continue 
+	}
+
+
+	@./ex45/result.py
+
+1 class 
+	cReward
+ ( 
+object
+ ) :
+
+4 def 
+	$__init__
+ ( 
+self
+ , 
+measurement
+ ) :
+
+9 
+self
+ . 
+counter
+ = 
+measurement
+
+10 
+self
+ . 
+points
+ = 
+self
+ . 
+counter
+ * 10 
+	}
+
+13 class 
+	cDeath
+ ( 
+object
+ ) :
+
+16 def 
+	$__init__
+ ( 
+self
+ , 
+reason
+ ) :
+
+19 
+self
+ . 
+reason
+ = 
+reason
+
+20 
+print
+ ( 
+reason
+ , "This is the end. At least you died in a beautiful scenery." ) 
+	}
+
+
+	@./ex45/cave.py
+
+1 from 
+	~textwrap
+ import 
+dedent
+
+2 import 
+	~result
+ as 
+res
+
+5 class 
+	cCave
+ ( 
+object
+ ) :
+
+8 def 
+	$__init__
+ ( 
+self
+ , 
+name
+ ) :
+
+11 
+self
+ . 
+name
+ = 
+name
+
+14 
+self
+ . 
+entry_scene
+ = """ """
+
+17 
+self
+ . 
+description
+ = """ """
+
+23 
+self
+ . 
+cave_map
+ = """ """
+
+27 
+self
+ . 
+depth
+ = None
+
+31 
+self
+ . 
+problem
+ = """ """
+
+34 
+self
+ . 
+won_choice
+ = "won choice"
+
+37 
+self
+ . 
+death_choice
+ = "death choice"
+
+41 
+self
+ . 
+death_phrase
+ = "death phrase"
+
+45 
+self
+ . 
+won_phrase
+ = "won phrase"
+
+48 
+self
+ . 
+intro
+ = """What is the cave you'd like to explore today? """ 
+	}
+
+50 def 
+	$enter
+ ( 
+self
+ ) :
+
+52 
+print
+ ( 
+dedent
+ ( 
+self
+ . 
+entry_scene
+ ) ) 
+	}
+
+54 def 
+	$get_description
+ ( 
+self
+ ) :
+
+56 
+print
+ ( 
+dedent
+ ( 
+self
+ . 
+description
+ ) ) 
+	}
+
+58 def 
+	$get_map
+ ( 
+self
+ ) :
+
+60 
+print
+ ( 
+dedent
+ ( 
+self
+ . 
+cave_map
+ ) ) 
+	}
+
+62 def 
+	$get_depth
+ ( 
+self
+ , 
+depth
+ ) :
+
+64 
+self
+ . 
+depth
+ = 
+depth
+ 
+	}
+
+66 def 
+	$get_problem
+ ( 
+self
+ ) :
+
+68 
+print
+ ( 
+dedent
+ ( 
+self
+ . 
+problem
+ ) ) 
+	}
+
+70 def 
+	$get_won_phrase
+ ( 
+self
+ ) :
+
+72 
+print
+ ( 
+dedent
+ ( 
+self
+ . 
+won_phrase
+ ) ) 
+	}
+
+75 def 
+	$choose_cave
+ ( ) :
+
+77 
+izbandis
+ = 
+Cave
+ ( "Izbandis" )
+
+78 
+mina
+ = 
+Cave
+ ( "Mina" )
+
+79 
+bulz
+ = 
+Cave
+ ( "Bulz" )
+
+81 
+caves
+ = [ 
+izbandis
+ , 
+mina
+ , 
+bulz
+ ]
+
+83 
+izbandis
+ . 
+entry_scene
+ = "Izbandis is quite dangerous if you are not good at cave diving."
+
+85 
+izbandis
+ . 
+description
+ = """\n                        You see a beautiful tiny cristal clear lake.\n                        It is not very cold outside.\n                        The autumn leaves are the only reminders of this planet.\n                        The rest looks like in a dream.\n                        You put your drysuit on, carry your big tanks to the brink of the lake.\n                        Your heart is pounding with hope:\n                        this is starting well, it will be a promissing dive.\n                        The instructor is already in the water, waiting for you.\n                        """
+
+95 
+izbandis
+ . 
+depth
+ = 100
+
+96 
+izbandis
+ . 
+cave_map
+ = """\n                        Hey, he says, we are going to descend directly to 28 m then find the entrance of the cave on the left.\n                        No guiding reel to that point.\n                        Once in the cave we are going to see the reel on the left.\n                        Following a narrow left corridor we'll reach a point where the reel goes under in a deep tunnel.\n                        50 m deep. Then it opens up to a bigger cave.\n                        We explore that a little bit then ascend.\n                        Let's go!\n                        """
+
+105 
+izbandis
+ . 
+problem
+ = """\n                        You found the reel on the left .\n                        There is a long, narrow corridor and two entrances:\n                        one up, one down.\n                        Where do you go?\n                        """
+
+112 
+izbandis
+ . 
+won_choice
+ = "up"
+
+113 
+izbandis
+ . 
+death_choice
+ = "down"
+
+114 
+izbandis
+ . 
+death_phrase
+ = "Wrong and bad. Your air finishes as you try to find the way back."
+
+115 
+izbandis
+ . 
+won_phrase
+ = """\n                        Perfect, your dive goes on as planned.\n                        You have enough air to explore the big beautiful cave.\n                        You ask the instructor to take a few pictures of you then you both ascend.\n                        Well done!\n                        """
+
+122 
+mina
+ . 
+entry_scene
+ = """\n                        There's an old gold mine that was abandoned 20 years ago.\n                        After an earthquake some of its walls collapsed\n                        and the mine was filled with water.\n                        """
+
+127 
+mina
+ . 
+description
+ = """\n                        You enter a dark tunnel. The water level is high enough.\n                        Once you reach the water, the instructor is helping you with handling the bottles.\n                        Just follow the reel, the instructor tells you.\n                        I will be in front of you at all times.\n                        If you stay behind and can't see me just check the reel.\n                        You go in and follow him. You turn on the light.\n                        Brilliant turquoise shafts of light plunge more than 30 m straight down.\n                        """
+
+136 
+mina
+ . 
+depth
+ = 35
+
+137 
+mina
+ . 
+cave_map
+ = """\n                There is a 500 m long, 4 m wide tunnel right in front of you.\n                It then goes right and opens up downwards in a huge chamber.\n                The descent is quite rocky and you have to be careful and follow the reel.\n                """
+
+142 
+mina
+ . 
+problem
+ = """\n                while enjoying the view your lights go off.\n                what do you do?\n                change batteries or dive into the unknown?\n                """
+
+147 
+mina
+ . 
+won_choice
+ = "change"
+
+148 
+mina
+ . 
+death_choice
+ = "dive"
+
+149 
+mina
+ . 
+won_phrase
+ = """\n                    Good, you are going to enjoy a great dive.\n                    You know what to do in limit situations.\n                    The instructor takes pictures of you and you ascend happy.\n                    """
+
+154 
+mina
+ . 
+death_phrase
+ = "You should have listened to your mommy, this is a dangerous sport."
+
+156 
+bulz
+ . 
+entry_scene
+ = """\n                        Bulz doesn't have long galleries, but it's spectacular.\n                        The surrounding Valley is called The Valey of Hell.\n                        """
+
+161 
+bulz
+ . 
+description
+ = """\n                        This one is a 4 km cave. It has lots of tunnels and obstacles.\n                        You really need to stay close to me, says the instructor.\n                        """
+
+165 
+bulz
+ . 
+depth
+ = 95
+
+167 
+bulz
+ . 
+cave_map
+ = """\n                The entrance is 6 m long and it's entirely submersed.\n                The first gallery is 13 m long and it's only accessible by rib.\n                There's a 2 m waterfall on the South wall. We can bypass it keeping right.\n                In 5 m we face the second waterfall. On the left of it, the main tunnel.\n                We enter this one then go down to 40 m. We play a bit there than come back.\n                The reel is always on our right.\n                You go in the water and swim to the rib. The instructor lights the waterfall.\n                You follow the reel and reach 40 m in a 5 minutes descent.\n                """
+
+177 
+bulz
+ . 
+problem
+ = """\n                You look back but the instructor is gone.\n                What do you do next?\n                Go back? Wait for him there?\n                """
+
+182 
+bulz
+ . 
+won_choice
+ = "wait"
+
+183 
+bulz
+ . 
+death_choice
+ = "go"
+
+184 
+bulz
+ . 
+won_phrase
+ = """\n                    You have lots of air to wait for him.\n                    Soon enough you see his light above you.\n                    The dive goes on.\n                    He takes pictures of you and you surface\n                    """
+
+190 
+bulz
+ . 
+death_phrase
+ = "You panick and get lost.You breathe like a running giraffe. At 30 bars you don't have enough air for safety stops"
+
+192 
+print
+ ( 
+dedent
+ ( """\n                What is the cave you'd like to explore today?\n                """
+
+196 
+print
+ ( "Izbandis\nMina\nBulz" )
+
+198 
+cave_choice
+ = 
+input
+ ( '> ' )
+
+200 for 
+cave
+ in 
+caves
+ :
+
+201 if 
+cave_choice
+ in 
+cave
+ . 
+name
+ :
+
+202 
+cave
+ . 
+enter
+ ( )
+
+203 
+cave
+ . 
+get_description
+ ( )
+
+204 
+cave
+ . 
+get_map
+ ( )
+
+205 
+cave
+ . 
+get_problem
+ ( )
+
+206 
+choice
+ = 
+input
+ ( '> ' )
+
+207 if 
+cave
+ . 
+won_choice
+ in 
+choice
+ :
+
+208 
+cave
+ . 
+get_won_phrase
+ ( )
+
+209 elif 
+cave
+ . 
+death_choice
+ in 
+choice
+ :
+
+210 
+res
+ . 
+Death
+ ( 
+cave
+ . 
+death_phrase
+ )
+
+212 
+print
+ ( "Not an option" )
+
+213 
+res
+ . 
+Death
+ ( 
+cave
+ . 
+death_phrase
+ )
+
+216 continue 
+	}
+
+
+	@./ex45/diver.py
+
+1 class 
+	cDiver
+ ( 
+object
+ ) :
+
+4 def 
+	$__init__
+ ( 
+self
+ , 
+diver_name
+ ) :
+
+7 
+self
+ . 
+name
+ = 
+diver_name
+
+9 
+self
+ . 
+choices
+ = { 'instructor_name'
+
+15 
+self
+ . 
+points
+ = None 
+	}
+
+17 def 
+	$set_instructor
+ ( 
+self
+ , 
+instructor_name
+ ) :
+
+18 
+self
+ . 
+choices
+ [ 'instructor_name' ] = 
+instructor_name
+ 
+	}
+
+20 def 
+	$set_cave
+ ( 
+self
+ , 
+cave_name
+ ) :
+
+21 
+self
+ . 
+choices
+ [ 'cave_name' ] = 
+cave_name
+ 
+	}
+
+23 def 
+	$set_equipment
+ ( 
+self
+ , 
+equipment_choices
+ ) :
+
+24 
+self
+ . 
+choices
+ [ 'equipment' ] = 
+equipment_choices
+ 
+	}
+
+
+	@./ex45/ex45.py
+
+1 from 
+	~textwrap
+ import 
+dedent
+
+2 import 
+	~instructor
+ as 
+inst
+
+3 import 
+	~equipment
+ as 
+eq
+
+4 import 
+	~result
+ as 
+res
+
+5 import 
+	~diver
+ as 
+dv
+
+8 def 
+	$main
+ ( ) :
+
+12 
+print
+ ( 
+dedent
+ ( """\n            Welcome to our cave diving center, brave creature.\n            What is you name?\n            """
+
+17 
+answer
+ = 
+input
+ ( '> ' )
+
+25 
+diver
+ = 
+dv
+ . 
+Diver
+ ( 
+answer
+ )
+
+29 
+eq
+ . 
+equip
+ . 
+choose_equipment
+ ( )
+
+30 
+diver
+ . 
+set_equipment
+ ( 
+eq
+ . 
+equip
+ . 
+choices
+ )
+
+32 
+reward
+ = 
+res
+ . 
+Reward
+ ( 
+len
+ ( 
+eq
+ . 
+equip
+ . 
+choices
+ ) )
+
+34 
+print
+ ( f"Well done, {diver.name}, you get {reward.points} points!" )
+
+37 
+inst
+ . 
+choose_instructor
+ ( ) 
+	}
+
+40 if 
+__name__
+ == '__main__' :
+
+41 
+main
+ ( )
+
+
+	@./ex25/ex25.py
+
+1 def 
+	$break_words
+ ( 
+stuff
+ ) :
+
+3 
+words
+ = 
+stuff
+ . 
+split
+ ( ' ' )
+
+4 return 
+words
+ 
+	}
+
+6 def 
+	$sort_words
+ ( 
+words
+ ) :
+
+8 return 
+sorted
+ ( 
+words
+ ) 
+	}
+
+10 def 
+	$print_first_word
+ ( 
+words
+ ) :
+
+12 
+word
+ = 
+words
+ . 
+pop
+ ( 0 )
+
+13 
+print
+ ( 
+word
+ ) 
+	}
+
+15 def 
+	$print_last_word
+ ( 
+words
+ ) :
+
+17 
+word
+ = 
+words
+ . 
+pop
+ ( - 1 )
+
+18 
+print
+ ( 
+word
+ ) 
+	}
+
+20 def 
+	$sort_sentence
+ ( 
+sentence
+ ) :
+
+22 
+words
+ = 
+break_words
+ ( 
+sentence
+ )
+
+23 return 
+sort_words
+ ( 
+words
+ ) 
+	}
+
+25 def 
+	$print_first_and_last
+ ( 
+sentence
+ ) :
+
+27 
+words
+ = 
+break_words
+ ( 
+sentence
+ )
+
+28 
+print_first_word
+ ( 
+words
+ )
+
+29 
+print_last_word
+ ( 
+words
+ ) 
+	}
+
+31 def 
+	$print_first_and_last_sorted
+ ( 
+sentence
+ ) :
+
+33 
+words
+ = 
+sort_sentence
+ ( 
+sentence
+ )
+
+34 
+print_first_word
+ ( 
+words
+ )
+
+35 
+print_last_word
+ ( 
+words
+ ) 
+	}
+
+
+	@./ex46/cave_divers/__init__.py
+
+
+	@./ex46/cave_divers/cave_divers.py
+
+1 from 
+	~sys
+ import 
+exit
+
+6 def 
+	$choose_diver
+ ( ) :
+
+7 
+print
+ ( """Welcome to our cave diving center. We have 3 instructors you can choose from.\n    They all are quite experienced. Make a wise choice:\n\tAlex\n\tVali\n\tMike"""
+
+10 
+diver
+ = 
+input
+ ( "> " )
+
+14 if "Alex" in 
+diver
+ or "Vali" in 
+diver
+ :
+
+15 
+print
+ ( "Good choice! Your life is in good hands!" )
+
+16 
+choose_cave
+ ( )
+
+21 elif "Mike" in 
+diver
+ :
+
+22 
+print
+ ( """Hmmm, I wouldn't trust that one. He is sneakier than a serpent.\n        He is a good diver though. Expect the unexpected.\nMike: For 5000 GBP I can take you to the secret caves.\n        If you buy me a pizza, you get to see the normal caves.\n        Where do you want to dive?"""
+
+27 
+cave
+ = 
+input
+ ( "> " )
+
+29 if "secret" in 
+cave
+ :
+
+30 
+secret_caves
+ ( )
+
+31 elif "normal" in 
+cave
+ :
+
+32 
+choose_cave
+ ( )
+
+34 
+print
+ ( "You can only choose a normal cave or a secret one." )
+
+35 
+choose_diver
+ ( )
+
+39 
+print
+ ( "Only three instructors available" )
+
+40 
+choose_diver
+ ( ) 
+	}
+
+45 def 
+	$choose_cave
+ ( ) :
+
+46 
+print
+ ( """There are very beautiful underwater caves to explore.\nWhat is the cave you'd like to explore today?\n    \n1. Izbandis\n2. Mina\n3. Bulz"""
+
+49 
+normal_cave
+ = 
+input
+ ( "> " )
+
+51 if "1" in 
+normal_cave
+ :
+
+52 
+print
+ ( "Izbandis is quite dangerous if you are not good at cave diving."
+
+54 
+choose_equipment
+ ( )
+
+55 
+izbandis
+ ( )
+
+56 elif "2" in 
+normal_cave
+ :
+
+57 
+print
+ ( "Mina is very good for training your cave diving skills." )
+
+58 
+choose_equipment
+ ( )
+
+59 
+mina
+ ( )
+
+60 elif "3" in 
+normal_cave
+ :
+
+61 
+print
+ ( "Bulz doesn't have long galleries, but it's spectacular." )
+
+62 
+choose_equipment
+ ( )
+
+63 
+bulz
+ ( )
+
+65 
+print
+ ( "That's not a cave. Try again." )
+
+66 
+choose_cave
+ ( ) 
+	}
+
+69 def 
+	$secret_caves
+ ( ) :
+
+70 
+print
+ ( """I can show you 3 more caves! But life is short and time is money.\n Give me the 5000. You give him the money and the adventure begins."""
+
+72 
+choose_equipment
+ ( )
+
+74 
+print
+ ( """Mike points a gun at you: We are all alone in the equipment room. I must tell you the truth. \n Your money is lost. I am a dangerous killer hiding in this diving resort. \n You either choose to tell everyone or dive in the usual places.\n No such thing as the promised secret caves. What's your choice?"""
+
+76 
+secret_choice
+ = 
+input
+ ( '> ' )
+
+78 if "tell" in 
+secret_choice
+ :
+
+79 
+print
+ ( "Mike shoots you." )
+
+80 elif "dive" in 
+secret_choice
+ :
+
+81 
+choose_cave
+ ( )
+
+83 
+print
+ ( "Not an option." )
+
+84 
+secret_caves
+ ( ) 
+	}
+
+87 def 
+	$choice
+ ( ) :
+
+88 
+equip_choice
+ = 
+input
+ ( '> ' )
+
+89 return 
+equip_choice
+ 
+	}
+
+94 def 
+	$choose_equipment
+ ( ) :
+
+95 
+print
+ ( """You better know your equipment. You will get points for getting ready\n    without asking our divers for help. First we need to test your knowledge."""
+
+97 
+print
+ ( "What do you need?" )
+
+99 
+equipment
+ = { 'Fins'
+
+112 
+equipment_list
+ = 
+list
+ ( 
+equipment
+ . 
+keys
+ ( ) )
+
+114 
+print
+ ( "Choose the equipment you need:" )
+
+117 
+choices
+ = [ ]
+
+120 while 
+len
+ ( 
+equipment_list
+ ) != 
+len
+ ( 
+choices
+ ) :
+
+123 def 
+items_remaining
+ ( 
+a
+ , 
+b
+ ) :
+
+124 return [ 
+item
+ for 
+item
+ in 
+a
+ if 
+item
+ not in 
+b
+ ]
+
+126 
+remaining
+ = 
+items_remaining
+ ( 
+equipment_list
+ , 
+choices
+ )
+
+129 
+print
+ ( "Remaining items:" )
+
+130 
+print
+ ( * 
+remaining
+ , 
+sep
+ = ', ' )
+
+133 
+new_item
+ = 
+choice
+ ( )
+
+137 if 
+new_item
+ in 
+choices
+ :
+
+138 
+print
+ ( f"You already chose {new_item}" )
+
+142 elif 
+new_item
+ not in 
+choices
+ and 
+new_item
+ in 
+equipment_list
+ :
+
+143 
+print
+ ( f"{equipment[new_item]}" )
+
+146 
+choices
+ . 
+append
+ ( 
+new_item
+ )
+
+148 
+print
+ ( "\nDo you need more equipment? Answer with yes or no." )
+
+150 
+next_choice
+ = 
+input
+ ( '> ' )
+
+152 if "yes" in 
+next_choice
+ :
+
+153 
+remaining
+
+156 
+print
+ ( "The equipment you chose is:" )
+
+157 
+print
+ ( * 
+choices
+ , 
+sep
+ = ', ' )
+
+162 
+print
+ ( "No such equipment." )
+
+163 
+choose_equipment
+ ( )
+
+165 
+print
+ ( "The equipment you chose is:" )
+
+166 
+print
+ ( * 
+choices
+ , 
+sep
+ = ', ' ) 
+	}
+
+169 def 
+	$death
+ ( 
+reason
+ ) :
+
+170 
+print
+ ( 
+reason
+ , "This is the end. At least you died in a beautiful scenery." ) 
+	}
+
+173 def 
+	$izbandis
+ ( ) :
+
+174 
+print
+ ( """You see a beautiful tiny cristal clear lake. It is not very cold outside.\n The autumn leaves are the only reminders of this planet.\n The rest looks like in a dream.\n You put your drysuit on, carry your big tanks to the brink of the lake. Your heart is pounding with hope: this is starting well, it will be a promissing dive.\nThe instructor is already in the water, waiting for you.\n Hey, he says, we are going to descend directly to 28 m then find the entrance of the cave on the left. No guiding reel to that point.\n Once in the cave we are going to see the reel on the left.\n Following a narrow left corridor we'll reach a point where the reel goes under in a deep tunnel. 50 m deep.\n Then it opens up to a bigger cave. We explore that a little bit then ascend.\nLet's go!"""
+
+176 
+print
+ ( "You found the reel on the left . There is a long, narrow corridor and two entrances: one up, one down. Where do you go?"
+
+179 
+izbandis_choice
+ = 
+input
+ ( '> ' )
+
+181 if "up" in 
+izbandis_choice
+ :
+
+182 
+death
+ ( "Wrong and bad. Your air finishes as you try to find the way back."
+
+185 elif "down" in 
+izbandis_choice
+ :
+
+186 
+print
+ ( """Perfect, your dive goes on as planned.\n You have enough air to explore the big beautiful cave.\n You ask the instructor to take a few pictures of you then you both ascend. Well done!"""
+
+189 
+print
+ ( "Not an option!" )
+
+190 
+izbandis
+ ( ) 
+	}
+
+193 def 
+	$mina
+ ( ) :
+
+194 
+print
+ ( """There's an old gold mine that was abandoned 20 years ago. \n After an earthquake some of its walls collapsed and it was filled with water.\n You enter a dark tunnel. The water level is high enough.\n Once you reach the water, the instructor is helping you with handling the bottles.\n Just follow the reel, the instructor tells you. I will be in front of you at all times.\n If you stay behind and can't see me just check the reel.\n You go in and follow him. You turn on the light. \n Brilliant turquoise shafts of light plunge more than 30 m straight down.\n While enjoying the view your lights go off. What do you do? Change batteries or dive into the unknown?"""
+
+197 
+mina_choice
+ = 
+input
+ ( '> ' )
+
+199 if "change" in 
+mina_choice
+ :
+
+200 
+print
+ ( """Good, you are going to enjoy a great dive.\n You know what to do in limit situations.\n The instructor takes pictures of you and you ascend happy."""
+
+203 elif "dive" in 
+mina_choice
+ :
+
+204 
+death
+ ( "You should have listened to your mother when she said this is a dangerous sport.\n You die like she expected."
+
+208 
+print
+ ( "Not an option!" )
+
+209 
+mina
+ ( ) 
+	}
+
+212 def 
+	$bulz
+ ( ) :
+
+213 
+print
+ ( """This one is a 4 km cave. It has lots of tunnels and obstacles. You really need to stay close to me, says the instructor.\n The entrance is 6 m long and it's entirely submersed. The first gallery is 13 m long and it's only accessible by rib.\n There's a 2 m waterfall on the South wall. We can bypass it keeping right.\n In 5 m we face the second waterfall. On the left of it, the main tunnel.\n We enter this one then go down to 40 m. We play a bit there than come back. The reel is always on our right.\n You go in the water and swim to the rib. The instructor lights the waterfall. \n You follow the reel and reach 40 m in a 5 minutes descend. \n You look back but the instructor is gone. What do you do next? Go back? Wait for him there? """
+
+216 
+bulz_choice
+ = 
+input
+ ( '> ' )
+
+218 if "go" in 
+bulz_choice
+ :
+
+219 
+death
+ ( "You panick and get lost.You breathe like a running giraffe. At 30 bars you don't have enough air for safety stops"
+
+222 elif "wait" in 
+bulz_choice
+ :
+
+223 
+print
+ ( """You have lots of air to wait for him. Soon enough you see his light above you.\n The dive goes on. He takes pictures of you and you surface"""
+
+227 
+print
+ ( "Not an option!" )
+
+228 
+bulz
+ ( ) 
+	}
+
+230 
+choose_diver
+ ( )
+
+
+	@./ex46/tests/cave_divers_tests.py
+
+1 from 
+	~nose.tools
+ import *
+
+2 import 
+	~cave_divers
+
+5 def 
+	$setup
+ ( ) :
+
+6 
+print
+ ( "SETUP!" ) 
+	}
+
+8 def 
+	$teardown
+ ( ) :
+
+9 
+print
+ ( "TEAR DOWN!" ) 
+	}
+
+11 def 
+	$test_basic
+ ( ) :
+
+12 
+print
+ ( "I RAN!" , 
+end
+ = '' ) 
+	}
+
+
+	@./ex46/tests/__init__.py
+
+
+	@./ex46/build/lib/cave_divers/__init__.py
+
+
+	@./ex46/build/lib/cave_divers/cave_divers.py
+
+2 def 
+	$choose_diver
+ ( ) :
+
+3 
+print
+ ( """Welcome to our cave diving center. We have 3 instructors you can choose from.\n    They all are quite experienced. Make a wise choice:\n\tAlex\n\tVali\n\tMike"""
+
+6 
+diver
+ = 
+input
+ ( "> " )
+
+10 if "Alex" in 
+diver
+ or "Vali" in 
+diver
+ :
+
+11 
+print
+ ( "Good choice! Your life is in good hands!" )
+
+12 
+choose_cave
+ ( )
+
+17 elif "Mike" in 
+diver
+ :
+
+18 
+print
+ ( """Hmmm, I wouldn't trust that one. He is sneakier than a serpent.\n        He is a good diver though. Expect the unexpected.\nMike: For 5000 GBP I can take you to the secret caves.\n        If you buy me a pizza, you get to see the normal caves.\n        Where do you want to dive?"""
+
+23 
+cave
+ = 
+input
+ ( "> " )
+
+25 if "secret" in 
+cave
+ :
+
+26 
+secret_caves
+ ( )
+
+27 elif "normal" in 
+cave
+ :
+
+28 
+choose_cave
+ ( )
+
+30 
+print
+ ( "You can only choose a normal cave or a secret one." )
+
+31 
+choose_diver
+ ( )
+
+35 
+print
+ ( "Only three instructors available" )
+
+36 
+choose_diver
+ ( ) 
+	}
+
+41 def 
+	$choose_cave
+ ( ) :
+
+42 
+print
+ ( """There are very beautiful underwater caves to explore.\nWhat is the cave you'd like to explore today?\n    \n1. Izbandis\n2. Mina\n3. Bulz"""
+
+45 
+normal_cave
+ = 
+input
+ ( "> " )
+
+47 if "1" in 
+normal_cave
+ :
+
+48 
+print
+ ( "Izbandis is quite dangerous if you are not good at cave diving."
+
+50 
+choose_equipment
+ ( )
+
+51 
+izbandis
+ ( )
+
+52 elif "2" in 
+normal_cave
+ :
+
+53 
+print
+ ( "Mina is very good for training your cave diving skills." )
+
+54 
+choose_equipment
+ ( )
+
+55 
+mina
+ ( )
+
+56 elif "3" in 
+normal_cave
+ :
+
+57 
+print
+ ( "Bulz doesn't have long galleries, but it's spectacular." )
+
+58 
+choose_equipment
+ ( )
+
+59 
+bulz
+ ( )
+
+61 
+print
+ ( "That's not a cave. Try again." )
+
+62 
+choose_cave
+ ( ) 
+	}
+
+65 def 
+	$secret_caves
+ ( ) :
+
+66 
+print
+ ( """I can show you 3 more caves! But life is short and time is money.\n Give me the 5000. You give him the money and the adventure begins."""
+
+68 
+choose_equipment
+ ( )
+
+70 
+print
+ ( """Mike points a gun at you: We are all alone in the equipment room. I must tell you the truth. \n Your money is lost. I am a dangerous killer hiding in this diving resort. \n You either choose to tell everyone or dive in the usual places.\n No such thing as the promised secret caves. What's your choice?"""
+
+72 
+secret_choice
+ = 
+input
+ ( '> ' )
+
+74 if "tell" in 
+secret_choice
+ :
+
+75 
+print
+ ( "Mike shoots you." )
+
+76 elif "dive" in 
+secret_choice
+ :
+
+77 
+choose_cave
+ ( )
+
+79 
+print
+ ( "Not an option." )
+
+80 
+secret_caves
+ ( ) 
+	}
+
+83 def 
+	$choice
+ ( ) :
+
+84 
+equip_choice
+ = 
+input
+ ( '> ' )
+
+85 return 
+equip_choice
+ 
+	}
+
+90 def 
+	$choose_equipment
+ ( ) :
+
+91 
+print
+ ( """You better know your equipment. You will get points for getting ready\n    without asking our divers for help. First we need to test your knowledge."""
+
+93 
+print
+ ( "What do you need?" )
+
+95 
+equipment
+ = { 'Fins'
+
+108 
+equipment_list
+ = 
+list
+ ( 
+equipment
+ . 
+keys
+ ( ) )
+
+110 
+print
+ ( "Choose the equipment you need:" )
+
+113 
+choices
+ = [ ]
+
+116 while 
+len
+ ( 
+equipment_list
+ ) != 
+len
+ ( 
+choices
+ ) :
+
+119 def 
+items_remaining
+ ( 
+a
+ , 
+b
+ ) :
+
+120 return [ 
+item
+ for 
+item
+ in 
+a
+ if 
+item
+ not in 
+b
+ ]
+
+122 
+remaining
+ = 
+items_remaining
+ ( 
+equipment_list
+ , 
+choices
+ )
+
+125 
+print
+ ( "Remaining items:" )
+
+126 
+print
+ ( * 
+remaining
+ , 
+sep
+ = ', ' )
+
+129 
+new_item
+ = 
+choice
+ ( )
+
+133 if 
+new_item
+ in 
+choices
+ :
+
+134 
+print
+ ( f"You already chose {new_item}" )
+
+138 elif 
+new_item
+ not in 
+choices
+ and 
+new_item
+ in 
+equipment_list
+ :
+
+139 
+print
+ ( f"{equipment[new_item]}" )
+
+142 
+choices
+ . 
+append
+ ( 
+new_item
+ )
+
+145 
+print
+ ( "No such equipment." )
+
+146 
+choose_equipment
+ ( )
+
+148 
+print
+ ( "The equipment you chose is:" )
+
+149 
+print
+ ( * 
+choices
+ , 
+sep
+ = ', ' ) 
+	}
+
+152 def 
+	$death
+ ( 
+reason
+ ) :
+
+153 
+print
+ ( 
+reason
+ , "This is the end. At least you died in a beautiful scenery." ) 
+	}
+
+156 def 
+	$izbandis
+ ( ) :
+
+157 
+print
+ ( """You see a beautiful tiny cristal clear lake. It is not very cold outside.\n The autmun leaves are the only reminders of this planet.\n The rest looks like in a dream.\n You put your drysuit on, carry your big tanks to the brink of the lake. Your heart is pounding with hope: this is starting well, it will be a promissing dive.\nThe instructor is already in the water, waiting for you.\n Hey, he says, we are going to descend directly to 28 m then find the entrance of the cave on the left. No guiding reel to that point.\n Once in the cave we are going to see the reel on the left.\n Following a narrow left corridor we'll reach a point where the reel goes under in a deep tunnel. 50 m deep.\n Then it opens up to a bigger cave. We explore that a little bit then ascend.\nLet's go!"""
+
+159 
+print
+ ( "You found the reel on the left . There is a long, narrow corridor and two entrances: one up, one down. Where do you go?"
+
+162 
+izbandis_choice
+ = 
+input
+ ( '> ' )
+
+164 if "up" in 
+izbandis_choice
+ :
+
+165 
+death
+ ( "Wrong and bad. Your air finishes as you try to find the way back."
+
+168 elif "down" in 
+izbandis_choice
+ :
+
+169 
+print
+ ( """Perfect, your dive goes on as planned.\n You have enough air to explore the big beautiful cave.\n You ask the instructor to take a few pictures of you then you both ascend. Well done!"""
+
+172 
+print
+ ( "Not an option!" )
+
+173 
+izbandis
+ ( ) 
+	}
+
+176 def 
+	$mina
+ ( ) :
+
+177 
+print
+ ( """There's an old gold mine that was abandoned 20 years ago. \n After an earthquake some of its walls collapsed and it was filled with water.\n You enter a dark tunnel. The water level is high enough.\n Once you reach the water, the instructor is helping you with handling the bottles.\n Just follow the reel, the instructor tells you. I will be in front of you at all times.\n If you stay behind and can't see me just check the reel.\n You go in and follow him. You turn on the light. \n Brilliant turquoise shafts of light plunge more than 30 m straight down.\n While enjoying the view your lights go off. What do you do? Change batteries or dive into the unknown?"""
+
+180 
+mina_choice
+ = 
+input
+ ( '> ' )
+
+182 if "change" in 
+mina_choice
+ :
+
+183 
+print
+ ( """Good, you are going to enjoy a great dive.\n You know what to do in limit situations.\n The instructor takes pictures of you and you ascend happy."""
+
+186 elif "dive" in 
+mina_choice
+ :
+
+187 
+death
+ ( "You should have listened to your mother when she said this is a dangerous sport.\n You die like she expected."
+
+191 
+print
+ ( "Not an option!" )
+
+192 
+mina
+ ( ) 
+	}
+
+195 def 
+	$bulz
+ ( ) :
+
+196 
+print
+ ( """This one is a 4 km cave. It has lots of tunnels and obstacles. You really need to stay close to me, says the instructor.\n The entrance is 6 m long and it's entirely submersed. The first gallery is 13 m long and it's only accessible by rib.\n There's a 2 m waterfall on the South wall. We can bypass it keeping right.\n In 5 m we face the second waterfall. On the left of it, the main tunnel.\n We enter this one then go down to 40 m. We play a bit there than come back. The reel is always on our right.\n You go in the water and swim to the rib. The instructor lights the waterfall. \n You follow the reel and reach 40 m in a 5 minutes descend. \n You look back but the instructor is gone. What do you do next? Go back? Wait for him there? """
+
+199 
+bulz_choice
+ = 
+input
+ ( '> ' )
+
+201 if "go" in 
+bulz_choice
+ :
+
+202 
+death
+ ( "You panick and get lost.You breathe like a running giraffe. At 30 bars you don't have enough air for safety stops"
+
+205 elif "wait" in 
+bulz_choice
+ :
+
+206 
+print
+ ( """You have lots of air to wait for him. Soon enough you see his light above you.\n The dive goes on. He takes pictures of you and you surface"""
+
+210 
+print
+ ( "Not an option!" )
+
+211 
+bulz
+ ( ) 
+	}
+
+213 
+choose_diver
+ ( )
+
+
+	@./ex46/setup.py
+
+4 from 
+	~setuptools
+ import 
+setup
+
+5 except 
+ImportError
+ :
+
+6 from 
+	~distutils.core
+ import 
+setup
+
+8 
+config
+ = { 'description'
+
+21 
+setup
+ ( ** 
+config
+ )
+
+
+	@./ex23/ex23.py
+
+1 import 
+	~sys
+
+2 
+script
+ , 
+input_encoding
+ , 
+error
+ = 
+sys
+ . 
+argv
+
+5 def 
+	$main
+ ( 
+language_file
+ , 
+encoding
+ , 
+errors
+ ) :
+
+6 
+line
+ = 
+language_file
+ . 
+readline
+ ( )
+
+8 if 
+line
+ :
+
+9 
+print_line
+ ( 
+line
+ , 
+encoding
+ , 
+errors
+ )
+
+10 return 
+main
+ ( 
+language_file
+ , 
+encoding
+ , 
+errors
+ ) 
+	}
+
+13 def 
+	$print_line
+ ( 
+line
+ , 
+encoding
+ , 
+errors
+ ) :
+
+14 
+next_lang
+ = 
+line
+ . 
+strip
+ ( )
+
+15 
+raw_bytes
+ = 
+next_lang
+ . 
+encode
+ ( 
+encoding
+ , 
+errors
+ = 
+errors
+ )
+
+16 
+cooked_string
+ = 
+raw_bytes
+ . 
+decode
+ ( 
+encoding
+ , 
+errors
+ = 
+errors
+ )
+
+18 
+print
+ ( 
+raw_bytes
+ , "<===>" , 
+cooked_string
+ ) 
+	}
+
+21 
+languages
+ = 
+open
+ ( "languages.txt" , 
+encoding
+ = "utf-8" )
+
+23 
+main
+ ( 
+languages
+ , 
+input_encoding
+ , 
+error
+ )
+
+
+	@./ex23/ex23_sd1.py
+
+1 import 
+	~sys
+
+2 
+script
+ , 
+input_encoding
+ , 
+error
+ = 
+sys
+ . 
+argv
+
+5 def 
+	$main
+ ( 
+language_file
+ , 
+encoding
+ , 
+errors
+ ) :
+
+6 
+line
+ = 
+language_file
+ . 
+readline
+ ( )
+
+8 if 
+line
+ :
+
+9 
+print_line
+ ( 
+line
+ , 
+encoding
+ , 
+errors
+ )
+
+10 return 
+main
+ ( 
+language_file
+ , 
+encoding
+ , 
+errors
+ ) 
+	}
+
+13 def 
+	$print_line
+ ( 
+line
+ , 
+encoding
+ , 
+errors
+ ) :
+
+14 
+next_lang
+ = 
+line
+ . 
+strip
+ ( )
+
+15 
+raw_bytes
+ = 
+next_lang
+ . 
+encode
+ ( 
+encoding
+ , 
+errors
+ = 
+errors
+ )
+
+16 
+cooked_string
+ = 
+raw_bytes
+ . 
+decode
+ ( 
+encoding
+ , 
+errors
+ = 
+errors
+ )
+
+18 
+print
+ ( 
+raw_bytes
+ , "<===>" , 
+cooked_string
+ ) 
+	}
+
+21 
+languages
+ = 
+open
+ ( "japanese_iso_2022.txt" , 
+encoding
+ = "utf-8" )
+
+23 
+main
+ ( 
+languages
+ , 
+input_encoding
+ , 
+error
+ )
+
+
+	@./ex14/ex14_sd2.py
+
+1 from 
+	~sys
+ import 
+argv
+
+3 
+script
+ , 
+user_name
+ = 
+argv
+
+4 
+prompt
+ = '$ '
+
+6 
+print
+ ( f"Hi {user_name}, I'm the {script} script." )
+
+7 
+print
+ ( "I'd like to ask you a few questions." )
+
+8 
+print
+ ( f"Do you like me {user_name}?" )
+
+9 
+likes
+ = 
+input
+ ( 
+prompt
+ )
+
+11 
+print
+ ( f"Where do you live {user_name}?" )
+
+12 
+lives
+ = 
+input
+ ( 
+prompt
+ )
+
+14 
+print
+ ( "What kind of computer do you have?" )
+
+15 
+computer
+ = 
+input
+ ( 
+prompt
+ )
+
+17 
+print
+ ( f"""\nAlright, so you said {likes} about liking me.\nYou live in {lives}. Not sure where that is.\nAnd you have a {computer} computer. Nice.\n"""
+
+
+	@./ex14/ex14_sd3.py
+
+1 from 
+	~sys
+ import 
+argv
+
+3 
+script
+ , 
+user_name
+ , 
+surname
+ = 
+argv
+
+4 
+prompt
+ = '> '
+
+6 
+print
+ ( f"Hi {user_name} {surname}, I'm the {script} script." )
+
+7 
+print
+ ( "I'd like to ask you a few questions." )
+
+8 
+print
+ ( f"Do you like me {user_name}?" )
+
+9 
+likes
+ = 
+input
+ ( 
+prompt
+ )
+
+11 
+print
+ ( f"Where do you live {user_name}?" )
+
+12 
+lives
+ = 
+input
+ ( 
+prompt
+ )
+
+14 
+print
+ ( "What kind of computer do you have?" )
+
+15 
+computer
+ = 
+input
+ ( 
+prompt
+ )
+
+17 
+print
+ ( f"""\nAlright, so you said {likes} about liking me.\nYou live in {lives}. Not sure where that is.\nAnd you have a {computer} computer. Nice.\n"""
+
+
+	@./ex14/ex14.py
+
+1 from 
+	~sys
+ import 
+argv
+
+3 
+script
+ , 
+user_name
+ = 
+argv
+
+4 
+prompt
+ = '> '
+
+6 
+print
+ ( f"Hi {user_name}, I'm the {script} script." )
+
+7 
+print
+ ( "I'd like to ask you a few questions." )
+
+8 
+print
+ ( f"Do you like me {user_name}?" )
+
+9 
+likes
+ = 
+input
+ ( 
+prompt
+ )
+
+11 
+print
+ ( f"Where do you live {user_name}?" )
+
+12 
+lives
+ = 
+input
+ ( 
+prompt
+ )
+
+14 
+print
+ ( "What kind of computer do you have?" )
+
+15 
+computer
+ = 
+input
+ ( 
+prompt
+ )
+
+17 
+print
+ ( f"""\nAlright, so you said {likes} about liking me.\nYou live in {lives}. Not sure where that is.\nAnd you have a {computer} computer. Nice.\n"""
+
+
+	@./ex38/ex38.py
+
+1 
+ten_things
+ = "Apples Oranges Crows Telephone Light Sugar"
+
+3 
+print
+ ( "Wait there are not 10 things in that list. Let's fix that." )
+
+5 
+stuff
+ = 
+ten_things
+ . 
+split
+ ( ' ' )
+
+6 
+more_stuff
+ = [ "Day" , "Night" , "Song" , "Frisbee" , "Corn"
+
+9 while 
+len
+ ( 
+stuff
+ ) != 10 :
+
+10 
+next_one
+ = 
+more_stuff
+ . 
+pop
+ ( )
+
+11 
+print
+ ( "Adding: " , 
+next_one
+ )
+
+12 
+stuff
+ . 
+append
+ ( 
+next_one
+ )
+
+13 
+print
+ ( f"There are {len(stuff)} items now." )
+
+15 
+print
+ ( "There we go: " , 
+stuff
+ )
+
+17 
+print
+ ( "Let's do some things with stuff." )
+
+19 
+print
+ ( 
+stuff
+ [ 1 ] )
+
+20 
+print
+ ( 
+stuff
+ [ - 1 ] )
+
+21 
+print
+ ( 
+stuff
+ . 
+pop
+ ( ) )
+
+22 
+print
+ ( ' ' . 
+join
+ ( 
+stuff
+ ) )
+
+23 
+print
+ ( '#' . 
+join
+ ( 
+stuff
+ [ 3 : 5 ] ) )
+
+
+	@./ex38/ex38_sd2.py
+
+1 
+ten_things
+ = "Apples Oranges Crows Telephone Light Sugar"
+
+3 
+print
+ ( "Wait there are not 10 things in that list. Let's fix that." )
+
+7 
+stuff
+ = 
+ten_things
+ . 
+split
+ ( ' ' )
+
+8 
+more_stuff
+ = [ "Day" , "Night" , "Song" , "Frisbee" , "Corn"
+
+11 while 
+len
+ ( 
+stuff
+ ) != 10 :
+
+14 
+next_one
+ = 
+more_stuff
+ . 
+pop
+ ( )
+
+15 
+print
+ ( "Adding: " , 
+next_one
+ )
+
+18 
+stuff
+ . 
+append
+ ( 
+next_one
+ )
+
+19 
+print
+ ( f"There are {len(stuff)} items now." )
+
+21 
+print
+ ( "There we go: " , 
+stuff
+ )
+
+23 
+print
+ ( "Let's do some things with stuff." )
+
+25 
+print
+ ( 
+stuff
+ [ 1 ] )
+
+26 
+print
+ ( 
+stuff
+ [ - 1 ] )
+
+29 
+print
+ ( 
+stuff
+ . 
+pop
+ ( ) )
+
+32 
+print
+ ( ' ' . 
+join
+ ( 
+stuff
+ ) )
+
+35 
+print
+ ( '#' . 
+join
+ ( 
+stuff
+ [ 3 : 5 ] ) )
+
+
+	@./ex38/ex38_sd1.py
+
+1 
+ten_things
+ = "Apples Oranges Crows Telephone Light Sugar"
+
+3 
+print
+ ( "Wait there are not 10 things in that list. Let's fix that." )
+
+6 
+stuff
+ = 
+ten_things
+ . 
+split
+ ( ' ' )
+
+7 
+more_stuff
+ = [ "Day" , "Night" , "Song" , "Frisbee" , "Corn"
+
+10 while 
+len
+ ( 
+stuff
+ ) != 10 :
+
+12 
+next_one
+ = 
+more_stuff
+ . 
+pop
+ ( )
+
+13 
+print
+ ( "Adding: " , 
+next_one
+ )
+
+15 
+stuff
+ . 
+append
+ ( 
+next_one
+ )
+
+16 
+print
+ ( f"There are {len(stuff)} items now." )
+
+18 
+print
+ ( "There we go: " , 
+stuff
+ )
+
+20 
+print
+ ( "Let's do some things with stuff." )
+
+22 
+print
+ ( 
+stuff
+ [ 1 ] )
+
+23 
+print
+ ( 
+stuff
+ [ - 1 ] )
+
+25 
+print
+ ( 
+stuff
+ . 
+pop
+ ( ) )
+
+27 
+print
+ ( ' ' . 
+join
+ ( 
+stuff
+ ) )
+
+29 
+print
+ ( '#' . 
+join
+ ( 
+stuff
+ [ 3 : 5 ] ) )
+
+
+	@./ex38/ex38_sd6.py
+
+2 
+animals
+ = [ 'dog' , 'cat' , 'cow' , 'bear' , 'lion' ]
+
+4 
+elements
+ = [ 'calcium' , 'sodium' , 'oxygen' , 'carbon' ]
+
+6 
+mountains
+ = [ 'Carpathians' , 'French Alps' , 'Fuji' , 'Apalachians' ]
+
+8 
+hair
+ = [ 'straight' , 'wavy' , 'curly' , 'coily' ]
+
+10 
+pizza
+ = [ 'Margherita' , 'Mexicana' , 'Capriciosa' , 'Calzone' , 'Provencale' ]
+
+12 
+countries
+ = [ 'Armenia' , 'Greece' , 'France' , 'Portugal' , 'China' ]
+
+14 
+currencies
+ = [ 'RON' , 'USD' , 'GBP' , 'EUR' , 'JPY' ]
+
+16 
+cardinal_points
+ = [ 'North' , 'East' , 'South' , 'West' ]
+
+18 
+flowers
+ = [ 'Tuberose' , 'Tulip' , 'Rose' , 'Lily' , 'Snowdrop' ]
+
+20 
+sports
+ = [ 'tennis' , 'basketball' , 'swimming' , 'ski' , 'rugby' ]
+
+22 
+print
+ ( f"There are {len(hair)} types of hair." )
+
+23 for 
+country
+ in 
+countries
+ :
+
+24 
+print
+ ( f"{country} is a big country." )
+
+
+	@
+1
+.
+0
+152
+3124
+./ex30/ex30_sd4.py
+./ex30/ex30.py
+./ex30/ex30_sd2.py
+./ex30/ex30_sd3.py
+./ex33/ex33_sd5.py
+./ex33/ex33_sd3.py
+./ex33/ex33_sd2.py
+./ex33/ex33_sd1.py
+./ex33/ex33.py
+./ex33/ex33_sd4.py
+./ex20/ex20_sd5.py
+./ex20/ex20_sd1.py
+./ex20/ex20.py
+./ex20/ex20_sd2.py
+./skeleton/NAME/__init__.py
+./skeleton/tests/__init__.py
+./skeleton/tests/NAME_tests.py
+./skeleton/setup.py
+./ex18/ex18.py
+./ex24/ex24_sd1.py
+./ex24/ex24.py
+./ex3/ex3_sd4.py
+./ex3/ex3_sd3.py
+./ex3/ex3.py
+./ex3/ex3_sd1.py
+./ex7/ex7_sd1.py
+./ex7/ex7.py
+./ex29/ex29_sd4.py
+./ex29/ex29.py
+./ex44/ex44a.py
+./ex44/ex44e.py
+./ex44/ex44b.py
+./ex44/ex44d.py
+./ex44/ex44c.py
+./ex36/ex36.py
+./ex12/ex12.py
+./ex8/ex8_sd1.py
+./ex8/ex8.py
+./ex42/ex42_sd3.py
+./ex42/ex42.py
+./ex32/ex32.py
+./ex32/ex32_sd2.py
+./ex47/tests/__init__.py
+./ex47/tests/ex47_tests.py
+./ex47/ex47/game.py
+./ex47/ex47/__init__.py
+./ex47/setup.py
+./ex10/ex10_sd3.py
+./ex10/ex10.py
+./ex48/tests/lexicon_tests.py
+./ex48/tests/__init__.py
+./ex48/ex48/lexicon.py
+./ex48/ex48/__init__.py
+./projects/gothonweb/tests/app_tests.py
+./projects/gothonweb/tests/__init__.py
+./projects/gothonweb/tests/planisphere_tests.py
+./projects/gothonweb/app/routes.py
+./projects/gothonweb/app/__init__.py
+./projects/gothonweb/app/planisphere.py
+./projects/gothonweb/app/forms.py
+./projects/gothonweb/app/models.py
+./projects/gothonweb/config.py
+./projects/gothonweb/migrations/env.py
+./projects/gothonweb/migrations/versions/4c3549cb167f_users_table.py
+./projects/gothonweb/gothon.py
+./ex15/ex15_sd1.py
+./ex15/ex15_sd5.py
+./ex15/ex15.py
+./ex15/ex15_sd7.py
+./ex15/ex15_sd4.py
+./ex37/dirsize.py
+./ex43/ex43_sd1.py
+./ex43/ex43.py
+./ex41/oop_test.py
+./ex11/ex11.py
+./ex11/ex11_sd2.py
+./ex11/ex11_sd3.py
+./ex2/ex2.py
+./ex1/ex1_sd2.py
+./ex1/ex1_sd1.py
+./ex1/ex1_sd3.py
+./ex1/ex1.py
+./ex22/ex22.py
+./ex35/ex35_sd4.py
+./ex35/ex35_sd3.py
+./ex35/ex35.py
+./ex35/ex35_sd5.py
+./ex31/ex31_sd1.py
+./ex31/ex31.py
+./ex31/ex31_sd2.py
+./ex4/ex4.py
+./ex4/ex4_sd3.py
+./ex19/ex19.py
+./ex19/ex19_sd3.py
+./ex19/ex19_sd1.py
+./ex39/ex39.py
+./ex39/ex39_sd1.py
+./ex49/tests/lexicon_tests.py
+./ex49/tests/__init__.py
+./ex49/tests/parser_tests.py
+./ex49/ex48/parser.py
+./ex49/ex48/lexicon.py
+./ex49/ex48/__init__.py
+./ex26/ex26.py
+./ex21/ex21_sd2.py
+./ex21/ex21.py
+./ex21/ex21_sd4.py
+./ex21/ex21_sd3.py
+./ex17/ex17_sd1.py
+./ex17/ex17.py
+./ex17/ex17_sd2.py
+./ex5/ex5.py
+./ex5/ex5_sd1.py
+./ex5/ex5_sd2.py
+./ex13/ex13.py
+./ex13/ex13_sd2a.py
+./ex13/ex13_sd3.py
+./ex13/ex13_sd2b.py
+./ex40/ex40_sd1.py
+./ex40/ex40.py
+./ex40/ex40_sd2.py
+./ex6/ex6_sd1.py
+./ex6/ex6.py
+./ex9/ex9.py
+./ex9/ex9_sd1.py
+./ex16/ex16_sd3.py
+./ex16/ex16_sd2.py
+./ex16/ex16.py
+./ex16/ex16_sd1.py
+./ex45/equipment.py
+./ex45/instructor.py
+./ex45/result.py
+./ex45/cave.py
+./ex45/diver.py
+./ex45/ex45.py
+./ex25/ex25.py
+./ex46/cave_divers/__init__.py
+./ex46/cave_divers/cave_divers.py
+./ex46/tests/cave_divers_tests.py
+./ex46/tests/__init__.py
+./ex46/build/lib/cave_divers/__init__.py
+./ex46/build/lib/cave_divers/cave_divers.py
+./ex46/setup.py
+./ex23/ex23.py
+./ex23/ex23_sd1.py
+./ex14/ex14_sd2.py
+./ex14/ex14_sd3.py
+./ex14/ex14.py
+./ex38/ex38.py
+./ex38/ex38_sd2.py
+./ex38/ex38_sd1.py
+./ex38/ex38_sd6.py

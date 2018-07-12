@@ -1,0 +1,9 @@
+bread
+apples
+oranges
+honey
+clementines
+popcorn
+bagels
+butter
+

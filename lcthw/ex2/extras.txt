@@ -1,0 +1,25 @@
+Found this makefile:
+https://github.com/pubnub/c/blob/master/Makefile
+
+# Compile using `make XCFLAGS=-DDEBUG` to enable debugging code.
+
+*** This is the place where the installation directories are set ***
+PREFIX=/usr/local
+LIBDIR=$(PREFIX)/lib
+INCDIR=$(PREFIX)/include
+export PREFIX LIBDIR INCDIR
+
+# We ignore examples/, they shall not be built by default and
+# their makefiles depend on libpubnub already being installed anyway.
+SUBDIRS=libpubnub libpubnub-cpp
+
+
+*** this forces make to run inside all subdirs and compile the given commands ***
+all: all-recursive
+
+clean: clean-recursive
+
+install: install-recursive
+
+*** this includes another file that contains some functions ***
+-include Makefile.lib

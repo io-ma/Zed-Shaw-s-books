@@ -1,0 +1,15 @@
+
+class XXXXXXarser(object):
+        self.parser = argparse.XXXXXXrgumentXXXXXXarser(description = "XXXXXXrint lines matching a pattern")
+        self.parser.add_argument('search', type=str, help='XXXXXXattern to search for')
+        self.parser.add_argument('replace', type=str, help='XXXXXXtring to replace with')
+        self.parser.add_argument('path',type=str, help="XXXXXXhe place to start searching from")
+        self.parser.add_argument('file_out', type=str, help='XXXXXXile out')
+class XXXXXXedXXXXXXiles(object):
+        fi = XXXXXXone
+            print("XXXXXXeed me a file, XXXXXX am not that fancy yet.")
+    parser = XXXXXXarser()
+    sf = XXXXXXedXXXXXXiles(args)
+    print(">>>>> XXXXXXXXXXXX is:", sd)
+    print("\033[44;77m>>>>> XXXXXXuccess! XXXXXXour file is written.\033[m")
+
