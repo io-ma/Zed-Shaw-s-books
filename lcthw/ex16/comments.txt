@@ -1,0 +1,38 @@
+1 - Include stdio.h - a header file which contains all the processor directives and the standard input/output functions.
+
+2 - Include assert.h - a header file that contains macros assert(). This macro expands to different code depending on how the code is built.It can be used to verify assumptions made by the program and print a diagnostic message if this assumption is false.
+
+3 - Include stdlib.h - a header file that defines four variable types, several macros and various functions for performing general functions.Standard library.
+
+4 - Include string.h - a header file that allows us to do different string operations.
+
+6-11 - we create a struct Person that has 4 elements: a string in which we store the name, and 3 integers for age, height and weight.
+
+13-25 A function that can create a struct Person with all its attributes.
+      Malloc allocates raw memory and we need to give it the size of the struct we want to create
+      We use assert to make sure that malloc gives us a piece of memory. Assert checks that malloc didn't return a NULL invalid pointer.
+      We initialize each field of the struct Person using the -> syntax which acts similar to the . operator in OOP.We are specifying which part of the structure we want to set.
+      strdup function is used to duplicate the name string, just to make sure this structure owns it. strdup is like malloc: it copies the original string into the memory it creates.
+
+27-33 A function that can create a struct created using malloc. If we have a create function we always need a destroy function. We use assert to make sure we are not getting bad input 
+      then we use the function "free" to return the memory we got with malloc and strdup. If we don't do this, we get a memory leak.
+
+35-41 A function used to print out people. It uses the x -> y syntax to get the field from the structure to print it.
+
+43-72 In the main function we use all the previous functions and the struct Person.
+      We create 2 persons: Joe and Frank
+      We print at what location in memory Joe is located
+      We call Person_print to print Joe's details.
+      We print at what location is Frank located
+      We call Person_print function to print Frank's details
+      We add 20 to Joe's age
+      We substract 2 from Joe's height
+      We add 40 to Joe's height
+      We print Joe's new details
+      We add 20 to Frank's age
+      We add 20 to Frank's weight
+      We print Frank's new details
+
+      We destroy Joe using Person_destroy function
+      We destroy Frank as well
+      We return 0.  

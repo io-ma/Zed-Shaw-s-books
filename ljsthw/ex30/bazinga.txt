@@ -1,0 +1,2 @@
+const sleeper = (timeout) => {
+        set Timeout(() => resolve('DONE'), timeout);
