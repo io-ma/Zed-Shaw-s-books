@@ -13,7 +13,7 @@ script, filename = argv
 
 txt = open(filename)
 
-print("Here's your file {filename}:")
+print(f"Here's your file {filename}:")
 print(txt.read())
 
 print("Type the filename again:")
