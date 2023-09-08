@@ -9,8 +9,7 @@ weight = input()
 
 print(f"So, you're {age} old, {height} tall and {weight} heavy.")
 
-script = argv[0]
-filename = argv[1]
+script, filename = argv
 
 txt = open(filename)
 
